@@ -1,0 +1,14 @@
+nightmareegg:
+    name: "&6Monstrous Nightmare Egg"
+    description: "&8Dragon Egg"
+    mode: cast
+    hide_flags: 127
+    keep: false
+    effect_sound: entity_turtle_egg_crack
+    effect_sound_interval: 30000.0
+    locked: false
+    bound: false
+    uses: 1
+    indestructible: true
+    active_spell: nightmarehatch
+    icon: NightmareNest

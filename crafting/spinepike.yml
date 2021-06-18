@@ -1,0 +1,11 @@
+spinepike:
+  enabled: true
+  output: NadderPike
+  output_type: item
+  auto_discover: false
+  materials:
+    n: NadderSpine
+    s: stick
+  row_1: "  n"
+  row_2: " s "
+  row_3: "s  "

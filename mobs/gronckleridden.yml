@@ -1,0 +1,46 @@
+gronckleridden:
+  name: 'Gronckle'
+  type: zombie_horse
+  prevent_melee: true
+  tamed: true
+  interact_requires_owner: true
+  gravity: false
+  track_radius: 0
+  size: 10
+  disguise:
+    type: player
+    skin: NightScythe1
+    invisible: true
+    swimming: true
+    burning: false
+  helmet: Gronckle
+  silent: true
+  health: 30
+  interval: 90000
+  default_drops: false
+  interact_spell: groncklemount
+  persist: true
+  mage:
+    effect_color: green
+  entity_attributes:
+    generic_armor: 14
+    generic_movement_speed: 0
+    generic_follow_range: 0
+  triggers:
+    spawn:
+      cast: colourdragon
+    damage:
+      effects:
+      - sound: dragons.gronckle1
+    interval:
+      effects:
+      - sound: dragons.gronckle2
+    death:
+      effects:
+      - sound: dragons.gronckle2
+        sound_pitch: -2
+  potion_effects:
+  - type: fire_resistance
+    amplifier: 1
+  - type: regeneration
+    amplifier: 0

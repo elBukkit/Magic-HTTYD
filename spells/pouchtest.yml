@@ -1,0 +1,19 @@
+pouchtest:
+    # This has been added automatically so that anything you remove here does not get inherited back in from the default configs
+    inherit: false
+    category: shop
+    actions:
+        cast:
+        - class: Shop
+          cost_type: currency
+          earn_type: currency
+    parameters:
+        confirm: false
+        auto_close: false
+        confirm_filler: stained_glass_pane
+        add_sell_shop: true
+        sell_icon: yellow_wool{CustomModelData:18001}
+        buy_icon: lime_wool{CustomModelData:18001}
+        items:
+        - item: scalecoin
+          cost: 1

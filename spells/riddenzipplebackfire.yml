@@ -1,0 +1,101 @@
+riddenzipplebackfire:
+    name: Gas Blast
+    actions:
+        cast:
+        - class: CustomProjectile
+          range: 64
+          hitbox: true
+          actions:
+          - class: AreaOfEffect
+            radius: 2
+            actions:
+              - class: Damage
+              - class: Ignite
+                duration: 2500
+              - class: Velocity
+                push: 1
+              - class: PotionEffect
+                add_effects:
+                  poison: 0
+                duration: 3000
+          - class: Sphere
+            radius: 2
+            actions:
+              - class: BreakBlock
+                destructible: solid
+                destructible_override: true
+                destructible_durability: 500
+                break_durability: 100
+                durability_max_distance: 4
+    effects:
+        cast:
+        tick:
+        - particle: villager_happy
+          location: target
+        - particle: flame
+          color: false
+          particle_count: 10
+          particle_offset_x: 0.3
+          particle_offset_y: 0.3
+          particle_offset_z: 0.3
+          location: target
+        projectile:
+        - class: EffectSingle
+          effectlib:
+             class: SphereEffect
+             particle: sneeze
+             duration: $lifetime
+             radius: 0.2
+             particles: 5
+             particle_count: 5
+             particle_offset_y: 0.2
+             particle_offset_x: 0.2
+             particle_offset_z: 0.2
+             particle_size: 3
+        hit:
+        -  sound: entity_generic_explode
+           sound_pitch: 1.75
+           sound_volume: 0.2
+           location: target
+        -  class: EffectSingle
+           sound: entity_dragon_fireball_explode
+        -  location: target
+           effectlib:
+             class: SphereEffect
+             particle: sneeze
+             duration: 3000
+             radius: 2
+             particles: 10
+             iterations: 3
+             particle_count: 5
+             particle_offset_y: 0
+             particle_offset_x: 1
+             particle_offset_z: 0
+             particle_size: 3
+    parameters:
+        fov: 0.3
+        hitbox: false
+        target_self: false
+        reflective: gold_block
+        velocity: 25
+        size: 2
+        range: 64
+        direction: 0,0.8,0
+        magic_damage: false
+        cooldown: rand(2000,6000)
+        damage: rand(5,12)
+        hitbox_size: 0.5
+        gravity: rand(0.01,0.03)
+        spread: 0.2
+        ignore_blocks: false
+        target: other
+        target_type: LivingEntity
+        undo: 20000
+        undo_speed: 20
+        falling: true
+        target_breakables: 5
+        block_hit_count: 1
+        track_target: true
+        lifetime: 30000
+        track_speed: 0.08
+        use_target_location: false

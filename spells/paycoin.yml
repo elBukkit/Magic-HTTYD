@@ -1,0 +1,9 @@
+paycoin:
+    name: Coin Obtained
+    actions:
+        cast:
+        - class: Command
+          console: true
+          command: bal give @p 1
+    parameters:
+        target: self

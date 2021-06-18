@@ -1,0 +1,61 @@
+wildgronckle:
+  name: 'Wild Gronckle'
+  type: Phantom
+  aggro: true
+  size: 10
+  disguise:
+    type: player
+    skin: NightScythe1
+    invisible: true
+    swimming: true
+    burning: false
+  helmet: Gronckle
+  silent: true
+  health: 30
+  default_drops: false
+  interval: 3000
+  interval_requires_target: false
+  lifetime: 3600000
+  drop_xp: 100
+  persist: true
+  drops_require_player_killer: true
+  protection:
+    projectile: 0.5
+  entity_attributes:
+    generic_attack_damage: 7
+    generic_armor: 14
+    generic_knockback_resistance: 0.5
+  triggers:
+    spawn:
+      cast: colourdragon
+    interval:
+      cast: wildgroncklefire
+    launch:
+      cast: wildgroncklefire
+    damage:
+      effects:
+      - sound: dragons.gronckle1
+    death:
+      effects:
+      - sound: dragons.gronckle2
+        sound_pitch: -2
+      cast:
+        groncklespawnnest: 10
+        none: 100
+  drops:
+  - GronckleIron: 10
+    blaze_powder: 100
+    blaze_powder@2: 50
+    GronckleIron@2: 20
+  - GronckleIron: 30
+    none: 40
+  - GronckleIron: 20
+    none: 30
+  - scalecoin@2
+  - scalecoin@1: 25
+    scalecoin@2: 25
+    scalecoin@3: 25
+    none: 25
+  potion_effects:
+  - type: fire_resistance
+    amplifier: 1

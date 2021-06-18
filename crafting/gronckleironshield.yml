@@ -1,0 +1,11 @@
+gronckleironshield:
+  enabled: true
+  output: GronckleShield
+  output_type: item
+  auto_discover: true
+  materials:
+    g: GronckleIronIngot
+    s: stick
+  row_1: "ggg"
+  row_2: "gsg"
+  row_3: "ggg"

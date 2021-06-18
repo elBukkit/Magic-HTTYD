@@ -1,0 +1,65 @@
+wildnadder:
+  name: 'Wild Deadly Nadder'
+  type: Phantom
+  size: 10
+  disguise:
+    type: player
+    skin: NightScythe1
+    invisible: true
+    swimming: true
+    burning: false
+  helmet: Nadder
+  chestplate: thorns
+  aggro: true
+  item: NadderRight
+  offhand: NadderLeft
+  silent: true
+  health: 50
+  interval: 4500
+  interval_requires_target: false
+  lifetime: 3600000
+  drop_xp: 200
+  persist: true
+  drops_require_player_killer: true
+  protection:
+    projectile: 0.6
+  default_drops: false
+  entity_attributes:
+    generic_attack_damage: 6
+    generic_armor: 8
+  triggers:
+    spawn:
+      cast: colourdragon
+    interval:
+      cast: wildnadderspines
+    launch:
+      cast: wildnadderspines
+    damage:
+      effects:
+      - sound: dragons.nadder1
+    death:
+      effects:
+      - sound: dragons.nadder2
+        sound_pitch: -2
+      cast:
+        nadderspawnnest: 10
+        none: 100
+  drops:
+  - NadderSpine: 10
+    blaze_powder: 100
+    blaze_powder@2: 20
+    NadderSpine@2: 50
+  - NadderSpine: 30
+    none: 40
+  - NadderSpine: 30
+    none: 40
+  - NadderHorn: 40
+    none: 60
+  - scalecoin@5
+  - scalecoin@1: 25
+    scalecoin@2: 25
+    scalecoin@3: 25
+    none: 25
+  potion_effects:
+  - type: fire_resistance
+    amplifier: 1

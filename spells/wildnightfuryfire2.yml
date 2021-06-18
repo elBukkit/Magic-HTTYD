@@ -1,0 +1,108 @@
+wildnightfuryfire2:
+    name: Plasma Blast
+    actions:
+        cast:
+        - class: Orient
+        - class: CustomProjectile
+          hitbox: true
+          requires_entity_target: true
+          actions:
+          - class: AreaOfEffect
+            radius: 4
+            actions:
+              - class: Damage
+              - class: Ignite
+                duration: 3000
+              - class: Velocity
+                push: 3
+          - class: Sphere
+            radius: 3
+            actions:
+              - class: BreakBlock
+                destructible: solid
+                destructible_override: true
+                destructible_durability: 500
+                break_durability: 100
+                durability_max_distance: 4
+    effects:
+        cast:
+        -  class: EffectSingle
+           requires_entity_target: true
+           sound: item_firecharge_use
+           location: target
+           color_override: color
+        tick:
+        - particle: soul_fire_flame
+          color: false
+          particle_count: 5
+          particle_offset_x: 0.3
+          particle_offset_y: 0.3
+          particle_offset_z: 0.3
+          location: target
+        projectile:
+        - class: EffectSingle
+          effectlib:
+             class: SphereEffect
+             particle: redstone
+             color: "#9370d8"
+             duration: $lifetime
+             radius: 0.2
+             particles: 5
+             particle_count: 5
+             particle_offset_y: 0.2
+             particle_offset_x: 0.2
+             particle_offset_z: 0.2
+             particle_size: 3
+        - class: EffectSingle
+          effectlib:
+             class: SphereEffect
+             particle: redstone
+             color: "#00bfff"
+             duration: $lifetime
+             radius: 0.2
+             particles: 2
+             particle_count: 2
+             particle_offset_y: 0.2
+             particle_offset_x: 0.2
+             particle_offset_z: 0.2
+             particle_size: 4
+        hit:
+        -  sound: entity_generic_explode
+           sound_pitch: 1.75
+           sound_volume: 0.2
+           location: target
+        -  class: EffectSingle
+           sound: entity_dragon_fireball_explode
+           particle: flash
+           color: "#0000ff"
+           location: target
+    parameters:
+        fov: 90
+        hitbox: false
+        target_self: false
+        reflective: gold_glock
+        velocity: 65
+        size: 2
+        range: 64
+        direction: 0,0.8,0
+        magic_damage: false
+        bypass_mage_cooldown: true
+        cooldown_mage: rand(3000,10000)
+        cooldown: rand(5000,12000)
+        damage: rand(18,35)
+        hitbox_size: 0.3
+        ignore_blocks: false
+        target: other
+        target_types:
+          - player
+          - cat
+        undo: 20000
+        undo_speed: 20
+        falling: true
+        break_durability: 1
+        target_breakables: 5
+        block_hit_count: 1
+        track_target: true
+        lifetime: 60000
+        track_speed: 0.2
+        use_target_location: false

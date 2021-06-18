@@ -1,0 +1,95 @@
+mountdragon:
+  name: Ride Dragon
+  description: Right click to ride your dragon.
+  icon: saddle
+  world_border_restricted: true
+  creative_restricted: true
+  cast_on_no_target: false
+  cancel_effects: true
+  cancellable: true
+  show_undoable: false
+  undoable: true
+  reactivate: true
+  upgrade_required_casts: 10
+  actions:
+    reactivate:
+    - class: RideEntity
+      find_wand: true
+    cast:
+    - class: ChangeContext
+      target_offset: 0,1,0
+      ignore_result: true
+      actions:
+      - class: Volume
+        radius: 1
+        actions:
+        - class: CheckBlock
+          allowed: passthrough
+          fail:
+          - class: Message
+            ignore_result: true
+          - class: CastResult
+            result: no_target
+            end_result: true
+          - class: Stop
+    - class: Cancel
+    - class: RideEntity
+  effects:
+    cast:
+    - sound: entity_ender_dragon_flap
+      sound_pitch: 2
+      sound_volume: 0.2
+    - class: EffectSingle
+      sound: entity_phantom_flap
+    crash:
+    - sound: entity_blaze_hurt
+      sound_pitch: -2
+    - class: EffectSingle
+      location: origin
+      entity_effect: hurt
+      particle: smoke_large
+    land:
+    - sound: entity_ender_dragon_flap
+      sound_pitch: 0.9
+      sound_volume: 0.2
+    undo_entity:
+    - location: target
+      sound: block_fire_extinguish
+      sound_volume: 0.8
+      sound_pitch: -2
+  parameters:
+    target: self
+    undo: 1000
+    set_target: true
+    type: riddengronckle
+    use_wand_name: true
+    mount_untargetable: false
+    rider_untargetable: true
+    mount_wand: false
+    replacement_item: saddle
+    bypass_confusion: false
+    liftoff_duration: 200
+    liftoff_thrust: 0.2
+    fall_protection: 1000
+    duration: 60000
+    duration_warning: 10000
+    crash_effects:
+      confusion: 120,3
+    warning_effects:
+      confusion: 5
+    cancel_on_no_permission: true
+    sound: magic.flying
+    sound_interval: 500
+    sound_max_volume: 0.25
+    sound_min_volume: 0.05
+    sound_max_pitch: 2
+    sound_min_pitch: 0.5
+    armor_stand_pitch: 0.3
+    air_controllable: true
+    controllable: true
+    gravity: 0.05
+    strafe_controllable: 1
+    jump_controllable: 1
+    exemption_duration: 5000
+    armor_stand_marker: false
+    pitch_controllable: false

@@ -1,0 +1,24 @@
+naddernest:
+  name: 'Deadly Nadder Nest'
+  type: creeper
+  disguise:
+    type: armor_stand
+    invisible: true
+  cancel_explosion: true
+  persist: true
+  lifetime: 180000
+  drop_items: true
+  invisible: true
+  helmet: NadderNest
+  silent: true
+  invulnerable: false
+  default_drops: false
+  health: 1
+  entity_attributes:
+    generic_movement_speed: 0
+    generic_follow_range: 0
+  potion_effects:
+  - type: slow_falling
+    amplifier: 1
+  drops:
+  - nadderegg

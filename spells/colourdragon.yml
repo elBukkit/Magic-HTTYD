@@ -1,0 +1,16 @@
+colourdragon:
+    name: Dragon Spawn
+    hidden: true
+    actions:
+        cast:
+        - class: ColorItem
+    parameters:
+        target: self
+        slots:
+        - helmet
+        - main_hand
+        - off_hand
+        color:
+          h: "(epoch % 255.0) / 255.0"
+          s: 20
+          v: 20

@@ -1,0 +1,104 @@
+wildgroncklefire:
+    name: Lavablast
+    actions:
+        cast:
+        - class: Orient
+        - class: CustomProjectile
+          requires_entity_target: true
+          requires_target: true
+          hitbox: true
+          actions:
+          - class: AreaOfEffect
+            radius: 3
+            actions:
+              - class: Damage
+              - class: Ignite
+                duration: 4500
+    effects:
+        cast:
+        -  class: EffectSingle
+           requires_entity_target: true
+           sound: item_firecharge_use
+           location: origin
+           color_override: color
+        tick:
+        - particle: lava
+          location: target
+        - particle: smoke_normal
+          color: false
+          particle_count: 10
+          particle_offset_x: 0.3
+          particle_offset_y: 0.3
+          particle_offset_z: 0.3
+          location: target
+        projectile:
+        - class: EffectSingle
+          effectlib:
+             class: SphereEffect
+             particle: redstone
+             color: "#ff8c00"
+             duration: $lifetime
+             radius: 0.2
+             particles: 5
+             particle_count: 5
+             particle_offset_y: 0.2
+             particle_offset_x: 0.2
+             particle_offset_z: 0.2
+             particle_size: 3
+        - class: EffectSingle
+          effectlib:
+             class: SphereEffect
+             particle: smoke_large
+             color: "#ff0000"
+             duration: $lifetime
+             radius: 0.2
+             particles: 2
+             particle_count: 2
+             particle_offset_y: 0.2
+             particle_offset_x: 0.2
+             particle_offset_z: 0.2
+             particle_size: 4
+        hit:
+        -  sound: block_blastfurnace_fire_crackle
+           sound_pitch: 0.8
+           location: target
+        -  class: EffectSingle
+           location: target
+           particle: lava
+           particle_count: 5
+           particle_offset_x: 1
+           particle_offset_y: 1
+           particle_offset_z: 1
+           sound: block_fire_extinguish
+           sound_volume: .3
+           particle_data: 0.1
+        -  sound: block_campfire_crackle
+           sound_pitch: 1.8
+           sound_volume: 1.5
+           location: target
+    parameters:
+        fov: 90
+        hitbox: false
+        target_self: false
+        reflective: gold_block
+        velocity: 20
+        size: 2
+        range: 64
+        magic_damage: false
+        cooldown: rand(1000,12000)
+        spread: 0.3
+        damage: rand(4,10)
+        hitbox_size: 1
+        ignore_blocks: false
+        target: other
+        target_types:
+          - player
+          - cat
+        target_breakables: 0.4
+        block_hit_count: 1
+        track_target: true
+        lifetime: 30000
+        undo: 300
+        undo_speed: 100
+        track_speed: 0.03
+        use_target_location: false

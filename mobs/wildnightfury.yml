@@ -1,0 +1,60 @@
+wildnightfury:
+  name: 'Wild Night Fury'
+  type: ghast
+  size: 10
+  disguise:
+    type: player
+    skin: NightScythe1
+    invisible: true
+    swimming: true
+    burning: false
+  helmet: NightFury
+  item: NightFuryRight
+  offhand: NightFuryLeft
+  aggro: true
+  silent: true
+  health: 250
+  interval: 100
+  interval_requires_target: false
+  lifetime: 3600000
+  drop_xp: 1000
+  persist: true
+  mage:
+    effect_color: red
+  protection:
+    projectile: 0.5
+  default_drops: false
+  entity_attributes:
+    generic_attack_damage: 16
+    generic_armor: 16
+  triggers:
+    spawn:
+      cast: colourdragon
+    interval:
+      cast: 
+        furyfly2: 500
+        furyfly: 1200
+        wildnightfuryfire: 40
+    launch:
+      cast:
+        wildnightfuryfire2: 1000
+        wildnightfuryfire: 10
+    damage: 
+      cast:
+        wildnightfuryfire2: 25
+        none: 1000
+  drops:
+  - blaze_powder: 10
+    blaze_powder@2: 100
+    blaze_powder@4: 50
+  - scalecoin@75
+  - scalecoin@1: 25
+    scalecoin@2: 25
+    scalecoin@3: 25
+    scalecoin@4: 25
+    scalecoin@5: 25
+    none: 25
+  - furyscale
+  potion_effects:
+  - type: fire_resistance
+    amplifier: 1

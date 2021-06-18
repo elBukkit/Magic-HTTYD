@@ -1,0 +1,11 @@
+dragonhatch:
+    icon: diamond_pickaxe:10
+    actions:
+      cast:
+      - class: SpawnEntity
+        type: gronckleridden
+        tamed: true
+    parameters:
+      range: 32
+      radius: 32
+      allow_max_range: true

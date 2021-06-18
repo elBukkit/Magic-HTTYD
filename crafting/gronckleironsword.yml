@@ -1,0 +1,11 @@
+gronckleironsword:
+  enabled: true
+  output: groncklesword
+  output_type: item
+  auto_discover: false
+  materials:
+    g: GronckleIronIngot
+    s: stick
+  row_1: " g "
+  row_2: " g "
+  row_3: " s "

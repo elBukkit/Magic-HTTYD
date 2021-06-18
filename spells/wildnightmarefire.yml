@@ -1,0 +1,120 @@
+wildnightmarefire:
+    name: Fire Hose
+    actions:
+        cast:
+        - class: Repeat
+          actions:
+          - class: Retarget
+            actions:
+            - class: Asynchronous
+              actions:
+              - class: Orient
+              - class: CustomProjectile
+                actions:
+                - class: BreakBlock
+                  durability_max_distance: 10
+                  break_durability: 1
+                  ignore_result: true
+                - class: AreaOfEffect
+                  radius: 2
+                  actions:
+                    - class: Damage
+                    - class: Ignite
+                      duration: 7500
+                - class: Disc
+                  radius: 1
+                  actions:
+                  - class: Cover
+                    actions:
+                    - class: Burn
+          - class: PlayEffects
+            effect: shoot
+            ignore_result: true
+          - class: Delay
+            delay: 10
+    effects:
+        cast:
+        -  sound: entity_blaze_shoot
+        shoot:
+        -  class: EffectSingle
+           sound: entity_blaze_shoot
+           source_location: body
+           sound_pitch: 0.8
+           sound_volume: 0.2
+           particle: smoke_large
+           particle_count: 2
+           particle_offset_x: 0.1
+           particle_offset_y: 0.1
+           particle_offset_z: 0.1
+           relative_offset: 1,0,0
+        tick:
+        -  location: target
+           particle: flame
+           particle_count: 20
+           particle_offset_x: 0.3
+           particle_offset_y: 0.3
+           particle_offset_z: 0.3
+        hit_block:
+        -  class: EffectSingle
+           location: target
+           particle: smoke_large
+           particle_count: 5
+           particle_offset_x: 1
+           particle_offset_y: 1
+           particle_offset_z: 1
+        hit_entity:
+        -  class: EffectSingle
+           location: target
+           particle: lava
+           particle_count: 4
+           particle_offset_x: 0.2
+           particle_offset_y: 0.2
+           particle_offset_z: 0.2
+        hit:
+        -  sound: block_blastfurnace_fire_crackle
+           sound_pitch: 0.8
+           location: target
+        -  class: EffectSingle
+           location: target
+           particle: smoke_large
+           particle_count: 10
+           particle_offset_x: 1.7
+           particle_offset_y: 0.5
+           particle_offset_z: 1.7
+           sound: block_fire_extinguish
+           sound_volume: .3
+           particle_data: 0.1
+        -  sound: block_campfire_crackle
+           sound_pitch: 1.8
+           sound_volume: 1.5
+           location: target
+    parameters:
+      target: other
+      target_self: false
+      target_type: LivingEntity
+      source_location: head
+      reflective: gold_block
+      ignore_blocks: false
+      destructible: solid
+      destructible_durability: 500
+      break_durability: 0.2
+      block_hit_count: 1
+      target_breakables: 10
+      range: 32
+      tick_size: 1
+      gravity: rand(0.08,0.2)
+      velocity: 30
+      lifetime: 10000
+      reorient: false
+      spread: 0.2
+      magic_damage: false
+      spread_movement_max: 0.3
+      undo: rand(7500,25000)
+      undo_speed: 5
+      spread_movement: 5
+      cooldown: rand(5000,20000)
+      speed: 0.2
+      damage: rand(4,9)
+      repeat: rand(40,70)
+      push: 1
+

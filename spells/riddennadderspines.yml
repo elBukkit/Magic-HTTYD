@@ -1,0 +1,80 @@
+riddennadderspines:
+    name: Spines
+    actions:
+        cast:
+        - class: Repeat
+          actions:
+            - class: Asynchronous
+              actions:
+                - class: ArmorStandProjectile
+                  range: 64
+                  location_offset: 0, 2, 0
+                  invisible: true
+                  helmet_item: NadderSpine
+                  ignore_blocks: false
+                  armor_stand_small: false
+                  orient: true
+                  hit_effects: hit
+                  actions:
+                    - class: BreakBlock
+                      durability_max_distance: 8
+                      break_durability: 1
+                      ignore_result: true
+                    - class: Damage
+            - class: PlayEffects
+              effect: shoot
+            - class: Delay
+              delay: rand(100,600)
+    effects:
+        shoot:
+        -  class: EffectSingle
+           sound: entity_arrow_shoot
+           source_location: feet
+           sound_pitch: 0.3
+        projectile:
+        - class: EffectSingle
+          effectlib:
+             class: SphereEffect
+             particle: crit
+             duration: $lifetime
+             radius: 0.2
+             particles: 1
+             particle_count: 1
+             particle_offset_y: 0.01
+             particle_offset_x: 0.01
+             particle_offset_z: 0.01
+             particle_size: 3
+        hit:
+        -  sound: entity_arrow_hit
+           sound_pitch: 1.75
+           sound_volume: 0.7
+           location: target
+    parameters:
+        fov: 0.3
+        hitbox: false
+        target_self: false
+        reflective: gold_block
+        velocity: 40
+        repeat: rand(4,8)
+        spread: 0.05
+        spread_movement_max: 0.1
+        destructible: solid
+        destructible_durability: 10000
+        spread_movement: 2
+        size: 0.2
+        magic_damage: false
+        range: 64
+        cooldown: rand(2000,6000)
+        damage: rand(2,6)
+        hitbox_size: 0.5
+        block_hit_count: 1
+        undo: rand(8000,16000}
+        undo_speed: 30
+        ignore_blocks: false
+        target: other
+        target_type: LivingEntity
+        target_breakables: 0.3
+        track_target: true
+        lifetime: 30000
+        track_speed: 0.15
+        use_target_location: false

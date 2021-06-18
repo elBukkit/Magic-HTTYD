@@ -1,0 +1,19 @@
+furyfly2:
+    name: Dragon Sighting
+    category: Test
+    actions:
+        cast:
+            - class: Velocity
+    effects:
+        cast:
+        -  class: EffectSingle
+           sound: dragons.nightfury1
+           sound_volume: 5
+    parameters:
+        cooldown: rand(3000,10000)
+        cooldown_mage: 100
+        target: self
+        cancel_on_cast_other: true
+        bypass_mage_cooldown: false
+        min_speed: 1
+        max_speed: 1.5

@@ -1,0 +1,17 @@
+NightmareHelmet:
+  name: "&rGronckle Iron Helmet"
+  lore:
+  - "&0."
+  - "&7When on head:"
+  - "&3+5 Armor"
+  item_attribute_slot: head
+  hide_flags: 126
+  item_attributes:
+    generic_armor: 5
+  icon: iron_leggings{"CustomModelData":3}
+  passive: true
+  enchantable: true
+  version: 7
+  wearable: helmet
+  creator_id: 22e0650d-d3f2-4bbc-afef-02bd3b1407ec
+  creator: NightScythe1

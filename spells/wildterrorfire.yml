@@ -1,0 +1,84 @@
+wildterrorfire:
+    name: Firespark
+    actions:
+        cast:
+        - class: Orient
+        - class: CustomProjectile
+          hitbox: true
+          actions:
+          - class: AreaOfEffect
+            radius: 1.5
+            actions:
+              - class: Damage
+              - class: Ignite
+                duration: 2000
+    effects:
+        cast:
+        -  class: EffectSingle
+           requires_entity_target: true
+           sound: item_firecharge_use
+           location: target
+           color_override: color
+        tick:
+        - particle: fireworks_spark
+          location: target
+        - particle: fireworks_spark
+          color: false
+          particle_count: 1
+          particle_offset_x: 0.01
+          particle_offset_y: 0.01
+          particle_offset_z: 0.01
+          location: target
+        projectile:
+        - class: EffectSingle
+          effectlib:
+             class: SphereEffect
+             particle: flame
+             color: "#ff8c00"
+             duration: $lifetime
+             radius: 0.2
+             particles: 2
+             particle_count: 2
+             particle_offset_y: 0.01
+             particle_offset_x: 0.01
+             particle_offset_z: 0.01
+             particle_size: 1
+        - class: EffectSingle
+          effectlib:
+             class: SphereEffect
+             particle: redstone
+             color: "#ffff00"
+             duration: $lifetime
+             radius: 0.2
+             particles: 2
+             particle_count: 2
+             particle_offset_y: 0.01
+             particle_offset_x: 0.01
+             particle_offset_z: 0.01
+             particle_size: 1
+        hit:
+        -  sound: block_fire_extinguish
+           sound_pitch: 1.75
+           sound_volume: 0.6
+           location: target
+    parameters:
+        fov: 90
+        hitbox: false
+        target: other_entity
+        target_self: false
+        velocity: 10
+        source_location: eyes
+        size: 2
+        range: 64
+        magic_damage: false
+        cooldown: rand(2500,12500)
+        block_hit_count: 1
+        damage: rand(1,4)
+        hitbox_size: 0.01
+        target_type: Damageable
+        track_target: true
+        lifetime: 30000
+        undo: 4000
+        undo_speed: 30
+        track_speed: 0.01
+        use_target_location: false

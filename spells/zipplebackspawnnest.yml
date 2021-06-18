@@ -1,0 +1,10 @@
+zipplebackspawnnest:
+    icon: diamond_pickaxe:10
+    actions:
+      cast:
+      - class: SpawnEntity
+        type: zipplebacknest
+    parameters:
+      range: 64
+      radius: 64
+      allow_max_range: true

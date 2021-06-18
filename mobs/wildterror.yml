@@ -1,0 +1,54 @@
+wildterror:
+  name: 'Wild Terrible Terror'
+  type: Bee
+  aggro: true
+  register_by_name: true
+  disguise:
+    type: zombie
+    baby: true
+    invisible: true
+    burning: false
+  helmet: Terror
+  silent: true
+  prevent_melee: true
+  health: 15
+  default_drops: false
+  lifetime: 1800000
+  interact_spell: wildterrorfire
+  interact_spell_source: mob
+  interval: 6000
+  drop_xp: 20
+  mage:
+    effect_color: black
+  entity_attributes:
+    generic_attack_damage: 5
+    generic_armor: 5
+  triggers:
+    spawn:
+      cast: colourdragon
+    interval:
+      cast: wildterrorfire
+    launch:
+      cast: wildterrorfire
+    damage:
+      effects:
+      - sound: dragons.nightmare1
+        sound_pitch: 2
+        sound_volume: 0.3
+    death:
+      effects:
+      - sound: dragons.nadder2
+        sound_pitch: 2
+  drops:
+  - gold_nugget: 10
+    blaze_powder: 100
+    blaze_powder@2: 50
+    gold_nugget@2: 20
+    none: 80
+  - blaze_powder: 30
+    none: 40
+  - scalecoin: 25
+    none: 75
+  potion_effects:
+  - type: fire_resistance
+    amplifier: 1

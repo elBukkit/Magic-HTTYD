@@ -1,0 +1,10 @@
+spinearrows:
+  enabled: true
+  output: arrow@8
+  output_type: item
+  auto_discover: true
+  materials:
+    u: NadderSpine
+  row_1: "u"
+  row_2: ""
+  row_3: ""

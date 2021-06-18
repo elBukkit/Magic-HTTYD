@@ -1,0 +1,20 @@
+furyfly:
+    name: Dragon Sighting
+    category: Test
+    actions:
+        cast:
+            - class: Velocity
+    effects:
+        cast:
+        -  class: EffectSingle
+           sound: entity_phantom_flap
+           sound_pitch: 1.5
+           sound_volume: 1
+    parameters:
+        cooldown: 100
+        cooldown_mage: 100
+        target: self
+        cancel_on_cast_other: true
+        bypass_mage_cooldown: false
+        min_speed: 1
+        max_speed: 1.5

@@ -1,0 +1,16 @@
+scalecoin:
+    name: '&6Scale Coin'
+    uses: 1
+    mode: cast
+    locked: true
+    active_spell: paycoin
+    icon: gold_nugget
+    discover_recipes:
+    - nadderhelmet
+    - zipplebackhelmet
+    - nightmarehelmet
+    - gronckleironsword
+    - gronckleironaxe
+    - gronckleironshield
+    - spinepike
+    - spinearrows

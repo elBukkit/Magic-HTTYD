@@ -1,0 +1,17 @@
+zipplebackhatch:
+    name: Dragon Hatch
+    icon: diamond_pickaxe:10
+    actions:
+      cast:
+      - class: SpawnEntity
+        type: zipplebackridden
+        tamed: true
+      - class: Damage
+        damage: 1
+    parameters:
+      range: 10
+      use_wand_name: true
+      target_types:
+        - creeper
+      radius: 10
+      allow_max_range: true

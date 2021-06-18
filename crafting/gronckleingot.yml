@@ -1,0 +1,11 @@
+gronckleingot:
+  enabled: true
+  output: GronckleIronIngot
+  output_type: item
+  auto_discover: true
+  materials:
+    o: iron_ingot
+    g: GronckleIron
+  row_1: "og"
+  row_2: "go"
+  row_3: ""

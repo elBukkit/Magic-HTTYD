@@ -1,0 +1,48 @@
+nightmareridden:
+  name: 'Monstrous Nightmare'
+  type: zombie_horse
+  prevent_melee: true
+  tamed: true
+  interact_requires_owner: true
+  gravity: false
+  track_radius: 0
+  size: 10
+  disguise:
+    type: player
+    skin: NightScythe1
+    invisible: true
+    swimming: true
+    burning: false
+  helmet: Nightmare
+  item: NightmareRight
+  offhand: NightmareLeft
+  silent: true
+  health: 110
+  interval: 90000
+  default_drops: false
+  interact_spell: nightmaremount
+  persist: true
+  mage:
+    effect_color: green
+  entity_attributes:
+    generic_armor: 12
+    generic_movement_speed: 0
+    generic_follow_range: 0
+  triggers:
+    spawn:
+      cast: colourdragon
+    damage:
+      effects:
+      - sound: dragons.nightmare1
+    interval:
+      effects:
+      - sound: dragons.nightmare2
+    death:
+      effects:
+      - sound: dragons.nightmare2
+        sound_pitch: -2
+  potion_effects:
+  - type: fire_resistance
+    amplifier: 1
+  - type: regeneration
+    amplifier: 0

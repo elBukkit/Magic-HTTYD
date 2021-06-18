@@ -1,0 +1,171 @@
+overworld_mobs:
+  inherit: false
+  world: Arc
+  entity_spawn:
+
+
+    replace_terrors:
+      class: Replace
+      y_offset: 10
+      highest_block: true
+      target_types:
+      - chicken
+      - sheep
+      - cow
+      - pig
+      - rabbit
+      - llama
+      - enderman
+      - zombie
+      - spider
+      - creeper
+      - skeleton
+      - husk
+      probability: 0.05
+      cooldown: 30000
+      replace_type:
+        wildterror: 100
+
+
+
+
+    replace_gronckles:
+      class: Replace
+      y_offset: 12
+      highest_block: true
+      target_types:
+      - chicken
+      - sheep
+      - cow
+      - pig
+      - rabbit
+      - llama
+      - enderman
+      - zombie
+      - spider
+      - creeper
+      - skeleton
+      - husk
+      probability: 0.001
+      cooldown: 50000
+      replace_type:
+        wildgronckle: 1
+      biomes:
+        - wooded_mountains
+        - forest
+        - beach
+        - gravelly_mountains
+        - jungle
+        - stone_shore
+        - wooded_hills
+
+
+
+    replace_nadders:
+      class: Replace
+      y_offset: 12
+      highest_block: true
+      target_types:
+      - chicken
+      - sheep
+      - cow
+      - pig
+      - rabbit
+      - llama
+      - enderman
+      - zombie
+      - spider
+      - creeper
+      - skeleton
+      - husk
+      probability: 0.0004
+      cooldown: 100000
+      replace_type:
+        wildnadder: 1
+      biomes:
+        - river
+        - birch_forest
+        - beach
+        - tall_birch_forest
+        - birch_forest_hills
+        - jungle
+        - birch_forest_hills
+
+
+
+    replace_zipplebacks:
+      class: Replace
+      y_offset: 20
+      highest_block: true
+      target_types:
+      - chicken
+      - sheep
+      - cow
+      - pig
+      - rabbit
+      - llama
+      - enderman
+      - zombie
+      - spider
+      - creeper
+      - skeleton
+      - husk
+      probability: 0.0001
+      cooldown: 200000
+      replace_type:
+        wildzippleback: 1
+      biomes:
+        - jungle
+        - bamboo_jungle
+        - swamp
+        - dark_forest
+        - jungle_hills
+        - jungle_edge
+        - dark_forest_hills
+
+
+
+
+    replace_nightmare:
+      class: Replace
+      y_offset: 20
+      highest_block: true
+      target_types:
+      - chicken
+      - sheep
+      - cow
+      - pig
+      - rabbit
+      - llama
+      - enderman
+      - zombie
+      - spider
+      - creeper
+      - skeleton
+      - husk
+      probability: 0.0001
+      cooldown: 300000
+      replace_type:
+        wildnightmare: 1
+      biomes:
+        - savanna
+        - desert
+        - badlands
+        - badlands_plateau
+        - savanna_plateau
+        - shattered_savanna
+        - desert_hills
+
+
+
+    replace_nightfury:
+      class: Replace
+      y_offset: 25
+      highest_block: true
+      target_types:
+      - phantom
+      - enderman
+      probability: 0.0001
+      cooldown: 1800000
+      replace_type:
+        wildnightfury: 1

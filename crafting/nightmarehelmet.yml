@@ -1,0 +1,11 @@
+nightmarehelmet:
+  enabled: true
+  output: NightmareHelmet
+  output_type: wand
+  auto_discover: true
+  materials:
+    g: GronckleIronIngot
+    h: NightmareHorn
+  row_1: "h h"
+  row_2: "ggg"
+  row_3: "g g"
