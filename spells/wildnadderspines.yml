@@ -19,8 +19,6 @@ wildnadderspines:
                   hit_effects: hit
                   actions:
                     - class: BreakBlock
-                      durability_max_distance: 8
-                      break_durability: 1
                       ignore_result: true
                     - class: Damage
             - class: PlayEffects
@@ -61,7 +59,8 @@ wildnadderspines:
         spread: 0.1
         spread_movement_max: 0.2
         destructible: solid
-        destructible_durability: 10000
+        break_durability: 2
+        destructible_durability: 50
         spread_movement: 5
         size: 0.2
         magic_damage: false
@@ -76,8 +75,8 @@ wildnadderspines:
         target: other
         target_types:
           - player
-          - cat
-        target_breakables: 0.3
+          - zombie_horse
+        target_breakables: 1
         track_target: true
         lifetime: 30000
         target_self_timeout: 2000

@@ -1,0 +1,16 @@
+coinpouch:
+  icon: sulphur
+  category: npc
+  hidden: true
+  actions:
+      cast:
+      -  class: Selector
+  parameters:
+    show_unavailable: true
+    title: Coin Pouch
+    options:
+    - cast_spell: coinexchange
+    - cast_spell: buyblocks
+    - cast_spell: sellblocks
+    - cast_spell: buyvaluables
+    - cast_spell: sellvaluables

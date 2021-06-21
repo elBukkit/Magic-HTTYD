@@ -1,0 +1,8 @@
+coinpouch:
+    name: '&6Coin Pouch'
+    description: "&7Use to manage your money."
+    currency_display: currency
+    mode: cast
+    locked: true
+    active_spell: scalecoinpouch
+    icon: pouch

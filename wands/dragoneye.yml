@@ -1,0 +1,10 @@
+dragoneye:
+    name: "&e&lDragon Eye"
+    description: "&8Used to learn about dragons."
+    mode: cast
+    locked: true
+    locked_allow_upgrades: true
+    icon: dragoneyeitem
+    slots:
+        - "Dragon Eye Key"
+        - "Lens"

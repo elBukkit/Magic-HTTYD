@@ -1,0 +1,32 @@
+sellvaluables:
+    # This has been added automatically so that anything you remove here does not get inherited back in from the default configs
+    inherit: false
+    icon: iron_ingot
+    name: Sell Valuables
+    category: shop
+    actions:
+        cast:
+        - class: Shop
+          cost_type: currency
+          earn_type: currency
+    parameters:
+        confirm: false
+        sell: true
+        auto_close: false
+        confirm_filler: stained_glass_pane
+        buy_icon: lime_wool{CustomModelData:18001}
+        items:
+        - item: diamond@2
+          cost: 1
+        - item: gold_ingot@24
+          cost: 1
+        - item: iron_ingot@52
+          cost: 1
+        - item: lapis_lazuli@72
+          cost: 1
+        - item: redstone@72
+          cost: 1
+        - item: coal@128
+          cost: 1
+        - item: GronckleIronIngot@8
+          cost: 1

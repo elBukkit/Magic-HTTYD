@@ -1,10 +1,8 @@
 scalecoin:
-    name: '&6Scale Coin'
-    uses: 1
-    mode: cast
+    name: '&6Scale Coin Item'
     locked: true
-    active_spell: paycoin
-    icon: gold_nugget
+    unstashable: true
+    icon: coin
     discover_recipes:
     - nadderhelmet
     - zipplebackhelmet

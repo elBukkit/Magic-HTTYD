@@ -9,7 +9,7 @@ wildgroncklefire:
           hitbox: true
           actions:
           - class: AreaOfEffect
-            radius: 3
+            radius: 2
             actions:
               - class: Damage
               - class: Ignite
@@ -39,8 +39,8 @@ wildgroncklefire:
              color: "#ff8c00"
              duration: $lifetime
              radius: 0.2
-             particles: 5
-             particle_count: 5
+             particles: 3
+             particle_count: 3
              particle_offset_y: 0.2
              particle_offset_x: 0.2
              particle_offset_z: 0.2
@@ -52,8 +52,8 @@ wildgroncklefire:
              color: "#ff0000"
              duration: $lifetime
              radius: 0.2
-             particles: 2
-             particle_count: 2
+             particles: 5
+             particle_count: 5
              particle_offset_y: 0.2
              particle_offset_x: 0.2
              particle_offset_z: 0.2
@@ -64,13 +64,13 @@ wildgroncklefire:
            location: target
         -  class: EffectSingle
            location: target
-           particle: lava
-           particle_count: 5
+           particle: explosion_large
+           particle_count: 1
            particle_offset_x: 1
            particle_offset_y: 1
            particle_offset_z: 1
-           sound: block_fire_extinguish
-           sound_volume: .3
+           sound: entity_generic_explode
+           sound_volume: 0.7
            particle_data: 0.1
         -  sound: block_campfire_crackle
            sound_pitch: 1.8
@@ -93,12 +93,14 @@ wildgroncklefire:
         target: other
         target_types:
           - player
-          - cat
-        target_breakables: 0.4
-        block_hit_count: 1
+          - zombie_horse
+        target_breakables: 1
+        break_durability: 2
+        destructible_durability: 50
+        destructible: solid
         track_target: true
         lifetime: 30000
-        undo: 300
-        undo_speed: 100
+        undo: 10000
+        undo_speed: 10
         track_speed: 0.03
         use_target_location: false

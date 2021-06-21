@@ -88,15 +88,9 @@ block_skins:
 # Note that these refer to Bukkit API InventoryType enums, not necessarily the same as a block or Material name.
 # If you don't want players to be able to put wands in their ender chest, you can add ender_chest to this list.
 unstashable_containers:
-  - chest
-  - furnace
+  - ender_chest
   - hopper
-  - dispenser
-  - dropper
   - shulker_box
-  - barrel
-  - smoker
-  - blast_furnace
 #
 # Special materials used to represent icons in the material brush system
 #
@@ -755,7 +749,7 @@ protect_locked: true
 # Visible particle max range
 # Decrease this if you find you have client or server performance issues
 # Related to particle range
-particle_range: 48
+particle_range: 96
 
 # How many casts to track in the undo queue
 undo_depth: 128
@@ -1557,7 +1551,7 @@ nether_portal: nether_portal,portal
 writable_book: writable_book,book_and_quill
 # This resource pack will automatically be used if none is defined in your server.properties
 # Set this to "" if you have some other plugin or Bungee managing resource packs.
-resource_pack: "https://www.dropbox.com/s/o7q6giv822mc7c1/hhh.zip?dl=0"
+resource_pack: "http://rp.elmakers.com/Magic-RP-8.5-1.16.zip"
 
 # Use this to turn off all resource pack functionality
 enable_resource_pack: true

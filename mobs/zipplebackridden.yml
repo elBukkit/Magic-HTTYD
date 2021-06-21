@@ -1,5 +1,4 @@
 zipplebackridden:
-  name: 'Hideous Zippleback'
   type: zombie_horse
   prevent_melee: true
   tamed: true

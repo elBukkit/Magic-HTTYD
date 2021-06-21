@@ -1,0 +1,11 @@
+pouchcraft:
+  enabled: true
+  output: coinpouch
+  output_type: wand
+  auto_discover: true
+  materials:
+    l: leather
+    g: gold_nugget
+  row_1: " l "
+  row_2: "lgl"
+  row_3: " l "

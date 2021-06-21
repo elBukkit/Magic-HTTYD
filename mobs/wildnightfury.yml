@@ -22,7 +22,7 @@ wildnightfury:
   mage:
     effect_color: red
   protection:
-    projectile: 0.5
+    projectile: 0.6
   default_drops: false
   entity_attributes:
     generic_attack_damage: 16
@@ -33,16 +33,16 @@ wildnightfury:
     interval:
       cast: 
         furyfly2: 500
-        furyfly: 1200
-        wildnightfuryfire: 40
+        furyfly: 2000
+        wildnightfuryfire: 20
     launch:
       cast:
         wildnightfuryfire2: 1000
         wildnightfuryfire: 10
     damage: 
       cast:
-        wildnightfuryfire2: 25
-        none: 1000
+        wildnightfuryfire2: 10
+        none: 100
   drops:
   - blaze_powder: 10
     blaze_powder@2: 100

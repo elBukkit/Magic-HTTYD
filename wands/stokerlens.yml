@@ -1,0 +1,7 @@
+stokerlens:
+    name: "&cStoker Class Lens"
+    icon: dragoneyelens
+    upgrade: true
+    locked: true
+    slot: "Lens"
+    active_spell: stokerprojection

@@ -6,7 +6,8 @@ nightmarenest:
     invisible: true
   cancel_explosion: true
   persist: true
-  lifetime: 180000
+  lifetime: 600000
+  interval: 600000
   drop_items: true
   invisible: true
   helmet: NightmareNest

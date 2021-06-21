@@ -96,13 +96,13 @@ wildnightmarefire2:
       target_self: false
       target_types:
           - player
-          - cat
+          - zombie_horse
       source_location: head
       reflective: gold_block
       ignore_blocks: false
       destructible: solid
       destructible_durability: 800
-      cooldown_mage: rand(7500,13000)
+      cooldown_mage: rand(2500,13000)
       break_durability: 0.2
       block_hit_count: 1
       target_breakables: 10
@@ -120,7 +120,7 @@ wildnightmarefire2:
       undo: rand(7500,25000)
       undo_speed: 5
       spread_movement: 5
-      cooldown: rand(2000,14000)
+      cooldown: rand(3500,14000)
       speed: 0.2
       damage: rand(4,6)
       repeat: rand(40,70)

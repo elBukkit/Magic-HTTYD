@@ -1,5 +1,4 @@
 gronckleridden:
-  name: 'Gronckle'
   type: zombie_horse
   prevent_melee: true
   tamed: true
@@ -15,7 +14,7 @@ gronckleridden:
     burning: false
   helmet: Gronckle
   silent: true
-  health: 30
+  health: 40
   interval: 90000
   default_drops: false
   interact_spell: groncklemount

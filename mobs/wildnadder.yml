@@ -22,7 +22,7 @@ wildnadder:
   persist: true
   drops_require_player_killer: true
   protection:
-    projectile: 0.6
+    projectile: 0.55
   default_drops: false
   entity_attributes:
     generic_attack_damage: 6
@@ -37,6 +37,9 @@ wildnadder:
     damage:
       effects:
       - sound: dragons.nadder1
+      cast: 
+        wildnadderspines: 20
+        none: 100
     death:
       effects:
       - sound: dragons.nadder2
@@ -49,12 +52,12 @@ wildnadder:
     blaze_powder: 100
     blaze_powder@2: 20
     NadderSpine@2: 50
-  - NadderSpine: 30
-    none: 40
-  - NadderSpine: 30
-    none: 40
-  - NadderHorn: 40
-    none: 60
+  - NadderSpine: 40
+    none: 100
+  - NadderSpine: 50
+    none: 100
+  - NadderHorn: 20
+    none: 100
   - scalecoin@5
   - scalecoin@1: 25
     scalecoin@2: 25

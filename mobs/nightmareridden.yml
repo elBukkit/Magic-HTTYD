@@ -1,5 +1,4 @@
 nightmareridden:
-  name: 'Monstrous Nightmare'
   type: zombie_horse
   prevent_melee: true
   tamed: true

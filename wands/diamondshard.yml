@@ -1,0 +1,5 @@
+diamondshard:
+    name: '&rDiamond Shard'
+    icon: diamondsharditem
+    discover_recipes:
+    - craftdiamond

@@ -11,7 +11,7 @@ wildgronckle:
     burning: false
   helmet: Gronckle
   silent: true
-  health: 30
+  health: 40
   default_drops: false
   interval: 3000
   interval_requires_target: false
@@ -20,7 +20,7 @@ wildgronckle:
   persist: true
   drops_require_player_killer: true
   protection:
-    projectile: 0.5
+    projectile: 0.7
   entity_attributes:
     generic_attack_damage: 7
     generic_armor: 14
@@ -35,6 +35,9 @@ wildgronckle:
     damage:
       effects:
       - sound: dragons.gronckle1
+      cast: 
+        wildgroncklefire: 20
+        none: 100
     death:
       effects:
       - sound: dragons.gronckle2
@@ -48,9 +51,9 @@ wildgronckle:
     blaze_powder@2: 50
     GronckleIron@2: 20
   - GronckleIron: 30
-    none: 40
+    none: 100
   - GronckleIron: 20
-    none: 30
+    none: 100
   - scalecoin@2
   - scalecoin@1: 25
     scalecoin@2: 25

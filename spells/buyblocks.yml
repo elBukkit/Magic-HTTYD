@@ -1,0 +1,43 @@
+buyblocks:
+    # This has been added automatically so that anything you remove here does not get inherited back in from the default configs
+    inherit: false
+    icon: cobblestone
+    name: Buy Blocks
+    category: shop
+    actions:
+        cast:
+        - class: Shop
+          cost_type: currency
+          earn_type: currency
+    parameters:
+        confirm: false
+        auto_close: false
+        confirm_filler: stained_glass_pane
+        buy_icon: lime_wool{CustomModelData:18001}
+        items:
+        - item: oak_planks@64
+          cost: 10
+        - item: birch_planks@64
+          cost: 10
+        - item: spruce_planks@64
+          cost: 10
+        - item: jungle_planks@64
+          cost: 10
+        - item: acacia_planks@64
+          cost: 10
+        - item: dark_oak_planks@64
+          cost: 10
+        - item: cobblestone@64
+          cost: 10
+        - item: andesite@64
+          cost: 10
+        - item: granite@64
+          cost: 10
+        - item: diorite@64
+          cost: 10
+        - item: dirt@64
+          cost: 10
+        - item: sand@64
+          cost: 10
+        - item: terracotta@64
+          cost: 10

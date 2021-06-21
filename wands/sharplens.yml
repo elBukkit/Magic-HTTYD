@@ -1,0 +1,7 @@
+sharplens:
+    name: "&7Sharp Class Lens"
+    icon: dragoneyelens
+    upgrade: true
+    locked: true
+    slot: "Lens"
+    active_spell: sharpprojection

@@ -1,0 +1,29 @@
+buyvaluables:
+    # This has been added automatically so that anything you remove here does not get inherited back in from the default configs
+    inherit: false
+    icon: gold_ingot
+    name: Buy Valuables
+    category: shop
+    actions:
+        cast:
+        - class: Shop
+          cost_type: currency
+          earn_type: currency
+    parameters:
+        confirm: false
+        auto_close: false
+        confirm_filler: stained_glass_pane
+        buy_icon: lime_wool{CustomModelData:18001}
+        items:
+        - item: diamond
+          cost: 10
+        - item: gold_ingot@12
+          cost: 10
+        - item: iron_ingot@26
+          cost: 10
+        - item: lapis_lazuli@36
+          cost: 10
+        - item: redstone@36
+          cost: 10
+        - item: coal@64
+          cost: 10

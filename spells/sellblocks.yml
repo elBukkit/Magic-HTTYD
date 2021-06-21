@@ -1,0 +1,40 @@
+sellblocks:
+    # This has been added automatically so that anything you remove here does not get inherited back in from the default configs
+    inherit: false
+    icon: oak_log
+    name: Sell Blocks
+    category: shop
+    actions:
+        cast:
+        - class: Shop
+          cost_type: currency
+          earn_type: currency
+    parameters:
+        confirm: false
+        sell: true
+        auto_close: false
+        confirm_filler: stained_glass_pane
+        buy_icon: lime_wool{CustomModelData:18001}
+        items:
+        - item: oak_log@64
+          cost: 1
+        - item: birch_log@64
+          cost: 1
+        - item: spruce_log@64
+          cost: 1
+        - item: jungle_log@64
+          cost: 1
+        - item: acacia_log@64
+          cost: 1
+        - item: dark_oak_log@64
+          cost: 1
+        - item: andesite@64
+          cost: 1
+        - item: granite@64
+          cost: 1
+        - item: diorite@64
+          cost: 1
+        - item: sand@64
+          cost: 1
+        - item: terracotta@64
+          cost: 1

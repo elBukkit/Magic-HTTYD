@@ -1,5 +1,4 @@
 nadderridden:
-  name: 'Deadly Nadder'
   type: zombie_horse
   prevent_melee: true
   tamed: true

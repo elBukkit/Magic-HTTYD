@@ -1,0 +1,9 @@
+craftdiamond:
+  enabled: true
+  output: diamond
+  auto_discover: true
+  materials:
+    s: diamondsharditem
+  row_1: "sss"
+  row_2: "sss"
+  row_3: "sss"

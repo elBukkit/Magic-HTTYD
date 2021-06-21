@@ -8,7 +8,7 @@ furyfly2:
         cast:
         -  class: EffectSingle
            sound: dragons.nightfury1
-           sound_volume: 5
+           sound_volume: 3
     parameters:
         cooldown: rand(3000,10000)
         cooldown_mage: 100

@@ -29,7 +29,7 @@ wildnightfuryfire:
            requires_entity_target: true
            sound: dragons.nightfury2
            location: origin
-           sound_volume: 3
+           sound_volume: 8
            color_override: color
         tick:
         - particle: soul_fire_flame
@@ -88,7 +88,7 @@ wildnightfuryfire:
         magic_damage: false
         cooldown_mage: rand(20000,45000)
         cooldown: rand(5000,8000)
-        damage: rand(17,30)
+        damage: rand(17,45)
         hitbox_size: 0.3
         ignore_blocks: false
         target: other

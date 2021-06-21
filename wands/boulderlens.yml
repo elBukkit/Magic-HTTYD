@@ -1,0 +1,7 @@
+boulderlens:
+    name: "&2Boulder Class Lens"
+    icon: dragoneyelens
+    upgrade: true
+    locked: true
+    slot: "Lens"
+    active_spell: boulderprojection

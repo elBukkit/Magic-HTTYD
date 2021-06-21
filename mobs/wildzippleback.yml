@@ -18,7 +18,7 @@ wildzippleback:
   interval_requires_target: false
   drops_require_player_killer: true
   protection:
-    projectile: 0.4
+    projectile: 0.5
   default_drops: false
   entity_attributes:
     generic_attack_damage: 6
@@ -33,6 +33,9 @@ wildzippleback:
     damage:
       effects:
       - sound: dragon.zippleback1
+      cast: 
+        wildzipplebackfire: 20
+        none: 100
     death:
       effects:
       - sound: dragon.zippleback2
@@ -45,12 +48,12 @@ wildzippleback:
     blaze_powder: 100
     blaze_powder@2: 50
     ZipplebackGas@2: 20
-  - ZipplebackGas: 30
-    none: 40
-  - ZipplebackGas: 30
-    none: 40
-  - ZipplebackHorn: 50
-    none: 50
+  - ZipplebackGas: 20
+    none: 100
+  - ZipplebackGas: 20
+    none: 100
+  - ZipplebackHorn: 20
+    none: 100
   - scalecoin@7
   - scalecoin@1: 25
     scalecoin@2: 25
