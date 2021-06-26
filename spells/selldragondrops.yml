@@ -1,6 +1,8 @@
-pouchtest:
+selldragondrops:
     # This has been added automatically so that anything you remove here does not get inherited back in from the default configs
     inherit: false
+    icon: NightmareHorn
+    name: Sell Dragon Drops
     category: shop
     actions:
         cast:
@@ -9,11 +11,22 @@ pouchtest:
           earn_type: currency
     parameters:
         confirm: false
+        sell: true
         auto_close: false
         confirm_filler: stained_glass_pane
-        add_sell_shop: true
-        sell_icon: yellow_wool{CustomModelData:18001}
         buy_icon: lime_wool{CustomModelData:18001}
         items:
-        - item: scalecoin
+        - item: GronckleIron
+          cost: 1
+        - item: NadderHorn
+          cost: 1
+        - item: NadderSpine
+          cost: 1
+        - item: ZipplebackHorn
+          cost: 1
+        - item: ZipplebackGas
+          cost: 1
+        - item: NightmareHorn
+          cost: 1
+        - item: NightmareGel
           cost: 1

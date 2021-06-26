@@ -1,6 +1,6 @@
 nadderegg:
     name: "&6Deadly Nadder"
-    description: "&8Dragon Egg"
+    description: "&8Dragon Egg. Name in an anvil before hatching."
     mode: cast
     hide_flags: 127
     keep: false
@@ -11,4 +11,4 @@ nadderegg:
     uses: 1
     indestructible: true
     active_spell: nadderhatch
-    icon: NadderNest
+    icon: naddereggitem

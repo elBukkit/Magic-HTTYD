@@ -1,0 +1,64 @@
+nightfurymount:
+  inherit: mountdragon
+  upgrade_required_casts: 10
+  parameters:
+    name: Ridden Night Fury
+    max_deceleration: 0.025
+    start_speed: 0.1
+    min_speed: -0.2
+    steer_speed: 0.05
+    max_speed: 0.65
+    max_acceleration: 0.02
+    max_height_above_ground: 60
+    duration: 60000
+
+nightfurymount|2:
+  upgrade_required_casts: 75
+  parameters:
+    max_deceleration: 0.03
+    start_speed: 0.1
+    min_speed: -0.3
+    steer_speed: 0.065
+    max_speed: 0.75
+    max_acceleration: 0.025
+    max_height_above_ground: 80
+    duration: 80000
+
+nightfurymount|3:
+  upgrade_required_casts: 200
+  parameters:
+    max_deceleration: 0.035
+    jump_cast: riddennightfuryfire
+    start_speed: 0.1
+    min_speed: -0.35
+    steer_speed: 0.08
+    max_speed: 0.9
+    max_acceleration: 0.03
+    max_height_above_ground: 100
+    duration: 120000
+
+nightfurymount|4:
+  upgrade_required_casts: 600
+  parameters:
+    max_deceleration: 0.04
+    jump_cast: riddennightfuryfire
+    start_speed: 0.1
+    min_speed: -0.4
+    steer_speed: 0.12
+    max_speed: 1.1
+    max_acceleration: 0.035
+    max_height_above_ground: 120
+    duration: 160000
+
+nightfurymount|5:
+  upgrade_required_casts: 600
+  parameters:
+    max_deceleration: 0.05
+    jump_cast: riddennightfuryfire
+    start_speed: 0.1
+    min_speed: -0.4
+    steer_speed: 0.15
+    max_speed: 1.5
+    max_acceleration: 0.05
+    max_height_above_ground: 150
+    duration: 240000

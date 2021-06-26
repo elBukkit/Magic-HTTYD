@@ -1,8 +1,9 @@
 nadderspawnnest:
-    icon: diamond_pickaxe:10
+    name: Nest
     actions:
       cast:
       - class: SpawnEntity
+        loot: true
         type: naddernest
     parameters:
       range: 64

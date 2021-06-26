@@ -1,6 +1,7 @@
 wildnightfury:
   name: 'Wild Night Fury'
   type: ghast
+  aggro: true
   size: 10
   disguise:
     type: player
@@ -11,7 +12,7 @@ wildnightfury:
   helmet: NightFury
   item: NightFuryRight
   offhand: NightFuryLeft
-  aggro: true
+  equip_on_respawn: false
   silent: true
   health: 250
   interval: 100
@@ -20,9 +21,9 @@ wildnightfury:
   drop_xp: 1000
   persist: true
   mage:
-    effect_color: red
+    effect_color: blue
   protection:
-    projectile: 0.6
+    projectile: 0.7
   default_drops: false
   entity_attributes:
     generic_attack_damage: 16
@@ -43,6 +44,13 @@ wildnightfury:
       cast:
         wildnightfuryfire2: 10
         none: 100
+    death:
+      effects:
+      - sound: dragons.nightfury2
+        sound_pitch: -2
+      cast: 
+        nightfuryspawnnest: 2
+        none: 100
   drops:
   - blaze_powder: 10
     blaze_powder@2: 100
@@ -57,4 +65,4 @@ wildnightfury:
   - furyscale
   potion_effects:
   - type: fire_resistance
-    amplifier: 1
+    amplifier: 0

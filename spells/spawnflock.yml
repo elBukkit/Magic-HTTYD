@@ -1,0 +1,30 @@
+spawnflock:
+    name: Danger
+    actions:
+      cast:
+        - class: ChangeContext
+          source_is_target: true
+        - class: Repeat
+          actions:
+          - class: Spread
+            actions:
+            - class: SpawnEntity
+              loot: true
+              set_target: true
+            - class: Delay
+    parameters:
+        allow_replacement: false
+        entity_types:
+            wildgronckle: 200
+            wildnadder: 150
+            wildzippleback: 100
+            wildnightmare: 50
+            wildnightfury: 1
+        allow_max_range: false
+        target_self: true
+        target: self
+        range: 32
+        repeat: rand(5,10)
+        radius: rand(16,25)
+        delay: 10
+

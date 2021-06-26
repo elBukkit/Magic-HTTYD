@@ -21,7 +21,7 @@ wildzipplebackfire:
                   poison: 0
                 duration: 3000
           - class: Sphere
-            radius: 2
+            radius: rand(1,2)
             actions:
               - class: BreakBlock
                 destructible: solid
@@ -50,9 +50,9 @@ wildzipplebackfire:
              radius: 0.2
              particles: 5
              particle_count: 5
-             particle_offset_y: 0.2
-             particle_offset_x: 0.2
-             particle_offset_z: 0.2
+             particle_offset_y: 0.6
+             particle_offset_x: 0.6
+             particle_offset_z: 0.6
              particle_size: 3
         hit:
         -  sound: entity_generic_explode
@@ -84,8 +84,8 @@ wildzipplebackfire:
         range: 64
         direction: 0,0.8,0
         magic_damage: false
-        cooldown: rand(5500,18000)
-        damage: rand(5,12)
+        cooldown: rand(5500,20000)
+        damage: rand(5,13)
         hitbox_size: 0.5
         gravity: rand(0.01,0.03)
         spread: 0.2
@@ -94,7 +94,7 @@ wildzipplebackfire:
         target_types:
           - player
           - zombie_horse
-        undo: 20000
+        undo: rand(12000,22000)
         undo_speed: 20
         falling: true
         target_breakables: 5

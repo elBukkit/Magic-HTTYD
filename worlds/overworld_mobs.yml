@@ -3,6 +3,29 @@ overworld_mobs:
   world: Arc
   entity_spawn:
 
+    replace_flocks:
+      class: Replace
+      y_offset: 25
+      highest_block: true
+      target_types:
+      - phantom
+      - enderman
+      - llama
+      - sheep
+      probability: 0.00001
+      cooldown: 600000
+      replace_type:
+        flockspawner: 1
+      biomes:
+        - wooded_mountains
+        - mountains
+        - mountain_edge
+        - gravelly_mountains
+        - snowy_mountains
+        - taiga_mountains
+        - sunflower_plains
+
+
 
     replace_terrors:
       class: Replace
@@ -165,7 +188,7 @@ overworld_mobs:
       target_types:
       - phantom
       - enderman
-      probability: 0.0001
+      probability: 0.00001
       cooldown: 1800000
       replace_type:
         wildnightfury: 1

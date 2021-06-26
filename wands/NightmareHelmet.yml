@@ -2,7 +2,7 @@ NightmareHelmet:
   name: "&rGronckle Iron Helmet"
   lore:
   - "&0."
-  - "&7When on head:"
+  - "&7When on Head:"
   - "&3+5 Armor"
   item_attribute_slot: head
   hide_flags: 126

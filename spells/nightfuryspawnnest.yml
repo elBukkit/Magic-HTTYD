@@ -1,0 +1,11 @@
+nightfuryspawnnest:
+    name: Nest
+    actions:
+      cast:
+      - class: SpawnEntity
+        loot: true
+        type: nightfurynest
+    parameters:
+      range: 64
+      radius: 64
+      allow_max_range: true

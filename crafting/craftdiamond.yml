@@ -4,6 +4,6 @@ craftdiamond:
   auto_discover: true
   materials:
     s: diamondsharditem
-  row_1: "sss"
-  row_2: "sss"
-  row_3: "sss"
+  row_1: ""
+  row_2: "ss"
+  row_3: "ss"

@@ -1,9 +1,10 @@
 nightmarespawnnest:
-    icon: diamond_pickaxe:10
+    name: Nest
     actions:
       cast:
       - class: SpawnEntity
-        type: zipplebacknest
+        loot: true
+        type: nightmarenest
     parameters:
       range: 64
       radius: 64

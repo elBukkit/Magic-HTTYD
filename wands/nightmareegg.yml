@@ -1,6 +1,6 @@
 nightmareegg:
-    name: "&6Monstrous Nightmare Egg"
-    description: "&8Dragon Egg"
+    name: "&6Monstrous Nightmare"
+    description: "&8Dragon Egg. Name in an anvil before hatching."
     mode: cast
     hide_flags: 127
     keep: false
@@ -11,4 +11,4 @@ nightmareegg:
     uses: 1
     indestructible: true
     active_spell: nightmarehatch
-    icon: NightmareNest
+    icon: nightmareeggitem

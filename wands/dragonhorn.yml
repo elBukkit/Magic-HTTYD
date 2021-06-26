@@ -1,0 +1,12 @@
+dragonhorn:
+    name: '&6Dragon Horn'
+    lore:
+    - "&8Right click to call down your dragon."
+    - "&8Shift right click to heal your dragon."
+    - "&8Healing requires salmon."
+    right_click: cast
+    active_spell: calldragon
+    alternate_spell: healdragon
+    right_click_sneak: alt_cast
+    locked: true
+    icon: calldragonitem

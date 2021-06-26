@@ -14,3 +14,4 @@ scalecoinpouch:
     - cast_spell: sellblocks
     - cast_spell: buyvaluables
     - cast_spell: sellvaluables
+    - cast_spell: selldragondrops

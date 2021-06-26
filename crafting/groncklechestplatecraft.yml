@@ -1,0 +1,10 @@
+groncklechestplatecraft:
+  enabled: true
+  output: groncklechestplate
+  output_type: item
+  auto_discover: false
+  materials:
+    g: GronckleIronIngot
+  row_1: "g g"
+  row_2: "ggg"
+  row_3: "ggg"

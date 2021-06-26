@@ -2,21 +2,20 @@ wildterror:
   name: 'Wild Terrible Terror'
   type: Bee
   aggro: true
-  register_by_name: true
   disguise:
     type: zombie
-    baby: true
     invisible: true
     burning: false
   helmet: Terror
+  equip_on_respawn: false
   silent: true
   prevent_melee: true
   health: 15
   default_drops: false
-  lifetime: 1800000
+  lifetime: 900000
   interact_spell: wildterrorfire
   interact_spell_source: mob
-  interval: 6000
+  interval: 2500
   drop_xp: 20
   mage:
     effect_color: black
@@ -32,7 +31,7 @@ wildterror:
       cast: wildterrorfire
     damage:
       effects:
-      - sound: dragons.nightmare1
+      - sound: dragons.zippleback1
         sound_pitch: 2
         sound_volume: 0.3
     death:

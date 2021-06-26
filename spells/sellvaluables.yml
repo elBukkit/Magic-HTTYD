@@ -28,5 +28,3 @@ sellvaluables:
           cost: 1
         - item: coal@128
           cost: 1
-        - item: GronckleIronIngot@8
-          cost: 1

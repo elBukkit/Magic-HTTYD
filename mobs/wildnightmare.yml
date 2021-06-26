@@ -1,6 +1,7 @@
 wildnightmare:
   name: 'Wild Monstrous Nightmare'
   type: Phantom
+  aggro: true
   size: 10
   disguise:
     type: player
@@ -11,28 +12,27 @@ wildnightmare:
   helmet: Nightmare
   item: NightmareRight
   offhand: NightmareLeft
-  aggro: true
+  equip_on_respawn: false
   silent: true
-  health: 110
-  interval: 4500
+  health: 130
+  interval: 2500
   interval_requires_target: false
   lifetime: 3600000
-  drop_xp: 420
+  drop_xp: 200
   persist: true
-  drops_require_player_killer: true
   protection:
-    projectile: 0.65
+    projectile: 0.7
   default_drops: false
   entity_attributes:
-    generic_attack_damage: 18.5
-    generic_armor: 12
+    generic_attack_damage: 21
+    generic_armor: 13
   triggers:
     spawn:
       cast: colourdragon
     interval:
       cast: 
-        wildnightmarefire: 50
-        wildnightmarefire2: 50
+        wildnightmarefire: 20
+        wildnightmarefire2: 80
     launch:
       cast: wildnightmarefire
     damage:
@@ -45,8 +45,8 @@ wildnightmare:
       effects:
       - sound: dragons.nightmare2
         sound_pitch: -2
-      cast:
-        nightmarespawnnest: 10
+      cast: 
+        nightmarespawnnest: 2
         none: 100
   drops:
   - NightmareGel: 10
@@ -69,3 +69,5 @@ wildnightmare:
   potion_effects:
   - type: fire_resistance
     amplifier: 1
+  - type: damage_resistance
+    amplifier: 0

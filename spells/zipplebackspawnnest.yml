@@ -1,8 +1,9 @@
 zipplebackspawnnest:
-    icon: diamond_pickaxe:10
+    name: Nest
     actions:
       cast:
       - class: SpawnEntity
+        loot: true
         type: zipplebacknest
     parameters:
       range: 64

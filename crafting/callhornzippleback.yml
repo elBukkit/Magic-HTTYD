@@ -1,0 +1,10 @@
+callhornzippleback:
+  enabled: true
+  output: dragonhorn
+  output_type: wand
+  materials:
+    h: ZipplebackHorn
+    g: gold_ingot
+  row_1: " g "
+  row_2: "ghg"
+  row_3: " g "

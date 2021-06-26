@@ -1,0 +1,10 @@
+groncklebootscraft:
+  enabled: true
+  output: gronckleboots
+  output_type: item
+  auto_discover: false
+  materials:
+    g: GronckleIronIngot
+  row_1: ""
+  row_2: "g g"
+  row_3: "g g"

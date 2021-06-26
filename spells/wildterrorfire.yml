@@ -66,19 +66,19 @@ wildterrorfire:
         hitbox: false
         target: other_entity
         target_self: false
-        velocity: 10
+        velocity: 12
         source_location: eyes
         size: 2
         range: 64
         magic_damage: false
-        cooldown: rand(2500,12500)
+        cooldown: rand(1500,8000)
         block_hit_count: 1
-        damage: rand(1,4)
+        damage: rand(1,6)
         hitbox_size: 0.01
         target_type: Damageable
         track_target: true
         lifetime: 30000
         undo: 4000
         undo_speed: 30
-        track_speed: 0.01
+        track_speed: 0.05
         use_target_location: false

@@ -1,6 +1,7 @@
 wildnadder:
   name: 'Wild Deadly Nadder'
-  type: Phantom
+  type: phantom
+  aggro: true
   size: 10
   disguise:
     type: player
@@ -10,23 +11,22 @@ wildnadder:
     burning: false
   helmet: Nadder
   chestplate: thorns
-  aggro: true
   item: NadderRight
   offhand: NadderLeft
+  equip_on_respawn: false
   silent: true
-  health: 50
-  interval: 4500
+  health: 65
+  interval: 2500
   interval_requires_target: false
   lifetime: 3600000
-  drop_xp: 200
+  drop_xp: 100
   persist: true
-  drops_require_player_killer: true
   protection:
-    projectile: 0.55
+    projectile: 0.6
   default_drops: false
   entity_attributes:
-    generic_attack_damage: 6
-    generic_armor: 8
+    generic_attack_damage: 8
+    generic_armor: 10
   triggers:
     spawn:
       cast: colourdragon
@@ -44,8 +44,8 @@ wildnadder:
       effects:
       - sound: dragons.nadder2
         sound_pitch: -2
-      cast:
-        nadderspawnnest: 10
+      cast: 
+        nadderspawnnest: 2
         none: 100
   drops:
   - NadderSpine: 10
@@ -66,3 +66,5 @@ wildnadder:
   potion_effects:
   - type: fire_resistance
     amplifier: 1
+  - type: damage_resistance
+    amplifier: 0

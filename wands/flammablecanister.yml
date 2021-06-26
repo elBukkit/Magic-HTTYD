@@ -1,0 +1,7 @@
+flammablecanister:
+    name: "&7Flammable Canister"
+    icon: gelcan
+    upgrade_icon: dragonbladefireitem
+    upgrade: true
+    slot: "Canister"
+    active_spell: firesweep

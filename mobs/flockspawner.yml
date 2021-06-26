@@ -1,0 +1,28 @@
+flockspawner:
+  name: 'Dragon Flock'
+  type: phantom
+  disguise:
+    type: armor_stand
+    invisible: true
+    burning: false
+  persist: true
+  lifetime: 3000
+  interval: 3000
+  invisible: true
+  silent: true
+  invulnerable: false
+  default_drops: false
+  health: 1
+  mage:
+    effect_color: red
+  triggers:
+    spawn:
+      cast: spawnflock
+  entity_attributes:
+    generic_movement_speed: 0
+    generic_follow_range: 0
+  potion_effects:
+  - type: fire_resistance
+    amplifier: 1
+  - type: invisibility
+    amplifier: 1

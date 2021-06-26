@@ -10,20 +10,20 @@ wildgronckle:
     swimming: true
     burning: false
   helmet: Gronckle
+  equip_on_respawn: false
   silent: true
   health: 40
   default_drops: false
   interval: 3000
   interval_requires_target: false
   lifetime: 3600000
-  drop_xp: 100
+  drop_xp: 75
   persist: true
-  drops_require_player_killer: true
   protection:
-    projectile: 0.7
+    projectile: 0.6
   entity_attributes:
-    generic_attack_damage: 7
-    generic_armor: 14
+    generic_attack_damage: 8
+    generic_armor: 10
     generic_knockback_resistance: 0.5
   triggers:
     spawn:
@@ -42,15 +42,15 @@ wildgronckle:
       effects:
       - sound: dragons.gronckle2
         sound_pitch: -2
-      cast:
-        groncklespawnnest: 10
+      cast: 
+        groncklespawnnest: 2
         none: 100
   drops:
   - GronckleIron: 10
     blaze_powder: 100
     blaze_powder@2: 50
-    GronckleIron@2: 20
-  - GronckleIron: 30
+    GronckleIron@2: 30
+  - GronckleIron: 70
     none: 100
   - GronckleIron: 20
     none: 100
@@ -62,3 +62,5 @@ wildgronckle:
   potion_effects:
   - type: fire_resistance
     amplifier: 1
+  - type: damage_resistance
+    amplifier: 0

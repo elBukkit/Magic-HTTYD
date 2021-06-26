@@ -3,9 +3,9 @@ nightmareridden:
   prevent_melee: true
   tamed: true
   interact_requires_owner: true
+  equip_on_respawn: false
   gravity: false
   track_radius: 0
-  size: 10
   disguise:
     type: player
     skin: NightScythe1
@@ -16,15 +16,15 @@ nightmareridden:
   item: NightmareRight
   offhand: NightmareLeft
   silent: true
-  health: 110
+  health: 130
   interval: 90000
   default_drops: false
-  interact_spell: nightmaremount
+  interact_spell: nightmaremount|3
   persist: true
   mage:
-    effect_color: green
+    effect_color: white
   entity_attributes:
-    generic_armor: 12
+    generic_armor: 15
     generic_movement_speed: 0
     generic_follow_range: 0
   triggers:
@@ -41,7 +41,11 @@ nightmareridden:
       - sound: dragons.nightmare2
         sound_pitch: -2
   potion_effects:
+  - type: slow_falling
+    amplifier: 1
   - type: fire_resistance
     amplifier: 1
   - type: regeneration
-    amplifier: 0
+    amplifier: 1
+  - type: damage_resistance
+    amplifier: 2

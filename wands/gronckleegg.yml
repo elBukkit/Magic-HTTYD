@@ -1,6 +1,6 @@
 gronckleegg:
-    name: "&6Gronckle Egg"
-    description: "&8Dragon Egg"
+    name: "&6Gronckle"
+    description: "&8Dragon Egg. Name in an anvil before hatching."
     mode: cast
     hide_flags: 127
     keep: false
@@ -11,4 +11,4 @@ gronckleegg:
     uses: 1
     indestructible: true
     active_spell: groncklehatch
-    icon: GronckleNest
+    icon: gronckleeggitem

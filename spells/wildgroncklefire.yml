@@ -8,6 +8,11 @@ wildgroncklefire:
           requires_target: true
           hitbox: true
           actions:
+          - class: Sphere
+            radius: rand(1,2)
+            actions:
+              - class: BreakBlock
+                ignore_result: true
           - class: AreaOfEffect
             radius: 2
             actions:
@@ -87,20 +92,20 @@ wildgroncklefire:
         magic_damage: false
         cooldown: rand(1000,12000)
         spread: 0.3
-        damage: rand(4,10)
+        damage: rand(5,11)
         hitbox_size: 1
         ignore_blocks: false
         target: other
         target_types:
           - player
           - zombie_horse
-        target_breakables: 1
-        break_durability: 2
-        destructible_durability: 50
+        target_breakables: rand(1,3)
+        break_durability: rand(1,3)
+        destructible_durability: 200
         destructible: solid
         track_target: true
         lifetime: 30000
-        undo: 10000
+        undo: rand(15000,30000)
         undo_speed: 10
         track_speed: 0.03
         use_target_location: false

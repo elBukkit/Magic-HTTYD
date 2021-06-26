@@ -2,6 +2,9 @@ wildnightmarefire:
     name: Fire Hose
     actions:
         cast:
+        - class: Orient
+          requires_entity_target: true
+          requires_target: true
         - class: Repeat
           actions:
           - class: Retarget
@@ -91,7 +94,11 @@ wildnightmarefire:
     parameters:
       target: other
       target_self: false
-      target_type: LivingEntity
+      target_types:
+        - player
+        - zombie_horse
+        - villager
+        - iron_golem
       source_location: head
       reflective: gold_block
       ignore_blocks: false
@@ -106,7 +113,7 @@ wildnightmarefire:
       velocity: 30
       lifetime: 10000
       reorient: false
-      spread: 0.2
+      spread: 0.3
       magic_damage: false
       spread_movement_max: 0.3
       undo: rand(7500,25000)
@@ -114,7 +121,7 @@ wildnightmarefire:
       spread_movement: 5
       cooldown: rand(5000,20000)
       speed: 0.2
-      damage: rand(4,9)
+      damage: rand(4,10)
       repeat: rand(40,70)
       push: 1
 

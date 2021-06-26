@@ -1,6 +1,7 @@
 wildzippleback:
   name: 'Wild Hideous Zippleback'
   type: phantom
+  aggro: true
   disguise:
     type: player
     skin: NightScythe1
@@ -8,21 +9,20 @@ wildzippleback:
     swimming: true
     burning: false
   helmet: Zippleback
-  aggro: true
+  equip_on_respawn: false
   silent: true
-  health: 100
-  interval: 4000
+  health: 80
+  interval: 2000
   lifetime: 3600000
-  drop_xp: 200
+  drop_xp: 150
   persist: true
   interval_requires_target: false
-  drops_require_player_killer: true
   protection:
-    projectile: 0.5
+    projectile: 0.6
   default_drops: false
   entity_attributes:
-    generic_attack_damage: 6
-    generic_armor: 4
+    generic_attack_damage: 8
+    generic_armor: 10
   triggers:
     spawn:
       cast: colourdragon
@@ -40,8 +40,8 @@ wildzippleback:
       effects:
       - sound: dragon.zippleback2
         sound_pitch: -2
-      cast:
-        zipplebackspawnnest: 10
+      cast: 
+        zipplebackspawnnest: 2
         none: 100
   drops:
   - ZipplebackGas: 10
@@ -64,3 +64,5 @@ wildzippleback:
   potion_effects:
   - type: fire_resistance
     amplifier: 1
+  - type: damage_resistance
+    amplifier: 0

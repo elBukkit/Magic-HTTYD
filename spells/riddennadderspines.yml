@@ -17,14 +17,12 @@ riddennadderspines:
                   hit_effects: hit
                   actions:
                     - class: BreakBlock
-                      durability_max_distance: 8
-                      break_durability: 1
                       ignore_result: true
                     - class: Damage
             - class: PlayEffects
               effect: shoot
             - class: Delay
-              delay: rand(100,600)
+              delay: rand(250,700)
     effects:
         shoot:
         -  class: EffectSingle
@@ -55,26 +53,27 @@ riddennadderspines:
         target_self: false
         reflective: gold_block
         velocity: 40
-        repeat: rand(4,8)
+        repeat: rand(4,7)
         spread: 0.05
         spread_movement_max: 0.1
         destructible: solid
-        destructible_durability: 10000
+        break_durability: 2
+        destructible_durability: 150
         spread_movement: 2
         size: 0.2
         magic_damage: false
         range: 64
-        cooldown: rand(2000,6000)
-        damage: rand(2,6)
-        hitbox_size: 0.5
+        cooldown: rand(2000,12000)
+        damage: rand(3,7)
+        hitbox_size: 0.1
         block_hit_count: 1
         undo: rand(8000,16000}
         undo_speed: 30
         ignore_blocks: false
         target: other
         target_type: LivingEntity
-        target_breakables: 0.3
+        target_breakables: 1
         track_target: true
         lifetime: 30000
-        track_speed: 0.15
+        track_speed: 0.12
         use_target_location: false

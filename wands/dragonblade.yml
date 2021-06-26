@@ -1,0 +1,12 @@
+dragonblade:
+    name: "&6Dragon Blade"
+    description: "&8Use canisters to upgrade."
+    mode: cast
+    locked: true
+    locked_allow_upgrades: true
+    icon: dragonbladeitem
+    item_attribute_slot: mainhand
+    item_attributes:
+      GENERIC_ATTACK_DAMAGE: 7.5
+    slots:
+        - "Canister"
