@@ -1,0 +1,13 @@
+placegronckleegg:
+    name: Nest
+    actions:
+      cast:
+      - class: SpawnEntity
+        loot: true
+        type: groncklenest
+    parameters:
+      range: 64
+      drop_items: true
+      radius: 64
+      cooldown: 10000
+      allow_max_range: true

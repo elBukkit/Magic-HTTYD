@@ -1,0 +1,59 @@
+groncklehatched:
+    name: Hatched
+    require_health_percentage: 100
+    actions:
+        cast:
+          - class: PlayEffects
+            effect: crack
+          - class: RemoveEntity
+          - class: ChangeContext
+            target_self: false
+            target: other_entity
+            target_type: Player
+            actions:
+              - class: AreaOfEffect
+                radius: 8
+                actions:
+                  - class: GiveItem
+                    item: gronckleegg
+                  - class: Message
+                    message: Name your egg in an anvil, and then right click to hatch!
+                    message_target: true
+                    message_type: chat
+    effects:
+      crack:
+        -  sound: entity_turtle_egg_hatch
+           sound_pitch: 0
+           sound_volume: 1
+           location: target
+        -  class: EffectSingle
+           location: target
+           particle: fireworks_spark
+           particle_count: 10
+           offset: 0,-2,0
+           particle_offset_y: 0.4
+           particle_offset_x: 0.4
+           particle_offset_z: 0.4
+           particle_data: 0.01
+        -  sound: entity_wolf_growl
+           sound_volume: 0.4
+           location: target
+           particle: smoke_large
+           particle_count: 20
+           offset: 0,-2,0
+           source_location: feet
+           particle_offset_y: 0.4
+           particle_offset_x: 0.4
+           particle_offset_z: 0.4
+           particle_data: 0.05
+    parameters:
+        destructible:
+          - magma_block
+        target_type: LivingEntity
+        fov: 90
+        target_self: true
+        cooldown: 8000
+        amount: 1
+        target: self
+        allow_max_range: false
+        range: 8

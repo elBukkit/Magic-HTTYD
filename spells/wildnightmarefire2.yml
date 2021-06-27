@@ -118,7 +118,7 @@ wildnightmarefire2:
       spread: 0.3
       magic_damage: false
       spread_movement_max: 0.1
-      undo: rand(7500,25000)
+      undo: rand(7500,100000)
       undo_speed: 5
       spread_movement: 5
       cooldown: rand(2000,18000)

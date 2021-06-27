@@ -1,0 +1,15 @@
+groncklehatchery:
+    name: "&eGronckle Nest"
+    lore:
+    - "&7Dragon nest. Place in a"
+    - "&7dark room on magma blocks"
+    - "&7and wait for it to hatch."
+    mode: cast
+    hide_flags: 127
+    keep: false
+    locked: false
+    bound: false
+    uses: 1
+    indestructible: true
+    active_spell: groncklespawnnest
+    icon: GronckleNest

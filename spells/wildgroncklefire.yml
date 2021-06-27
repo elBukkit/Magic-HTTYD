@@ -105,7 +105,7 @@ wildgroncklefire:
         destructible: solid
         track_target: true
         lifetime: 30000
-        undo: rand(15000,30000)
+        undo: rand(15000,90000)
         undo_speed: 10
         track_speed: 0.03
         use_target_location: false

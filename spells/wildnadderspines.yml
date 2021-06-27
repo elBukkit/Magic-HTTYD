@@ -69,7 +69,7 @@ wildnadderspines:
         damage: rand(3,7)
         hitbox_size: 0.1
         block_hit_count: 1
-        undo: rand(8000,16000}
+        undo: rand(8000,60000}
         undo_speed: 30
         ignore_blocks: false
         target: other
