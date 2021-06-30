@@ -30,9 +30,7 @@ wildnightmare:
     spawn:
       cast: colourdragon
     interval:
-      cast: 
-        wildnightmarefire: 20
-        wildnightmarefire2: 80
+      cast: wildnightmarefire
     launch:
       cast: wildnightmarefire
     damage:

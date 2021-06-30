@@ -1551,7 +1551,7 @@ nether_portal: nether_portal,portal
 writable_book: writable_book,book_and_quill
 # This resource pack will automatically be used if none is defined in your server.properties
 # Set this to "" if you have some other plugin or Bungee managing resource packs.
-resource_pack: "https://www.dropbox.com/s/ieb09q2wn00boz2/how-to-craft-your-dragon.zip?dl=1"
+resource_pack: "http://rp.elmakers.com/Magic-RP-8.5-1.16.zip"
 
 # Use this to turn off all resource pack functionality
 enable_resource_pack: true

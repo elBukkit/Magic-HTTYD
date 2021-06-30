@@ -16,25 +16,25 @@ sellblocks:
         confirm_filler: stained_glass_pane
         buy_icon: lime_wool{CustomModelData:18001}
         items:
-        - item: oak_log@64
+        - item: oak_log@32
           cost: 1
-        - item: birch_log@64
+        - item: birch_log@32
           cost: 1
-        - item: spruce_log@64
+        - item: spruce_log@32
           cost: 1
-        - item: jungle_log@64
+        - item: jungle_log@32
           cost: 1
-        - item: acacia_log@64
+        - item: acacia_log@32
           cost: 1
-        - item: dark_oak_log@64
+        - item: dark_oak_log@32
           cost: 1
-        - item: andesite@64
+        - item: andesite@32
           cost: 1
-        - item: granite@64
+        - item: granite@32
           cost: 1
-        - item: diorite@64
+        - item: diorite@32
           cost: 1
-        - item: sand@64
+        - item: sand@32
           cost: 1
-        - item: terracotta@64
+        - item: terracotta@32
           cost: 1

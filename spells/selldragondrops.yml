@@ -17,16 +17,16 @@ selldragondrops:
         buy_icon: lime_wool{CustomModelData:18001}
         items:
         - item: GronckleIron
-          cost: 1
+          cost: 2
         - item: NadderHorn
-          cost: 1
+          cost: 2
         - item: NadderSpine
           cost: 1
         - item: ZipplebackHorn
-          cost: 1
+          cost: 3
         - item: ZipplebackGas
-          cost: 1
+          cost: 2
         - item: NightmareHorn
-          cost: 1
+          cost: 4
         - item: NightmareGel
-          cost: 1
+          cost: 3

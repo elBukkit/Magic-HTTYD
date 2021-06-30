@@ -21,7 +21,9 @@ coinexchange:
           cost: 1
         - item: scalecoin@8
           cost: 8
-        - item: scalecoin@24
-          cost: 24
+        - item: scalecoin@16
+          cost: 16
+        - item: scalecoin@32
+          cost: 32
         - item: scalecoin@64
           cost: 64

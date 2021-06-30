@@ -43,7 +43,7 @@ hatchery:
           - magma_block
         target_type: LivingEntity
         target_self: true
-        cooldown: 10000
+        cooldown: 20000
         amount: rand(1,3)
         target: self
         allow_max_range: false

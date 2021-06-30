@@ -83,12 +83,12 @@ riddengroncklefire:
         hitbox: false
         target_self: false
         reflective: gold_block
-        velocity: 20
+        velocity: 23
         size: 2
         range: 64
         magic_damage: false
         cooldown: rand(2000,10000)
-        spread: 0.3
+        spread: 0.2
         damage: rand(5,11)
         hitbox_size: 1
         ignore_blocks: false

@@ -4,71 +4,71 @@ riddennightmarefire:
         cast:
         - class: Repeat
           actions:
-          - class: Retarget
-            actions:
-            - class: Asynchronous
+            - class: Retarget
               actions:
-              - class: CustomProjectile
-                range: 64
-                actions:
-                - class: BreakBlock
-                  durability_max_distance: 10
-                  ignore_result: true
-                - class: AreaOfEffect
-                  radius: 1
+                - class: Asynchronous
                   actions:
-                    - class: Damage
-                    - class: Ignite
-                      duration: 7500
-                - class: Disc
-                  radius: 1
-                  actions:
-                  - class: Cover
-                    actions:
-                    - class: Burn
-          - class: PlayEffects
-            effect: shoot
-            ignore_result: true
-          - class: Delay
-            delay: 10
+                    - class: CustomProjectile
+                      range: 64
+                      hitbox: true
+                      actions:
+                      - class: Sphere
+                        radius: rand(1,2)
+                        actions:
+                          - class: Cover
+                            actions:
+                              - class: Burn
+                      - class: AreaOfEffect
+                        radius: 3
+                        actions:
+                          - class: Damage
+                          - class: Ignite
+                            duration: 7500
+                - class: Delay
+                  delay: 100
     effects:
         cast:
-        -  sound: entity_blaze_shoot
-        shoot:
         -  class: EffectSingle
-           sound: entity_blaze_shoot
-           source_location: body
-           sound_pitch: 0.8
-           sound_volume: 0.2
-           particle: smoke_large
-           particle_count: 2
-           particle_offset_x: 0.1
-           particle_offset_y: 0.1
-           particle_offset_z: 0.1
-           relative_offset: 1,0,0
+           sound: block_fire_extinguish
+           location: origin
+           color_override: color
         tick:
-        -  location: target
-           particle: flame
-           particle_count: 20
-           particle_offset_x: 0.3
-           particle_offset_y: 0.3
-           particle_offset_z: 0.3
-        hit_block:
-        -  class: EffectSingle
-           location: target
-           particle: smoke_large
-           particle_count: 5
-           particle_offset_x: 1
-           particle_offset_y: 1
-           particle_offset_z: 1
-        hit_entity:
-        -  class: EffectSingle
-           location: target
-           particle: lava
-           particle_count: 4
-           particle_offset_x: 0.2
-           particle_offset_y: 0.2
-           particle_offset_z: 0.2
+        - particle: smoke_normal
+          location: target
+        - particle: smoke_normal
+          color: false
+          particle_count: 3
+          particle_offset_x: 0.3
+          particle_offset_y: 0.3
+          particle_offset_z: 0.3
+          location: target
+        projectile:
+        - class: EffectSingle
+          effectlib:
+             class: SphereEffect
+             particle: redstone
+             color: "#ff4500"
+             duration: $lifetime
+             radius: 0.2
+             particles: 2
+             particle_count: 2
+             particle_offset_y: 0.4
+             particle_offset_x: 0.4
+             particle_offset_z: 0.4
+             particle_size: 3
+        - class: EffectSingle
+          effectlib:
+             class: SphereEffect
+             particle: flame
+             color: "#ff0000"
+             duration: $lifetime
+             radius: 0.2
+             particles: 2
+             particle_count: 2
+             particle_offset_y: 0.4
+             particle_offset_x: 0.4
+             particle_offset_z: 0.4
+             particle_size: 4
         hit:
         -  sound: block_blastfurnace_fire_crackle
            sound_pitch: 0.8
@@ -76,46 +76,43 @@ riddennightmarefire:
         -  class: EffectSingle
            location: target
            particle: smoke_large
-           particle_count: 10
-           particle_offset_x: 1.7
-           particle_offset_y: 0.5
-           particle_offset_z: 1.7
-           sound: block_fire_extinguish
-           sound_volume: .3
+           particle_count: 15
+           particle_offset_x: 1
+           particle_offset_y: 1
+           particle_offset_z: 1
+           sound: entity_blaze_shoot
+           sound_volume: 1.2
            particle_data: 0.1
         -  sound: block_campfire_crackle
            sound_pitch: 1.8
            sound_volume: 1.5
            location: target
     parameters:
-      target: other
-      target_self: false
-      target_type: LivingEntity
-      source_location: head
-      reflective: gold_block
-      ignore_blocks: false
-      destructible: solid
-      destructible_durability: 800
-      break_durability: 2
-      block_hit_count: 1
-      target_breakables: 1
-      track_target: true
-      track_speed: 0.1
-      hitbox_size: 0.3
-      range: 64
-      tick_size: 1
-      gravity: rand(0.01,0.1)
-      velocity: 30
-      lifetime: 10000
-      reorient: false
-      spread: 0.3
-      magic_damage: false
-      spread_movement_max: 0.3
-      undo: rand(7500,25000)
-      undo_speed: 5
-      spread_movement: 5
-      cooldown: rand(2000,16000)
-      speed: 0.2
-      damage: rand(6,10)
-      repeat: rand(40,90)
-
+        fov: 0.3
+        repeat: 6
+        hitbox: false
+        target_self: false
+        reflective: gold_block
+        source_location: feet
+        velocity: 35
+        size: 2
+        range: 64
+        magic_damage: false
+        cooldown: rand(1000,15000)
+        spread: 0.2
+        damage: rand(8,15)
+        hitbox_size: 1
+        ignore_blocks: false
+        target: other
+        target_type: LivingEntity
+        target_breakables: rand(1,3)
+        break_durability: rand(1,3)
+        destructible_durability: 200
+        destructible: burnable
+        block_hit_count: 1
+        track_target: true
+        lifetime: 30000
+        undo: rand(15000,30000)
+        undo_speed: 10
+        track_speed: 0.1
+        use_target_location: false

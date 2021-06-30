@@ -27,6 +27,8 @@ mountdragon:
           allowed: passthrough
           fail:
           - class: Message
+            message: "&eNo space to mount"
+            message_type: action_bar
             ignore_result: true
           - class: CastResult
             result: no_target
@@ -71,7 +73,7 @@ mountdragon:
     liftoff_duration: 200
     crash_damage: 1
     liftoff_thrust: 0.2
-    fall_protection: 1000
+    fall_protection: 700
     duration: 60000
     duration_warning: 10000
     crash_effects:

@@ -16,15 +16,15 @@ sellvaluables:
         confirm_filler: stained_glass_pane
         buy_icon: lime_wool{CustomModelData:18001}
         items:
-        - item: diamond@2
-          cost: 1
-        - item: gold_ingot@24
-          cost: 1
-        - item: iron_ingot@52
-          cost: 1
-        - item: lapis_lazuli@72
-          cost: 1
-        - item: redstone@72
-          cost: 1
-        - item: coal@128
-          cost: 1
+        - item: diamond
+          cost: 3
+        - item: gold_ingot@12
+          cost: 3
+        - item: iron_ingot@26
+          cost: 3
+        - item: lapis_lazuli@36
+          cost: 3
+        - item: redstone@36
+          cost: 3
+        - item: coal@65
+          cost: 3
