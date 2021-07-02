@@ -1,47 +1,53 @@
 firesweep:
-    name: Firesweep
-    actions:
-        cast:
-        - class: Repeat
-          actions:
-          - class: ConeOfEffect
-            actions:
-            - class: Damage
-            - class: Ignite
-            - class: Velocity
-          - class: ChangeContext
-            target_caster: true
-            actions:
-            - class: Orient
-            - class: PlayEffects
-              effects: sweep
-          - class: Delay
-    effects:
-        sweep:
-        -  class: EffectSingle
-           sound: entity_player_attack_sweep
-           sound_volume: 0.6
-           particle: sweep_attack
-           offset: 0,-0.7,0
-        -  class: EffectSingle
-           sound: entity_blaze_shoot
-           sound_volume: 0.3
-           particle: flame
-           offset: 0,-0.7,0
-    parameters:
-        allow_max_range: true
-        source_location: wand
-        target: none
-        target_type: Damageable
-        range: 4
-        fov: 0.6
-        damage: 8.5
-        duration: 5000
-        push: 1
-        target_breakables: 1
-        cooldown: 12000
-        magic_damage: false
-        instant_block_effects: true
-        yaw_offset: 40
-        repeat: 28
-        delay: 1
+  # This has been added automatically so that anything you remove here does not get inherited back in from the default configs
+  inherit: false
+  name: Firesweep
+  actions:
+    cast:
+    - class: Repeat
+      actions:
+      - class: ConeOfEffect
+        actions:
+        - class: Damage
+        - class: Ignite
+      - class: ChangeContext
+        target_caster: true
+        actions:
+        - class: Orient
+        - class: PlayEffects
+          effects: sweep
+      - class: Delay
+  effects:
+    sweep:
+    - class: EffectSingle
+      sound: entity_player_attack_sweep
+      sound_volume: 0.6
+      particle: sweep_attack
+      offset: 0,-0.7,0
+      particle_offset_y: 0.05
+      particle_offset_x: 0.7
+      particle_offset_z: 0.7
+    - class: EffectSingle
+      sound: entity_blaze_shoot
+      sound_volume: 0.3
+      particle: flame
+      offset: 0,-0.7,0
+      particle_offset_y: 0.05
+      particle_offset_x: 0.7
+      particle_offset_z: 0.7
+  parameters:
+    allow_max_range: true
+    source_location: wand
+    target: none
+    target_type: Damageable
+    range: 4
+    fov: 0.6
+    damage: 8.5
+    duration: 5000
+    target_breakables: 1
+    cooldown: 12000
+    magic_damage: false
+    instant_block_effects: true
+    yaw_offset: 40
+    repeat: 28
+    delay: 1

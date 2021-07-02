@@ -1,11 +1,13 @@
 gronckleaxe:
+  # This has been added automatically so that anything you remove here does not get inherited back in from the default configs
+  inherit: false
   creator_id: 22e0650d-d3f2-4bbc-afef-02bd3b1407ec
   creator: NightScythe1
   worth: 0.0
   item:
     ==: org.bukkit.inventory.ItemStack
     v: 2586
-    type: DIAMOND_AXE
+    type: IRON_AXE
     meta:
       ==: ItemMeta
       meta-type: UNSPECIFIC
@@ -22,7 +24,7 @@ gronckleaxe:
       attribute-modifiers:
         GENERIC_ATTACK_DAMAGE:
         - ==: org.bukkit.attribute.AttributeModifier
-          amount: 8
+          amount: 8.0
           name: Attack Damage
           slot: HAND
           uuid: 00000000-0000-0063-0000-000009ba0488

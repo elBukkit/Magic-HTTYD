@@ -1,10 +1,9 @@
-flammablecanister:
+combustiblecanister:
   # This has been added automatically so that anything you remove here does not get inherited back in from the default configs
   inherit: false
-  name: '&7Flammable Canister'
-  icon: gelcan
+  name: '&7Combustible Canister'
+  icon: gascan
   hide_flags: 127
-  upgrade_icon: dragonbladefireitem
   upgrade: true
   slot: Canister
-  active_spell: firesweep
+  active_spell: explode

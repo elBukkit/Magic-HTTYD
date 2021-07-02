@@ -1,12 +1,12 @@
-dragonblade:
+dragonbladefire:
   name: '&6Dragon Blade'
-  description: "&7Stronger and faster than diamond. Use canisters to upgrade. &8[Classic]"
+  description: "&7Stronger and faster than diamond. Use canisters to upgrade. &c[Inferno]"
   mode: cast
   locked: true
   left_click: none
   right_click: cast
   locked_allow_upgrades: true
-  icon: dragonbladeitem
+  icon: dragonbladefireitem
   item_attribute_slot: mainhand
   item_attributes:
     GENERIC_ATTACK_DAMAGE: 7.5

@@ -7,6 +7,10 @@ scalecoin:
     - nadderhelmet
     - zipplebackhelmet
     - nightmarehelmet
+    - groncklehelmetcraft
+    - groncklechestplatecraft
+    - gronckleleggingscraft
+    - groncklebootscraft
     - gronckleironsword
     - gronckleironaxe
     - gronckleironshield
@@ -15,3 +19,5 @@ scalecoin:
     - callhornnadder
     - callhornnightmare
     - callhornzippleback
+    - dragonbladecraft
+    - dragonbladefirecraft

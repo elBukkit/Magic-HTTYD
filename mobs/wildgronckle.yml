@@ -48,9 +48,11 @@ wildgronckle:
   drops:
   - GronckleIron: 10
     blaze_powder: 100
-    blaze_powder@2: 50
+    GronckleIron@3: 50
     GronckleIron@2: 30
   - GronckleIron: 70
+    none: 100
+  - GronckleIron: 50
     none: 100
   - GronckleIron: 20
     none: 100

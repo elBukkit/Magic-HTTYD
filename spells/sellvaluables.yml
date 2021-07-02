@@ -17,14 +17,14 @@ sellvaluables:
         buy_icon: lime_wool{CustomModelData:18001}
         items:
         - item: diamond
-          cost: 3
+          cost: 4
         - item: gold_ingot@12
           cost: 3
-        - item: iron_ingot@26
-          cost: 3
+        - item: iron_ingot@100
+          cost: 1
         - item: lapis_lazuli@36
-          cost: 3
+          cost: 4
         - item: redstone@36
-          cost: 3
+          cost: 4
         - item: coal@65
-          cost: 3
+          cost: 4

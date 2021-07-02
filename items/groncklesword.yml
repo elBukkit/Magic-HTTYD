@@ -1,11 +1,13 @@
 groncklesword:
+  # This has been added automatically so that anything you remove here does not get inherited back in from the default configs
+  inherit: false
   creator_id: 22e0650d-d3f2-4bbc-afef-02bd3b1407ec
   creator: NightScythe1
   worth: 0.0
   item:
     ==: org.bukkit.inventory.ItemStack
     v: 2586
-    type: DIAMOND_SWORD
+    type: IRON_SWORD
     meta:
       ==: ItemMeta
       meta-type: UNSPECIFIC
@@ -22,14 +24,14 @@ groncklesword:
       attribute-modifiers:
         GENERIC_ATTACK_DAMAGE:
         - ==: org.bukkit.attribute.AttributeModifier
-          amount: 6
+          amount: 6.0
           name: Attack Damage
           slot: HAND
           uuid: 00000000-0000-0063-0000-000009ba0488
           operation: 0
         GENERIC_ATTACK_SPEED:
         - ==: org.bukkit.attribute.AttributeModifier
-          amount: -2
+          amount: -1.8
           name: Attack Speed
           slot: HAND
           uuid: 00000000-0000-0063-0000-000009ba04ec

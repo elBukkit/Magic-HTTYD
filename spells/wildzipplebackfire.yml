@@ -70,9 +70,9 @@ wildzipplebackfire:
              particles: 10
              iterations: 3
              particle_count: 5
-             particle_offset_y: 0
+             particle_offset_y: 1
              particle_offset_x: 1
-             particle_offset_z: 0
+             particle_offset_z: 1
              particle_size: 3
     parameters:
         fov: 90

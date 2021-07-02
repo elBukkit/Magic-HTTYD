@@ -1,0 +1,12 @@
+dragonbladefirecraft:
+  enabled: true
+  output: dragonbladefire
+  output_type: wand
+  materials:
+    g: GronckleIronIngot
+    n: netherite_scrap
+    r: redstone
+    s: NightmareGel
+  row_1: "ngn"
+  row_2: "ngn"
+  row_3: "rsr"

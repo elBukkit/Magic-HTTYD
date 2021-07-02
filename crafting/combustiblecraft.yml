@@ -1,0 +1,12 @@
+combustiblecraft:
+  enabled: true
+  output: combustiblecanister
+  output_type: wand
+  materials:
+    b: bucket
+    g: GronckleIronIngot
+    z: ZipplebackGas
+    p: gunpowder
+  row_1: "gp"
+  row_2: "bz"
+  row_3: ""
