@@ -1,0 +1,6 @@
+smokerdragonmeat:
+  output: cookeddragonmeat
+  type: smoking
+  ingredient: rawdragonmeat
+  cooking_time: 8 seconds
+  experience: 10

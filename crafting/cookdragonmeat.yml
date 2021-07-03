@@ -1,0 +1,6 @@
+cookdragonmeat:
+  output: cookeddragonmeat
+  type: furnace
+  ingredient: rawdragonmeat
+  cooking_time: 16 seconds
+  experience: 10

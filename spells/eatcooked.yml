@@ -1,0 +1,10 @@
+eatcooked:
+    name: Eat
+    actions:
+        cast:
+          - class: Feed
+            feed: 6
+    parameters:
+        target_self: true
+        bypass_mage_cooldown: true
+        target: self

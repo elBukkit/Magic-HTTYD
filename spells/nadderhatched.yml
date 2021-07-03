@@ -20,6 +20,8 @@ nadderhatched:
                     message: Name your egg in an anvil, and then right click to hatch!
                     message_target: true
                     message_type: chat
+                  - class: ApplyCooldown
+                    duration: 10000
     effects:
       crack:
         -  sound: entity_turtle_egg_hatch
@@ -54,6 +56,7 @@ nadderhatched:
         target_self: true
         cooldown: 8000
         amount: 1
+        target_count: 1
         target: self
         allow_max_range: false
         range: 8

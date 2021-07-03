@@ -1,0 +1,10 @@
+rawdragonmeat:
+    name: '&rRaw Dragon Meat'
+    locked: true
+    consume_spell: eatraw
+    craftable: true
+    icon: rawdragonmeatitem
+    discover_recipes:
+    - cookdragonmeat
+    - smokerdragonmeat
+    - campfiredragonmeat

@@ -4,6 +4,7 @@ dragonblade:
   mode: cast
   locked: true
   left_click: none
+  enchantable: true
   right_click: cast
   locked_allow_upgrades: true
   icon: dragonbladeitem

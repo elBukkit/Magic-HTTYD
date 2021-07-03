@@ -88,9 +88,15 @@ block_skins:
 # Note that these refer to Bukkit API InventoryType enums, not necessarily the same as a block or Material name.
 # If you don't want players to be able to put wands in their ender chest, you can add ender_chest to this list.
 unstashable_containers:
-  - ender_chest
+  - chest
+  - furnace
   - hopper
+  - dispenser
+  - dropper
   - shulker_box
+  - barrel
+  - smoker
+  - blast_furnace
 #
 # Special materials used to represent icons in the material brush system
 #
@@ -223,7 +229,7 @@ damage_types:
     max_strength: 5
     max_weakness: 10
   fire:
-    max_reduction: 0.5
+    max_reduction: 1
     max_strength: 5
     max_weakness: 10
   physical:
@@ -231,7 +237,7 @@ damage_types:
     max_strength: 5
     max_weakness: 10
   projectile:
-    max_reduction: 0.2
+    max_reduction: 1
     max_strength: 5
     max_weakness: 10
   magic:
@@ -749,7 +755,7 @@ protect_locked: true
 # Visible particle max range
 # Decrease this if you find you have client or server performance issues
 # Related to particle range
-particle_range: 96
+particle_range: 48
 
 # How many casts to track in the undo queue
 undo_depth: 128
@@ -993,6 +999,12 @@ console_bypass_locked_wands: true
 # They can be turned on/off for each effect using enable_vanilla_sounds on the effect config as well
 enable_vanilla_sounds: true
 
+# Set this to false to turn off all custom sounds by default
+# They can be turned on/off for each effect using enable_custom_sounds on the effect config as well
+# Turning this off will save a few server->client packets if you don't use the resource pack but still
+# use the builtin spell configs.
+enable_custom_sounds: true
+
 # Set this to false if you have players who are stuck invisible.
 # this may have been caused by a bug in previous versions of magic.
 allow_player_persistent_invisibility: true
@@ -1176,6 +1188,7 @@ enchant_click_requires_wand: true
 # enchant_block: enchantment_table
 enchant_block: ""
 
+
 #
 # These are examples that can be fetched via the `/mconfig fetch` command
 #
@@ -1185,6 +1198,7 @@ external_examples:
   extramobs: "https://github.com/PhvntxmX/Magic-Bosses/archive/main.zip"
   mars: "https://github.com/elBukkit/Magic-Mars/archive/main.zip"
   pride: "https://github.com/elBukkit/Magic-Pride/archive/main.zip"
+  httyd: "https://github.com/elBukkit/Magic-HTTYD/archive/main.zip"
 ### Plugin Integration
 
 # Add Magic NPC trait (/trait magic) to Citizens
@@ -1551,7 +1565,7 @@ nether_portal: nether_portal,portal
 writable_book: writable_book,book_and_quill
 # This resource pack will automatically be used if none is defined in your server.properties
 # Set this to "" if you have some other plugin or Bungee managing resource packs.
-resource_pack: "http://rp.elmakers.com/Magic-RP-8.5-1.16.zip"
+resource_pack: "http://rp.elmakers.com/Magic-RP-1.17.zip"
 
 # Use this to turn off all resource pack functionality
 enable_resource_pack: true
@@ -1598,18 +1612,18 @@ resource_pack_default_auto: true
 # Alternate resource packs can be accessed with /getrp <pack>
 alternate_resource_packs:
   borders:
-    url: "http://rp.elmakers.com/Magic-potter-RP-8.5-1.16.zip"
+    url: "http://rp.elmakers.com/Magic-potter-RP-1.17.zip"
   painterly:
-    url: "http://rp.elmakers.com/Magic-painterly-RP-8.5-1.16.zip"
+    url: "http://rp.elmakers.com/Magic-painterly-RP-1.17.zip"
   lowres:
-    url: "http://rp.elmakers.com/Magic-lowres-RP-8.5-1.16.zip"
+    url: "http://rp.elmakers.com/Magic-lowres-RP-1.17.zip"
   hires:
-    url: "http://rp.elmakers.com/Magic-hires-RP-8.5-1.16.zip"
+    url: "http://rp.elmakers.com/Magic-hires-RP-1.17.zip"
   skulls:
-    url: "http://rp.elmakers.com/Magic-skulls-RP-8.5-1.16.zip"
+    url: "http://rp.elmakers.com/Magic-skulls-RP-1.17.zip"
     url_icons_enabled: true
   survival:
-    url: "http://rp.elmakers.com/Magic-RP-8.5-1.16.zip"
+    url: "http://rp.elmakers.com/Magic-RP-1.17.zip"
 # This defines which Materials make up skulls, used for backwards-compatibility
 skulls:
   skeleton:

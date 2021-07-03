@@ -1,0 +1,10 @@
+eatraw:
+    name: Eat
+    actions:
+        cast:
+          - class: Feed
+            feed: 1
+    parameters:
+        target_self: true
+        bypass_mage_cooldown: true
+        target: self

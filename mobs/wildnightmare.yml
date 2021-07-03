@@ -51,6 +51,10 @@ wildnightmare:
     blaze_powder@2: 100
     blaze_powder@4: 50
     blaze_powder: 20
+    DragonBone: 30
+    DragonHide: 60
+    DragonBone@2: 30
+    DragonHide@2: 60
   - NightmareGel: 20
     none: 100
   - NightmareGel: 20
@@ -64,6 +68,12 @@ wildnightmare:
     scalecoin@4: 25
     scalecoin@5: 25
     none: 25
+  - rawdragonmeat: 90
+    rawdragonmeat@2: 50
+    rawdragonmeat@3: 30
+    DragonBone: 50
+    DragonHide: 50
+    none: 30
   potion_effects:
   - type: fire_resistance
     amplifier: 1

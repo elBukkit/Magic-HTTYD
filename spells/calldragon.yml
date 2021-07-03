@@ -59,7 +59,7 @@ calldragon:
         target: other
         target_types:
           - zombie_horse
-        range: 150
+        range: 200
         item_speed: 2
         living_entity_speed: 1
         push: -1

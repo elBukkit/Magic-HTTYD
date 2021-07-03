@@ -50,17 +50,27 @@ wildgronckle:
     blaze_powder: 100
     GronckleIron@3: 50
     GronckleIron@2: 30
+    DragonBone: 30
+    DragonHide: 60
+    DragonBone@2: 30
+    DragonHide@2: 60
   - GronckleIron: 70
     none: 100
   - GronckleIron: 50
     none: 100
-  - GronckleIron: 20
+  - GronckleIron@2: 20
     none: 100
   - scalecoin@2
   - scalecoin@1: 25
     scalecoin@2: 25
     scalecoin@3: 25
     none: 25
+  - rawdragonmeat: 90
+    rawdragonmeat@2: 50
+    rawdragonmeat@3: 30
+    DragonBone: 50
+    DragonHide: 50
+    none: 30
   potion_effects:
   - type: fire_resistance
     amplifier: 1

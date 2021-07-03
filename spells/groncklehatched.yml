@@ -20,6 +20,8 @@ groncklehatched:
                     message: Name your egg in an anvil, and then right click to hatch!
                     message_target: true
                     message_type: chat
+                  - class: ApplyCooldown
+                    duration: 10000
     effects:
       crack:
         -  sound: entity_turtle_egg_hatch
@@ -53,6 +55,7 @@ groncklehatched:
         fov: 90
         target_self: true
         cooldown: 8000
+        target_count: 1
         amount: 1
         target: self
         allow_max_range: false

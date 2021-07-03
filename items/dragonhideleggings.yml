@@ -1,0 +1,26 @@
+dragonhideleggings:
+  creator_id: 22e0650d-d3f2-4bbc-afef-02bd3b1407ec
+  creator: NightScythe1
+  worth: 0.0
+  item:
+    ==: org.bukkit.inventory.ItemStack
+    v: 2586
+    type: LEATHER_LEGGINGS
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: '[{"text":"Dragon Hide Leggings","italic":false}]'
+      lore:
+      - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"black","text":"."}],"text":""}'
+      - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"When on Legs:"},{"italic":false,"color":"gray","text":""}],"text":""}'
+      - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"dark_aqua","text":"+4 Armor"}],"text":""}'
+      attribute-modifiers:
+        GENERIC_ARMOR:
+        - ==: org.bukkit.attribute.AttributeModifier
+          amount: 4.0
+          name: generic.armor
+          slot: LEGS
+          uuid: fffe254c-0000-2eb2-0000-2d06ffffa29c
+          operation: 0
+      ItemFlags:
+      - HIDE_ATTRIBUTES

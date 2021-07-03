@@ -1,0 +1,6 @@
+campfiredragonmeat:
+  output: cookeddragonmeat
+  type: campfire
+  ingredient: rawdragonmeat
+  cooking_time: 16 seconds
+  experience: 10

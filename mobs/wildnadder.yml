@@ -52,6 +52,10 @@ wildnadder:
     blaze_powder: 100
     blaze_powder@2: 20
     NadderSpine@2: 50
+    DragonBone: 30
+    DragonHide: 60
+    DragonBone@2: 30
+    DragonHide@2: 60
   - NadderSpine: 40
     none: 100
   - NadderSpine: 50
@@ -63,6 +67,12 @@ wildnadder:
     scalecoin@2: 25
     scalecoin@3: 25
     none: 25
+  - rawdragonmeat: 90
+    rawdragonmeat@2: 50
+    rawdragonmeat@3: 30
+    DragonBone: 50
+    DragonHide: 50
+    none: 30
   potion_effects:
   - type: fire_resistance
     amplifier: 1

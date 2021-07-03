@@ -9,7 +9,7 @@ zipplebackmount:
     steer_speed: 0.025
     max_speed: 0.2
     max_acceleration: 0.006
-    max_height_above_ground: 35
+    max_height_above_ground: 55
     duration: 60000
 
 zipplebackmount|2:
@@ -21,7 +21,7 @@ zipplebackmount|2:
     steer_speed: 0.035
     max_speed: 0.35
     max_acceleration: 0.009
-    max_height_above_ground: 50
+    max_height_above_ground: 85
     duration: 80000
 
 zipplebackmount|3:
@@ -34,7 +34,7 @@ zipplebackmount|3:
     steer_speed: 0.04
     max_speed: 0.45
     max_acceleration: 0.012
-    max_height_above_ground: 65
+    max_height_above_ground: 125
     duration: 120000
 
 zipplebackmount|4:
@@ -47,7 +47,7 @@ zipplebackmount|4:
     steer_speed: 0.055
     max_speed: 0.55
     max_acceleration: 0.017
-    max_height_above_ground: 80
+    max_height_above_ground: 145
     duration: 160000
 
 zipplebackmount|5:
@@ -60,5 +60,5 @@ zipplebackmount|5:
     steer_speed: 0.07
     max_speed: 0.75
     max_acceleration: 0.022
-    max_height_above_ground: 150
+    max_height_above_ground: 160
     duration: 240000

@@ -61,19 +61,19 @@ explode:
         particle_offset_y: 0
         particle_offset_x: 0
         particle_offset_z: 0
-    parameters:
-        fov: 0.3
-        hitbox: false
-        velocity: 50
-        allow_max_range: false
-        source_location: wand
-        track_target: true
-        track_speed: 0.1
-        hitbox_size: 0.5
-        target: other
-        damage: 10
-        target_breakables: 1
-        cooldown_mage: 9000
-        lifetime: 5000
-        target_self_timeout: 2000
-        use_target_location: false
+  parameters:
+      fov: 0.3
+      hitbox: false
+      velocity: 50
+      allow_max_range: false
+      source_location: wand
+      track_target: true
+      track_speed: 0.1
+      hitbox_size: 0.5
+      target: other
+      damage: 10
+      target_breakables: 1
+      cooldown_mage: 8000
+      lifetime: 5000
+      target_self_timeout: 2000
+      use_target_location: false
