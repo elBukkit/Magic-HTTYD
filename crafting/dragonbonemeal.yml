@@ -1,0 +1,9 @@
+dragonbonemeal:
+  enabled: true
+  output: bone_meal@9
+  output_type: item
+  materials:
+    u: DragonBone
+  row_1: "u"
+  row_2: ""
+  row_3: ""

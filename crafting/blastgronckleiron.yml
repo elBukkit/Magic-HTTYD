@@ -1,0 +1,6 @@
+blastgronckleiron:
+  output: GronckleIronIngot
+  type: blasting
+  ingredient: GronckleIron
+  cooking_time: 120 seconds
+  experience: 15

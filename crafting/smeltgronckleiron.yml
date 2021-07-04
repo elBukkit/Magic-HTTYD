@@ -1,0 +1,6 @@
+smeltgronckleiron:
+  output: GronckleIronIngot
+  type: furnace
+  ingredient: GronckleIron
+  cooking_time: 240 seconds
+  experience: 15

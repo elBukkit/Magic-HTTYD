@@ -1,0 +1,9 @@
+dragonhideleather:
+  enabled: true
+  output: leather@3
+  output_type: item
+  materials:
+    u: DragonHide
+  row_1: "u"
+  row_2: ""
+  row_3: ""
