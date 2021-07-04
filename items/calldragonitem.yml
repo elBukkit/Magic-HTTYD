@@ -9,4 +9,4 @@ calldragonitem:
     meta:
       ==: ItemMeta
       meta-type: UNSPECIFIC
-      custom-model-data: 50
+      custom-model-data: 40

@@ -1,0 +1,45 @@
+eyegronckle:
+    name: "&6Gronckle"
+    icon: green_stained_glass
+    actions:
+        cast:
+        - class: Book
+    parameters:
+      target: self
+      virtual_book: true
+      pages:
+        1:
+          - "&2&l&nGronckle"
+          - "&r "
+          - "&rA common but dangerous dragon, Gronckles define boulder class with their stonebreaking blasts and stable flight."
+        2:
+          - "&2&l&nHunting"
+          - "&r "
+          - "&2Habitat: &rGronckles appear in forests."
+          - "&2Fire: &rGronckles shoot a lavablast that ignites targets and damages all surrounding blocks."
+          - "&2Physicality: &rGronckles have below average health, average bite, and above average defence."
+        3:
+          - "&2&l&nSlaying"
+          - "&r "
+          - "&2Drops: &rGronckles drop raw Gronckle Iron, a very strong resource that outranks regular iron by far."
+          - "&rThey also drop a small amount of gold, and the standard bones, meat, and hide."
+        4:
+          - "&2&l&nHatching"
+          - "&r "
+          - "&rA Gronckle egg requires the heat of a magma block, and relative darkness to hatch."
+        5:
+          - "&2&l&nRiding"
+          - "&r "
+          - "&rGronckles fly at low speeds, but are very agile and can reverse easily."
+          - "&rTheir lavablast recharges relatively fast."
+        6:
+          - "&2&l&nAvg Wild Values"
+          - "&r "
+          - "&rHealth: &240"
+          - "&rScale Toughness: &212"
+          - "&rArrow Resist: &260%"
+          - "&rBite Strength: &28"
+          - "&rFirepower: &25-11"
+          - "&rBurn: &24.5s"
+          - "&rAccuracy: &265%"
+          - "&rRecharge: &23-12s"

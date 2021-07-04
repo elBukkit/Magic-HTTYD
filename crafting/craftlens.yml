@@ -1,0 +1,11 @@
+craftlens:
+  enabled: true
+  output: lens
+  output_type: wand
+  materials:
+    h: GronckleIronIngot
+    b: DragonBone
+    d: diamond
+  row_1: "hbh"
+  row_2: "bdb"
+  row_3: "hbh"

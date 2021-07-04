@@ -1,0 +1,45 @@
+eyenightmare:
+    name: "&6Monstrous Nightmare"
+    icon: red_stained_glass
+    actions:
+        cast:
+        - class: Book
+    parameters:
+      target: self
+      virtual_book: true
+      pages:
+        1:
+          - "&c&l&nMonstrous Nightmare"
+          - "&r "
+          - "&rA staple of the stoker class, the Monstrous Nightmare is a fierce, fire breathing menace. These dragons can be hard to come by and harder to tame, but make for a worthy adversary or ally."
+        2:
+          - "&c&l&nHunting"
+          - "&r "
+          - "&cHabitat: &rThe Nightmare dwells in hot deserts."
+          - "&cFire: &rThe Nightmare's fire is a short stream of red, with very high damage and burning."
+          - "&cPhysicality: &rThe Nightmare has relatively high health and above average defence, but its bite is deadly."
+        3:
+          - "&c&l&nSlaying"
+          - "&r "
+          - "&cDrops: &rNightmares drop their gel, a flammable substance that can be used in different contraptions and weapons."
+          - "&rThese creatures also yield their horns, a plentiful amount of gold, and the standard bones, meat, and hide."
+        4:
+          - "&c&l&nHatching"
+          - "&r "
+          - "&rA Nightmare egg requires the heat of a magma block, and relative darkness to hatch. These eggs take longer than usual to hatch."
+        5:
+          - "&c&l&nRiding"
+          - "&r "
+          - "&rNightmares fly at above average speeds, but they have more trouble turning and stopping. They can accelerate quickly."
+          - "&rNightmares take longer to recharge their fire, due to the power of their blasts."
+        6:
+          - "&c&l&nAvg Wild Values"
+          - "&r "
+          - "&rHealth: &c130"
+          - "&rScale Toughness: &c13"
+          - "&rArrow Resist: &c70%"
+          - "&rBite Strength: &c21"
+          - "&rFirepower: &c(8-15)x6"
+          - "&rBurn: &c7.5s"
+          - "&rAccuracy: &c80%"
+          - "&rRecharge: &c3-20s"

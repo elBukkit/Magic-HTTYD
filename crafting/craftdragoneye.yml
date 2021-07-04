@@ -1,0 +1,11 @@
+craftdragoneye:
+  enabled: true
+  output: dragoneye
+  output_type: wand
+  materials:
+    g: GronckleIronIngot
+    l: lens
+    h: DragonHide
+  row_1: "hlh"
+  row_2: "hgh"
+  row_3: "hlh"

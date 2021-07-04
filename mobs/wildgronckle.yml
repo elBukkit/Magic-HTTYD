@@ -23,7 +23,7 @@ wildgronckle:
     projectile: 0.6
   entity_attributes:
     generic_attack_damage: 8
-    generic_armor: 10
+    generic_armor: 12
     generic_knockback_resistance: 0.5
   triggers:
     spawn:
@@ -71,6 +71,13 @@ wildgronckle:
     DragonBone: 50
     DragonHide: 50
     none: 30
+  - stokerlens: 1
+    strikelens: 1
+    sharplens: 1
+    boulderlens: 1
+    mysterylens: 1
+    tidallens: 1
+    none: 100
   potion_effects:
   - type: fire_resistance
     amplifier: 1

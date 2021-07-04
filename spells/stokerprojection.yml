@@ -1,0 +1,33 @@
+stokerprojection:
+    name: Stoker Projection
+    actions:
+        cast:
+          - class: Selector
+    effects:
+        cast:
+        -  sound: block_beacon_activate
+           sound_pitch: 0.75
+           sound_volume: 0.8
+        -  sound: entity_enderman_teleport
+           sound_pitch: 0.25
+           sound_volume: 0.5
+        -  class: EffectSingle
+           sound: magic.teleport
+           sound_volume: 0.8
+           sound_pitch: 0.3
+           source_location: eyes
+           color_override: color
+           effectlib:
+              class: WarpEffect
+              duration: 5000
+              period: 1
+              particle: redstone
+              color: "#ff4500"
+              particle_offset_x: 0.1
+              particle_offset_y: 0.1
+              particle_offset_z: 0.1
+              radius: 1
+              offset: 0,-1,0
+    parameters:
+      options:
+       - cast_spell: eyenightmare

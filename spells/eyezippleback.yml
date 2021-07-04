@@ -1,0 +1,46 @@
+eyezippleback:
+    name: "&6Hideous Zippleback"
+    icon: purple_stained_glass
+    actions:
+        cast:
+        - class: Book
+    parameters:
+      target: self
+      virtual_book: true
+      pages:
+        1:
+          - "&5&l&nHideous Zippleback"
+          - "&r "
+          - "&rThe most well known mystery class dragon, the Zippleback's agility and explosive, posionous blasts make it a force to be reckoned with."
+        2:
+          - "&5&l&nHunting"
+          - "&r "
+          - "&5Habitat: &rZipplebacks live in swamps."
+          - "&5Fire: &rZipplebacks shoot powerful, explosive poisonous gas."
+          - "&5Physicality: &rZipplebacks have above average health, and average defence & bite."
+        3:
+          - "&5&l&nSlaying"
+          - "&r "
+          - "&5Drops: &rZipplebacks drop their gas, useful for crafting with."
+          - "&rThey also drop their horns, a good amount of gold, and the standard bones, meat, and hide."
+        4:
+          - "&5&l&nHatching"
+          - "&r "
+          - "&rA Zippleback egg requires the heat of a magma block, and relative darkness to hatch."
+        5:
+          - "&5&l&nRiding"
+          - "&r "
+          - "&rZipplebacks fly at just below average speeds, but are very agile."
+          - "&rTheir blasts take longer than the average dragon to recharge, due to power."
+        6:
+          - "&5&l&nAvg Wild Values"
+          - "&r "
+          - "&rHealth: &580"
+          - "&rScale Toughness: &510"
+          - "&rArrow Resist: &560%"
+          - "&rBite Strength: &58"
+          - "&rFirepower: &55-13"
+          - "&rBurn: &52.5s"
+          - "&rGas: &53s"
+          - "&rAccuracy: &580%"
+          - "&rRecharge: &55-20s"

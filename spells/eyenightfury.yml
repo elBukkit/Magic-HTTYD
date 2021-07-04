@@ -1,0 +1,45 @@
+eyenightfury:
+    name: "&6Night Fury"
+    icon: blue_stained_glass
+    actions:
+        cast:
+        - class: Book
+    parameters:
+      target: self
+      virtual_book: true
+      pages:
+        1:
+          - "&9&l&nNight Fury"
+          - "&r "
+          - "&rRegarded as the unholy offspring of lightning and death itself. This dragon is almost a sure sign of death. Engage with caution."
+        2:
+          - "&9&l&nHunting"
+          - "&r "
+          - "&9Habitat: &rUnknown"
+          - "&9Fire: &rNight Furies launch a devastating plasma blast, able to smite any unlucky person or level a building."
+          - "&9Physicality: &rNight Furies appear to have very high health, and high defense. They only fight from afar."
+        3:
+          - "&9&l&nSlaying"
+          - "&r "
+          - "&9Drops: &rA Night Fury's drops are unknown."
+          - "&rIt can be assumed they drop a lot of gold, along with bones, meat, and hide."
+        4:
+          - "&9&l&nHatching"
+          - "&r "
+          - "&rA Night Fury egg requires the heat of a magma block, and total pitch-black darkness to hatch."
+        5:
+          - "&9&l&nRiding"
+          - "&r "
+          - "&rNight Furies fly at incredibly high speeds, and are immensely agile."
+          - "&rTheir plasma blast takes longer than usual to charge due to its power."
+        6:
+          - "&9&l&nAvg Wild Values"
+          - "&r "
+          - "&rHealth: &9250"
+          - "&rScale Toughness: &916"
+          - "&rArrow Resist: &970%"
+          - "&rBite Strength: &9N/A"
+          - "&rFirepower: &917-40"
+          - "&rBurn: &93s"
+          - "&rAccuracy: &999%"
+          - "&rRecharge: &94-16s"

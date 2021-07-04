@@ -79,7 +79,7 @@ riddengroncklefire:
            sound_volume: 1.5
            location: target
     parameters:
-        fov: 0.3
+        fov: 0.6
         hitbox: false
         target_self: false
         reflective: gold_block

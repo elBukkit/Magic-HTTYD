@@ -73,6 +73,13 @@ wildnadder:
     DragonBone: 50
     DragonHide: 50
     none: 30
+  - stokerlens: 1
+    strikelens: 1
+    sharplens: 1
+    boulderlens: 1
+    mysterylens: 1
+    tidallens: 1
+    none: 100
   potion_effects:
   - type: fire_resistance
     amplifier: 1

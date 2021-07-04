@@ -1,0 +1,7 @@
+lens:
+    name: "&rLens"
+    icon: dragoneyelens
+    craftable: true
+    locked: true
+    discover_recipes:
+    - dragoneyecraft

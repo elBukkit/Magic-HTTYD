@@ -1,0 +1,45 @@
+eyenadder:
+    name: "&6Deadly Nadder"
+    icon: light_gray_stained_glass
+    actions:
+        cast:
+        - class: Book
+    parameters:
+      target: self
+      virtual_book: true
+      pages:
+        1:
+          - "&7&l&nDeadly Nadder"
+          - "&r "
+          - "&rThe highly versatile and precise sharp class dragon, the Nadder sets a high standard for dragons to meet."
+        2:
+          - "&7&l&nHunting"
+          - "&r "
+          - "&7Habitat: &rNadders are at home in birchwoods."
+          - "&7Fire: &rNadders shoot their accurate and deadly spines."
+          - "&7Physicality: &rNadders have average health, defence, and bite."
+        3:
+          - "&7&l&nSlaying"
+          - "&r "
+          - "&7Drops: &rDeadly Nadders drop their tail spines, useful for creating weapons or whittling into arrows."
+          - "&rThey also drop their horns, an average of gold, and the standard bones, meat, and hide."
+        4:
+          - "&7&l&nHatching"
+          - "&r "
+          - "&rA Nadder egg requires the heat of a magma block, and relative darkness to hatch."
+        5:
+          - "&7&l&nRiding"
+          - "&r "
+          - "&rNadders fly at above average speeds, and are quite agile."
+          - "&rTheir spines recharge quite quickly."
+        6:
+          - "&7&l&nAvg Wild Values"
+          - "&r "
+          - "&rHealth: &765"
+          - "&rScale Toughness: &710"
+          - "&rArrow Resist: &760%"
+          - "&rBite Strength: &78"
+          - "&rSpine dmg: &7(3-7)x(4-7)"
+          - "&rBurn: &7N/A"
+          - "&rAccuracy: &795%"
+          - "&rRecharge: &72.5-12s"

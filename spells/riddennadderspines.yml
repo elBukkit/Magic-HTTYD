@@ -48,7 +48,7 @@ riddennadderspines:
            sound_volume: 0.7
            location: target
     parameters:
-        fov: 0.3
+        fov: 0.6
         hitbox: false
         target_self: false
         reflective: gold_block

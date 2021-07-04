@@ -1,4 +1,26 @@
-damage_types:
+
+ inherit: survival
+ skip_inherited:
+  - wands
+  - paths
+  - crafting
+  - classes
+  - spells
+  - worlds
+  - paths
+  - modifiers
+  - mobs
+  - messages
+  - items
+  - kits
+  - automata
+  - attributes
+
+
+
+ sp_enabled: false
+
+ damage_types:
   overall:
     max_reduction: 0.2
     max_strength: 5
@@ -20,7 +42,7 @@ damage_types:
     max_strength: 5
     max_weakness: 10
   projectile:
-    max_reduction: 0.2
+    max_reduction: 1
     max_strength: 5
     max_weakness: 10
   magic:

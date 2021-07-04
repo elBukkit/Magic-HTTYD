@@ -1,0 +1,9 @@
+spells:
+  default:
+    cast_player_message: a:&8&l$player &r&8used &7&o$spell &r&8on you!
+    indirect_player_message: a:&8&l$player &r&8used &7&o$spell &r&8on you!
+wand:
+  upgrade_item_description: '&eDrop on an item to upgrade'
+dynmap:
+  spells_markerset: Actions
+  wands_markerset: Items
