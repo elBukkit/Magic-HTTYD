@@ -1,0 +1,10 @@
+dragonrider:
+  locked: false
+  effect_color: black
+  spells:
+  - groncklemount
+  - naddermount
+  - zipplebackmount
+  - nightmaremount
+  - nightfurymount
+  - skrillmount

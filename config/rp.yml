@@ -1,5 +1,5 @@
 # Use a special RP
-resource_pack: "https://www.dropbox.com/s/i9cfkha33twy6pz/recipes.zip?dl=1"
+resource_pack: "https://www.dropbox.com/s/7gtxkfqoaf51xm5/skrill.zip?dl=1"
 
 # Use a different RP when combined with other configs
 # add_resource_pack: "http://<somewhere else or maybe same place? not sure eventually this would be a combined one>.zip"
@@ -7,4 +7,4 @@ resource_pack: "https://www.dropbox.com/s/i9cfkha33twy6pz/recipes.zip?dl=1"
 # Alternate resource packs can be accessed with /getrp <pack>
 alternate_resource_packs:
   httyd:
-    url: "https://www.dropbox.com/s/i9cfkha33twy6pz/recipes.zip?dl=1"
+    url: "https://www.dropbox.com/s/7gtxkfqoaf51xm5/skrill.zip?dl=1"

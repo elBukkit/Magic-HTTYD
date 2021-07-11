@@ -1,0 +1,29 @@
+skrillmove:
+  name: Lightning Ride
+  actions:
+    cast:
+    - class: CheckRequirements
+      requirements:
+        - weather: thunder
+    - class: ChangeContext
+      source_is_target: true
+    - class: Spread
+      actions:
+            - class: Teleport
+              safe: false
+            - class: Lightning
+    effects:
+        cast:
+        -  class: EffectSingle
+           requires_entity_target: true
+           sound: dragon.skrill1
+           location: origin
+           sound_volume: 2
+           color_override: color
+  parameters:
+    allow_max_range: false
+    target_self: true
+    target: self
+    range: 32
+    cooldown: rand(1000,10000)
+    radius: rand(24,64)

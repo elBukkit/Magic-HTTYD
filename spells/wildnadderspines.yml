@@ -3,6 +3,7 @@ wildnadderspines:
     actions:
         cast:
         - class: Repeat
+          requires_entity_target: true
           actions:
             - class: Asynchronous
               actions:
@@ -28,6 +29,7 @@ wildnadderspines:
     effects:
         shoot:
         -  class: EffectSingle
+           requires_entity_target: true
            sound: entity_arrow_shoot
            source_location: feet
            sound_pitch: 0.3
@@ -67,7 +69,8 @@ wildnadderspines:
         range: 32
         cooldown: rand(1500,12000)
         damage: rand(3,7)
-        hitbox_size: 0.1
+        hitbox_size: 0.3
+        hitbox_block_size: 0.1
         block_hit_count: 1
         undo: rand(8000,60000}
         undo_speed: 30

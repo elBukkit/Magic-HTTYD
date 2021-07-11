@@ -25,11 +25,12 @@ riddennightmarefire:
                           - class: Ignite
                             duration: 7500
                 - class: Delay
-                  delay: 100
+                  delay: 200
     effects:
         cast:
         -  class: EffectSingle
-           sound: block_fire_extinguish
+           sound: entity_blaze_shoot
+           sound_pitch: -2
            location: origin
            color_override: color
         tick:
@@ -69,22 +70,22 @@ riddennightmarefire:
              particle_offset_x: 0.4
              particle_offset_z: 0.4
              particle_size: 4
-        hit:
+        hit_entity:
         -  sound: block_blastfurnace_fire_crackle
-           sound_pitch: 0.8
+           sound_pitch: -2
            location: target
         -  class: EffectSingle
            location: target
            particle: smoke_large
-           particle_count: 15
+           particle_count: 50
            particle_offset_x: 1
            particle_offset_y: 1
            particle_offset_z: 1
-           sound: entity_blaze_shoot
-           sound_volume: 1.2
+           sound: block_fire_extinguish
+           sound_volume: 5
            particle_data: 0.1
         -  sound: block_campfire_crackle
-           sound_pitch: 1.8
+           sound_pitch: -2
            sound_volume: 1.5
            location: target
     parameters:
@@ -96,12 +97,13 @@ riddennightmarefire:
         source_location: feet
         velocity: 35
         size: 2
-        range: 64
+        range: 100
         magic_damage: false
-        cooldown: rand(1000,15000)
+        cooldown: rand(3000,18000)
         spread: 0.2
         damage: rand(8,15)
-        hitbox_size: 1
+        hitbox_size: 0.8
+        hitbox_block_size: 0.1
         ignore_blocks: false
         target: other
         target_type: LivingEntity

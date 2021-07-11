@@ -1,0 +1,14 @@
+skrillegg:
+    name: "&6Skrill"
+    description: "&8Dragon Egg. Name in an anvil before hatching."
+    mode: cast
+    hide_flags: 127
+    keep: false
+    effect_sound: entity_turtle_egg_crack
+    effect_sound_interval: 30000.0
+    locked: false
+    bound: false
+    uses: 1
+    indestructible: true
+    active_spell: skrillhatch
+    icon: skrilleggitem

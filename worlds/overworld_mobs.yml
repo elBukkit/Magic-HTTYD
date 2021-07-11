@@ -12,18 +12,10 @@ overworld_mobs:
       - enderman
       - llama
       - sheep
-      probability: 0.00001
+      probability: 0.0001
       cooldown: 600000
       replace_type:
         flockspawner: 1
-      biomes:
-        - wooded_mountains
-        - mountains
-        - mountain_edge
-        - gravelly_mountains
-        - snowy_mountains
-        - taiga_mountains
-        - sunflower_plains
 
 
 
@@ -44,7 +36,7 @@ overworld_mobs:
       - creeper
       - skeleton
       - husk
-      probability: 0.05
+      probability: 0.04
       cooldown: 30000
       replace_type:
         wildterror: 100
@@ -69,17 +61,13 @@ overworld_mobs:
       - creeper
       - skeleton
       - husk
-      probability: 0.001
+      probability: 0.006
       cooldown: 50000
       replace_type:
         wildgronckle: 1
       biomes:
         - wooded_mountains
         - forest
-        - beach
-        - gravelly_mountains
-        - jungle
-        - stone_shore
         - wooded_hills
 
 
@@ -101,17 +89,13 @@ overworld_mobs:
       - creeper
       - skeleton
       - husk
-      probability: 0.0004
+      probability: 0.004
       cooldown: 100000
       replace_type:
         wildnadder: 1
       biomes:
-        - river
         - birch_forest
-        - beach
         - tall_birch_forest
-        - birch_forest_hills
-        - jungle
         - birch_forest_hills
 
 
@@ -133,18 +117,13 @@ overworld_mobs:
       - creeper
       - skeleton
       - husk
-      probability: 0.0001
+      probability: 0.002
       cooldown: 200000
       replace_type:
         wildzippleback: 1
       biomes:
-        - jungle
-        - bamboo_jungle
         - swamp
-        - dark_forest
-        - jungle_hills
-        - jungle_edge
-        - dark_forest_hills
+        - swamp_hills
 
 
 
@@ -166,29 +145,25 @@ overworld_mobs:
       - creeper
       - skeleton
       - husk
-      probability: 0.0001
+      probability: 0.001
       cooldown: 300000
       replace_type:
         wildnightmare: 1
       biomes:
-        - savanna
         - desert
-        - badlands
-        - badlands_plateau
-        - savanna_plateau
-        - shattered_savanna
         - desert_hills
 
 
 
-    replace_nightfury:
+    replace_strike:
       class: Replace
       y_offset: 25
       highest_block: true
       target_types:
       - phantom
       - enderman
-      probability: 0.00001
+      probability: 0.001
       cooldown: 1800000
       replace_type:
         wildnightfury: 1
+        wildskrill: 2

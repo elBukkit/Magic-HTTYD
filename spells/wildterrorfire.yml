@@ -11,7 +11,7 @@ wildterrorfire:
             actions:
               - class: Damage
               - class: Ignite
-                duration: 2000
+                duration: 5000
     effects:
         cast:
         -  class: EffectSingle
@@ -74,7 +74,8 @@ wildterrorfire:
         cooldown: rand(1500,8000)
         block_hit_count: 1
         damage: rand(1,6)
-        hitbox_size: 0.01
+        hitbox_size: 0.5
+        hitbox_block_size: 0.01
         target_type: Damageable
         track_target: true
         lifetime: 30000

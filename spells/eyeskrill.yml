@@ -1,0 +1,46 @@
+eyeskrill:
+    name: "&6Skrill"
+    icon: blue_stained_glass
+    actions:
+        cast:
+        - class: Book
+    parameters:
+      target: self
+      virtual_book: true
+      pages:
+        1:
+          - "&9&l&nSkrill"
+          - "&r "
+          - "&rTruly a terror of the stormy clouds, this dragon can draw lightning from the air and spew it at its foes, and even rides lightning, making for a deadly enemy."
+        2:
+          - "&9&l&nHunting"
+          - "&r "
+          - "&9Habitat: &rStormclouds"
+          - "&9Fire: &rSkrills can draw lightning from the sky and fire it, and during thunderstorms can even jump to & ride nearby lightningbolts."
+          - "&9Physicality: &rSkrills have pretty high health and defense, & only fight from afar."
+        3:
+          - "&9&l&nSlaying"
+          - "&r "
+          - "&9Drops: &rA Skrill's drops are unknown."
+          - "&rIt can be assumed they drop a lot of gold, along with bones, meat, and hide."
+        4:
+          - "&9&l&nHatching"
+          - "&r "
+          - "&rA Skrill egg requires the heat of a magma block, and a thunderstorm to hatch."
+        5:
+          - "&9&l&nRiding"
+          - "&r "
+          - "&rSkrills fly at very high speeds, and are highly agile."
+          - "&rTheir lightning takes longer than usual to charge due to power & chaining ability."
+        6:
+          - "&9&l&nAvg Wild Values"
+          - "&r "
+          - "&rHealth: &9190"
+          - "&rScale Toughness: &914"
+          - "&rArrow Resist: &970%"
+          - "&rFirepower: &915-30"
+          - "&rChain dmg: &910-20"
+          - "&rChain amount: &95"
+          - "&rShock: &91.5s"
+          - "&rAccuracy: &990%"
+          - "&rRecharge: &91-19s"

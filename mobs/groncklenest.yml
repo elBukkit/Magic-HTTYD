@@ -23,7 +23,7 @@ groncklenest:
   triggers:
     interval: 
       cast: 
-        hatchery: 50
+        hatchaverage: 50
         hatching: 50
   health: 1
   max_health: 100

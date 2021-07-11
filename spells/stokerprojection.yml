@@ -5,18 +5,12 @@ stokerprojection:
           - class: Selector
     effects:
         cast:
-        -  sound: block_beacon_activate
-           sound_pitch: 0.75
-           sound_volume: 0.8
-        -  sound: entity_enderman_teleport
-           sound_pitch: 0.25
+        -  sound: entity_illusioner_cast_spell
            sound_volume: 0.5
         -  class: EffectSingle
-           sound: magic.teleport
+           sound: entity_illusioner_prepare_blindness
            sound_volume: 0.8
-           sound_pitch: 0.3
            source_location: eyes
-           color_override: color
            effectlib:
               class: WarpEffect
               duration: 5000
@@ -30,4 +24,5 @@ stokerprojection:
               offset: 0,-1,0
     parameters:
       options:
+       - cast_spell: eyeterror
        - cast_spell: eyenightmare

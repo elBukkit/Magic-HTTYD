@@ -65,7 +65,8 @@ riddennadderspines:
         range: 64
         cooldown: rand(2000,12000)
         damage: rand(3,7)
-        hitbox_size: 0.3
+        hitbox_size: 0.5
+        hitbox_block_size: 0.1
         block_hit_count: 1
         undo: rand(8000,16000}
         undo_speed: 30

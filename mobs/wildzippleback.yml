@@ -16,6 +16,8 @@ wildzippleback:
   lifetime: 3600000
   drop_xp: 150
   persist: true
+  mage:
+    effect_color: "#8b008b"
   interval_requires_target: false
   protection:
     projectile: 0.6
@@ -77,7 +79,7 @@ wildzippleback:
     boulderlens: 1
     mysterylens: 1
     tidallens: 1
-    none: 100
+    none: 500
   potion_effects:
   - type: fire_resistance
     amplifier: 1

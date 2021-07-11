@@ -25,6 +25,7 @@ wildgroncklefire:
            requires_entity_target: true
            sound: item_firecharge_use
            location: origin
+           sound_volume: 5
            color_override: color
         tick:
         - particle: lava
@@ -75,7 +76,7 @@ wildgroncklefire:
            particle_offset_y: 1
            particle_offset_z: 1
            sound: entity_generic_explode
-           sound_volume: 0.7
+           sound_volume: 5
            particle_data: 0.1
         -  sound: block_campfire_crackle
            sound_pitch: 1.8

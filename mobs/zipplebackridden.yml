@@ -22,7 +22,7 @@ zipplebackridden:
   mage:
     effect_color: white
   entity_attributes:
-    generic_armor: 12
+    generic_armor: 20
     generic_movement_speed: 0
     generic_follow_range: 0
   triggers:
@@ -46,4 +46,4 @@ zipplebackridden:
   - type: regeneration
     amplifier: 1
   - type: damage_resistance
-    amplifier: 2
+    amplifier: 1

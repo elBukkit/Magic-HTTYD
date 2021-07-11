@@ -1,0 +1,34 @@
+eyeterror:
+    name: "&6Terrible Terror"
+    icon: red_stained_glass
+    actions:
+        cast:
+        - class: Book
+    parameters:
+      target: self
+      virtual_book: true
+      pages:
+        1:
+          - "&c&l&nTerrible Terror"
+          - "&r "
+          - "&rA common sight across the world, these small stoker class dragons are gentle unless provoked, and packs can be a nuisance."
+        2:
+          - "&c&l&nHunting"
+          - "&r "
+          - "&cHabitat: &rTerrors are found all over the world."
+          - "&cFire: &rTerrible Terror's fire is a small spark of fire."
+          - "&cPhysicality: &rTerrors are weak, with low health and defence and no bite power."
+        3:
+          - "&c&l&nSlaying"
+          - "&r "
+          - "&cDrops: &rTerrors don't appear to have any unique drops."
+          - "&rThey may drop the occasional coin."
+        4:
+          - "&c&l&nAvg Wild Values"
+          - "&r "
+          - "&rHealth: &c15"
+          - "&rScale Toughness: &c5"
+          - "&rFirepower: &c(1-6)"
+          - "&rBurn: &c4s"
+          - "&rAccuracy: &c50%"
+          - "&rRecharge: &c1.5-9s"

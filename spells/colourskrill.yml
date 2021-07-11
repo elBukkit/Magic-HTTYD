@@ -1,0 +1,43 @@
+colourskrill:
+    name: Dragon Spawn
+    hidden: true
+    actions:
+        cast:
+        - class: ColorItem
+        - class: Weather
+          weather: storm
+        - class: Repeat
+          repeat: 5
+          actions:
+            - class: Lightning
+              effect_only: true
+    effects:
+        cast:
+        -  class: EffectSingle
+           requires_entity_target: true
+           sound: dragon.skrill1
+           location: origin
+           sound_volume: 40
+           color_override: color
+        -  class: EffectSingle
+           requires_entity_target: true
+           sound: dragon.skrill2
+           location: origin
+           sound_volume: 40
+           color_override: color
+        -  class: EffectSingle
+           requires_entity_target: true
+           sound: dragon.skrill3
+           location: origin
+           sound_volume: 40
+           color_override: color
+    parameters:
+        target: self
+        slots:
+        - helmet
+        - main_hand
+        - off_hand
+        color:
+          h: rand(0,255)
+          s: rand(0,50)
+          v: rand(0,50)

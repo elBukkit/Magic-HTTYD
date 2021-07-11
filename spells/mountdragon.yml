@@ -72,7 +72,7 @@ mountdragon:
     bypass_confusion: false
     liftoff_duration: 200
     crash_damage: 1
-    liftoff_thrust: 0.2
+    liftoff_thrust: 0.6
     fall_protection: 700
     duration: 60000
     duration_warning: 10000

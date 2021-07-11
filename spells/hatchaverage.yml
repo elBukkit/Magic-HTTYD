@@ -1,0 +1,50 @@
+hatchaverage:
+    name: Hatching
+    actions:
+        cast:
+          - class: CheckBlock
+            direction: down
+            allowed: magma_block
+            source_location: feet
+            actions:
+              - class: CheckRequirements
+                requirements:
+                  - light:
+                     min: 0
+                     max: 8
+                actions:
+                  - class: Heal
+                  - class: PlayEffects
+                    effect: crack
+    effects:
+      crack:
+        -  sound: entity_turtle_egg_crack
+           sound_pitch: 0
+           location: target
+        -  class: EffectSingle
+           location: target
+           particle: lava
+           particle_count: 5
+           particle_offset_y: 0.5
+           particle_offset_x: 0.5
+           particle_offset_z: 0.5
+           particle_data: 0.01
+        -  sound: entity_turtle_shamble
+           sound_pitch: 0.8
+           location: target
+           particle: smoke_normal
+           particle_count: 30
+           particle_offset_y: 0.5
+           particle_offset_x: 0.5
+           particle_offset_z: 0.5
+           particle_data: 0.01
+    parameters:
+        destructible:
+          - magma_block
+        target_type: LivingEntity
+        target_self: true
+        cooldown: 20000
+        amount: rand(1,3)
+        target: self
+        allow_max_range: false
+        range: 8

@@ -1,4 +1,4 @@
-nightmareridden:
+skrillridden:
   type: zombie_horse
   prevent_melee: true
   tamed: true
@@ -12,14 +12,14 @@ nightmareridden:
     invisible: true
     swimming: true
     burning: false
-  helmet: Nightmare
-  item: NightmareRight
-  offhand: NightmareLeft
+  helmet: Skrill
+  item: SkrillRight
+  offhand: SkrillLeft
   silent: true
-  health: 130
+  health: 190
   interval: 90000
   default_drops: false
-  interact_spell: nightmaremount|3
+  interact_spell: skrillmount|3
   persist: true
   mage:
     effect_color: white
@@ -32,13 +32,13 @@ nightmareridden:
       cast: colourdragon
     damage:
       effects:
-      - sound: dragons.nightmare1
+      - sound: dragon.skrill2
     interval:
       effects:
-      - sound: dragons.nightmare2
+      - sound: dragon.skrill1
     death:
       effects:
-      - sound: dragons.nightmare2
+      - sound: dragon.skrill1
         sound_pitch: -2
   potion_effects:
   - type: slow_falling

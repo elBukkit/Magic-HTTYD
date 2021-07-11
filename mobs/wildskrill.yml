@@ -1,6 +1,6 @@
-wildgronckle:
-  name: 'Wild Gronckle'
-  type: Phantom
+wildskrill:
+  name: Wild Skrill
+  type: ghast
   aggro: true
   size: 10
   disguise:
@@ -9,63 +9,60 @@ wildgronckle:
     invisible: true
     swimming: true
     burning: false
-  helmet: Gronckle
+  helmet: Skrill
+  item: SkrillRight
+  offhand: SkrillLeft
   equip_on_respawn: false
   silent: true
-  health: 40
-  default_drops: false
-  interval: 3000
+  health: 190
+  interval: 1500
   interval_requires_target: false
   lifetime: 3600000
-  drop_xp: 75
+  drop_xp: 100
   persist: true
   mage:
-    effect_color: "#228b22"
+    effect_color: "#0000ff"
   protection:
-    projectile: 0.6
+    projectile: 0.7
+  default_drops: false
   entity_attributes:
     generic_attack_damage: 8
-    generic_armor: 12
-    generic_knockback_resistance: 0.5
+    generic_armor: 14
   triggers:
     spawn:
-      cast: colourdragon
+      cast: colourskrill
     interval:
-      cast: wildgroncklefire
+      cast:
+        wildskrillfire: 80
+        skrillmove: 20
     launch:
-      cast: wildgroncklefire
+      cast:
+        wildskrillfire: 80
+        skrillmove: 20
     damage:
       effects:
-      - sound: dragons.gronckle1
-      cast: 
-        wildgroncklefire: 20
-        none: 100
+      - sound: dragon.skrill2
+      cast:
+        wildskrillfire: 10
+        skrillmove: 50
+        none: 300
     death:
       effects:
-      - sound: dragons.gronckle2
-        sound_pitch: -2
-      cast: 
-        groncklespawnnest: 2
+      - sound: dragon.skrill1
+      cast:
+        skrillspawnnest: 2
         none: 100
   drops:
-  - GronckleIron: 10
-    blaze_powder: 100
-    GronckleIron@3: 50
-    GronckleIron@2: 30
+  - blaze_powder: 10
+    blaze_powder@2: 20
     DragonBone: 30
     DragonHide: 60
     DragonBone@2: 30
     DragonHide@2: 60
-  - GronckleIron: 70
-    none: 100
-  - GronckleIron: 50
-    none: 100
-  - GronckleIron@2: 20
-    none: 100
-  - scalecoin@2
-  - scalecoin@1: 25
-    scalecoin@2: 25
-    scalecoin@3: 25
+  - scalecoin@95
+  - scalecoin@5: 25
+    scalecoin@10: 25
+    scalecoin@15: 25
     none: 25
   - rawdragonmeat: 90
     rawdragonmeat@2: 50
@@ -79,7 +76,7 @@ wildgronckle:
     boulderlens: 1
     mysterylens: 1
     tidallens: 1
-    none: 500
+    none: 100
   potion_effects:
   - type: fire_resistance
     amplifier: 1

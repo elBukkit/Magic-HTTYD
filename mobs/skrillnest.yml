@@ -1,5 +1,5 @@
-nightmarenest:
-  name: 'Nightmare Nest'
+skrillnest:
+  name: 'Skrill Nest'
   type: villager
   disguise:
     type: armor_stand
@@ -12,10 +12,10 @@ nightmarenest:
   interval: 1000
   drop_items: true
   invisible: true
-  helmet: NightmareNest
+  helmet: SkrillNest
   silent: true
   invulnerable: false
-  interact_spell: nightmarehatched
+  interact_spell: skrillhatched
   interact_spell_source: mob
   default_drops: false
   mage:
@@ -23,10 +23,10 @@ nightmarenest:
   triggers:
     interval: 
       cast: 
-        hatchaverage: 50
+        hatchstorm: 50
         hatching: 50
   health: 1
-  max_health: 200
+  max_health: 100
   entity_attributes:
     generic_movement_speed: 0
     generic_follow_range: 0
@@ -36,4 +36,4 @@ nightmarenest:
   - type: fire_resistance
     amplifier: 1
   drops:
-  - nightmarehatchery
+  - skrillhatchery

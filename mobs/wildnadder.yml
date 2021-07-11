@@ -21,6 +21,8 @@ wildnadder:
   lifetime: 3600000
   drop_xp: 100
   persist: true
+  mage:
+    effect_color: "#a9a9a9"
   protection:
     projectile: 0.6
   default_drops: false
@@ -79,7 +81,7 @@ wildnadder:
     boulderlens: 1
     mysterylens: 1
     tidallens: 1
-    none: 100
+    none: 500
   potion_effects:
   - type: fire_resistance
     amplifier: 1

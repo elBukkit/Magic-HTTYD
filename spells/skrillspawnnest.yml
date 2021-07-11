@@ -1,0 +1,11 @@
+skrillspawnnest:
+    name: Nest
+    actions:
+      cast:
+      - class: SpawnEntity
+        loot: true
+        type: skrillnest
+    parameters:
+      range: 64
+      radius: 64
+      allow_max_range: true
