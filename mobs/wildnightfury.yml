@@ -49,8 +49,8 @@ wildnightfury:
       - sound: dragons.nightfury2
         sound_pitch: -2
       cast: 
-        nightfuryspawnnest: 2
-        none: 100
+        nightfuryspawnnest: 5
+        none: 75
   drops:
   - blaze_powder: 10
     blaze_powder@2: 100

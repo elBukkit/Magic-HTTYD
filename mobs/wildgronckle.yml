@@ -45,8 +45,8 @@ wildgronckle:
       - sound: dragons.gronckle2
         sound_pitch: -2
       cast: 
-        groncklespawnnest: 2
-        none: 100
+        groncklespawnnest: 5
+        none: 75
   drops:
   - GronckleIron: 10
     blaze_powder: 100

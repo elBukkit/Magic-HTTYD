@@ -1,6 +1,5 @@
-overworld_mobs:
-  inherit: false
-  world: Arc
+dragon_spawns:
+  world: world
   entity_spawn:
 
     replace_flocks:
@@ -61,8 +60,8 @@ overworld_mobs:
       - creeper
       - skeleton
       - husk
-      probability: 0.006
-      cooldown: 50000
+      probability: 0.009
+      cooldown: 5000
       replace_type:
         wildgronckle: 1
       biomes:
@@ -89,8 +88,8 @@ overworld_mobs:
       - creeper
       - skeleton
       - husk
-      probability: 0.004
-      cooldown: 100000
+      probability: 0.008
+      cooldown: 8000
       replace_type:
         wildnadder: 1
       biomes:
@@ -117,8 +116,8 @@ overworld_mobs:
       - creeper
       - skeleton
       - husk
-      probability: 0.002
-      cooldown: 200000
+      probability: 0.007
+      cooldown: 10000
       replace_type:
         wildzippleback: 1
       biomes:
@@ -145,13 +144,43 @@ overworld_mobs:
       - creeper
       - skeleton
       - husk
-      probability: 0.001
-      cooldown: 300000
+      probability: 0.006
+      cooldown: 15000
       replace_type:
         wildnightmare: 1
       biomes:
         - desert
         - desert_hills
+
+
+
+
+    replace_deathsong:
+      class: Replace
+      y_offset: 20
+      highest_block: true
+      target_types:
+      - chicken
+      - sheep
+      - cow
+      - pig
+      - rabbit
+      - llama
+      - enderman
+      - zombie
+      - spider
+      - creeper
+      - skeleton
+      - husk
+      probability: 0.001
+      cooldown: 20000
+      replace_type:
+        wildnightmare: 1
+      biomes:
+        - savanna
+        - savanna_plateau
+        - shattered_savanna
+        - shattered_savanna_plateau
 
 
 
@@ -163,7 +192,7 @@ overworld_mobs:
       - phantom
       - enderman
       probability: 0.001
-      cooldown: 1800000
+      cooldown: 60000
       replace_type:
         wildnightfury: 1
         wildskrill: 2

@@ -1,0 +1,45 @@
+eyedeathsong:
+    name: "&6Death Song"
+    icon: purple_stained_glass
+    actions:
+        cast:
+        - class: Book
+    parameters:
+      target: self
+      virtual_book: true
+      pages:
+        1:
+          - "&5&l&nDeath Song"
+          - "&r "
+          - "&rA rare but beautiful sight, the Death Song lures prey in with a strange and enticing song before trapping its victims in amber and eating them."
+        2:
+          - "&5&l&nHunting"
+          - "&r "
+          - "&5Habitat: &rDeath Songs hunt in the savanna."
+          - "&5Fire: &rZipplebacks shoot short fast bursts of amber, which sometimes traps enemies."
+          - "&5Physicality: &rZipplebacks have high health, defence, and a painful bite."
+        3:
+          - "&5&l&nSlaying"
+          - "&r "
+          - "&5Drops: &rDeath Songs can drop amber, which has useful crafting abilities."
+          - "&rThey also drop a lot of gold, and the standard bones, meat, and hide."
+        4:
+          - "&5&l&nHatching"
+          - "&r "
+          - "&rA Death Song egg requires the heat of a magma block, and relative darkness to hatch."
+        5:
+          - "&5&l&nRiding"
+          - "&r "
+          - "&rDeath Songs fly at pretty high speeds, and can be quite agile."
+          - "&rTheir amber takes a little longer than standard to recharge."
+        6:
+          - "&5&l&nAvg Wild Values"
+          - "&r "
+          - "&rHealth: &5135"
+          - "&rScale Toughness: &514"
+          - "&rArrow Resist: &570%"
+          - "&rBite Strength: &513"
+          - "&rShotpower: &5(5-17) x 3"
+          - "&rAmber: &57-20s"
+          - "&rAccuracy: &590%"
+          - "&rRecharge: &52-16s"

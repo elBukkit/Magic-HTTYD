@@ -46,8 +46,8 @@ wildnightmare:
       - sound: dragons.nightmare2
         sound_pitch: -2
       cast: 
-        nightmarespawnnest: 2
-        none: 100
+        nightmarespawnnest: 5
+        none: 75
   drops:
   - NightmareGel: 10
     blaze_powder@2: 100

@@ -1,6 +1,6 @@
-wildnadder:
-  name: 'Wild Deadly Nadder'
-  type: phantom
+wilddeathsong:
+  name: Wild Death Song
+  type: Phantom
   aggro: true
   size: 10
   disguise:
@@ -9,65 +9,71 @@ wildnadder:
     invisible: true
     swimming: true
     burning: false
-  helmet: Nadder
-  chestplate: thorns
-  item: NadderRight
-  offhand: NadderLeft
+  helmet: DeathSong
+  item: DeathSongRight
+  offhand: DeathSongLeft
   equip_on_respawn: false
   silent: true
-  health: 65
-  interval: 2500
+  health: 135
+  interval: 1000
   interval_requires_target: false
   lifetime: 3600000
-  drop_xp: 100
+  drop_xp: 250
   persist: true
   mage:
-    effect_color: "#a9a9a9"
+    effect_color: "#8b008b"
   protection:
-    projectile: 0.6
+    projectile: 0.7
   default_drops: false
   entity_attributes:
-    generic_attack_damage: 8
-    generic_armor: 10
+    generic_attack_damage: 13
+    generic_armor: 14
   triggers:
     spawn:
       cast: colourdragon
     interval:
-      cast: wildnadderspines
+      cast: 
+        wilddeathsongamber2: 100
+        wilddeathsongamber: 10
+        deathsongcall: 50
     launch:
-      cast: wildnadderspines
+      cast:
+        wilddeathsongamber: 20
+        wilddeathsongamber2: 100
     damage:
       effects:
-      - sound: dragons.nadder1
-      cast: 
-        wildnadderspines: 20
+      - sound: dragon.deathsong1
+      cast:
+        wilddeathsongamber: 10
         none: 100
     death:
       effects:
-      - sound: dragons.nadder2
+      - sound: dragon.deathsong2
         sound_pitch: -2
-      cast: 
-        nadderspawnnest: 5
+      cast:
+        deathsongspawnnest: 5
         none: 75
   drops:
-  - NadderSpine: 10
-    blaze_powder: 100
-    blaze_powder@2: 20
-    NadderSpine@2: 50
+  - DeathSongAmber: 10
+    blaze_powder@2: 100
+    blaze_powder@4: 50
+    blaze_powder: 20
     DragonBone: 30
     DragonHide: 60
     DragonBone@2: 30
     DragonHide@2: 60
-  - NadderSpine: 40
+  - DeathSongAmber: 20
     none: 100
-  - NadderSpine: 50
+  - DeathSongAmber: 20
     none: 100
-  - NadderHorn: 20
+  - DeathSongAmber: 20
     none: 100
-  - scalecoin@5
+  - scalecoin@20
   - scalecoin@1: 25
     scalecoin@2: 25
     scalecoin@3: 25
+    scalecoin@4: 25
+    scalecoin@5: 25
     none: 25
   - rawdragonmeat: 90
     rawdragonmeat@2: 50

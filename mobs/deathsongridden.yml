@@ -1,0 +1,51 @@
+deathsongridden:
+  type: zombie_horse
+  prevent_melee: true
+  tamed: true
+  interact_requires_owner: true
+  equip_on_respawn: false
+  gravity: false
+  track_radius: 0
+  disguise:
+    type: player
+    skin: NightScythe1
+    invisible: true
+    swimming: true
+    burning: false
+  helmet: DeathSong
+  item: DeathSongRight
+  offhand: DeathSongLeft
+  silent: true
+  health: 135
+  interval: 90000
+  default_drops: false
+  interact_spell: deathsongmount|3
+  persist: true
+  mage:
+    effect_color: white
+  entity_attributes:
+    generic_armor: 20
+    generic_movement_speed: 0
+    generic_follow_range: 0
+  triggers:
+    spawn:
+      cast: colourdragon
+    damage:
+      effects:
+      - sound: dragon.deathsong1
+    interval:
+      effects:
+      - sound: dragon.deathsong2
+    death:
+      effects:
+      - sound: dragon.deathsong2
+        sound_pitch: -2
+  potion_effects:
+  - type: slow_falling
+    amplifier: 1
+  - type: fire_resistance
+    amplifier: 1
+  - type: regeneration
+    amplifier: 1
+  - type: damage_resistance
+    amplifier: 1

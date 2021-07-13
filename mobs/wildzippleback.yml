@@ -43,8 +43,8 @@ wildzippleback:
       - sound: dragon.zippleback2
         sound_pitch: -2
       cast: 
-        zipplebackspawnnest: 2
-        none: 100
+        zipplebackspawnnest: 5
+        none: 75
   drops:
   - ZipplebackGas: 10
     blaze_powder: 100

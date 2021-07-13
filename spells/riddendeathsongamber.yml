@@ -1,0 +1,114 @@
+riddendeathsongamber:
+  name: Amber
+  actions:
+    cast:
+    - class: Repeat
+      repeat: 3
+      actions:
+        - class: Asynchronous
+          actions:
+            - class: PlayEffects
+              effects: cast
+            - class: CustomProjectile
+              hitbox: true
+              actions:
+                - class: AreaOfEffect
+                  radius: 3
+                  y_radius: 8
+                  actions:
+                  - class: Damage
+        - class: Delay
+          delay: 600
+  effects:
+    cast:
+    - class: EffectSingle
+      sound: entity_llama_spit
+      sound_pitch: -3
+      location: origin
+      sound_volume: 5
+      color_override: color
+    tick:
+    - particle: crimson_spore
+      location: target
+    - particle: falling_honey
+      color: false
+      particle_count: 15
+      particle_offset_x: 0.3
+      particle_offset_y: 0.3
+      particle_offset_z: 0.3
+      location: target
+    projectile:
+    - class: EffectSingle
+      effectlib:
+        class: SphereEffect
+        particle: redstone
+        color: "#ffa500"
+        duration: $lifetime
+        radius: 0.2
+        particles: 8
+        particle_count: 3
+        particle_offset_y: 0.3
+        particle_offset_x: 0.3
+        particle_offset_z: 0.3
+        particle_size: 1
+    - class: EffectSingle
+      effectlib:
+        class: SphereEffect
+        particle: block_crack
+        color: '#ff0000'
+        duration: $lifetime
+        radius: 0.2
+        particles: 10
+        particle_count: 5
+        particle_offset_y: 0.1
+        particle_offset_x: 0.1
+        particle_offset_z: 0.1
+        particle_size: 4
+    hit:
+    - sound: block_blastfurnace_fire_crackle
+      sound_pitch: 0.8
+      location: target
+    - class: EffectSingle
+      location: target
+      particle: redstone
+      color: "#ffa500"
+      particle_size: 5
+      particle_count: 5
+      particle_offset_x: 0.6
+      particle_offset_y: 0.6
+      particle_offset_z: 0.6
+      particle_data: 0.5
+      sound: entity_dragon_fireball_explode
+      sound_volume: 5
+      sound_pitch: 2
+    - sound: block_campfire_crackle
+      sound_pitch: -3
+      sound_volume: 1.5
+      location: target
+  parameters:
+    fov: 0.6
+    hitbox: false
+    target_self: false
+    brush: orange_stained_glass
+    reflective: gold_block
+    velocity: 32
+    size: 2
+    range: 64
+    magic_damage: false
+    cooldown: rand(3000,17000)
+    spread: 0.1
+    damage: rand(5,17)
+    hitbox_size: 0.5
+    ignore_blocks: false
+    target: other
+    target_type: LivingEntity
+    target_breakables: rand(1,3)
+    break_durability: rand(1,3)
+    destructible_durability: 200
+    destructible: destructible_replace
+    track_target: true
+    lifetime: 30000
+    undo: rand(20000,30000)
+    undo_speed: 100
+    track_speed: 0.08
+    use_target_location: false

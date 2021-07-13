@@ -1,0 +1,16 @@
+deathsongcall:
+    name: Dragon Sighting
+    category: Test
+    actions:
+        cast:
+            - class: Velocity
+    effects:
+        cast:
+        -  class: EffectSingle
+           sound: dragon.deathsong2
+           sound_volume: 40
+    parameters:
+        cooldown: rand(20000,120000)
+        target: self
+        min_speed: 1
+        max_speed: 1.5

@@ -1,0 +1,39 @@
+deathsongnest:
+  name: 'Death Song Nest'
+  type: villager
+  disguise:
+    type: armor_stand
+    invisible: true
+  cancel_explosion: true
+  persist: true
+  lifetime: 14400000
+  cast_requires_target: false
+  interval_requires_target: false
+  interval: 1000
+  drop_items: true
+  invisible: true
+  helmet: DeathSongNest
+  silent: true
+  invulnerable: false
+  interact_spell: deathsonghatched
+  interact_spell_source: mob
+  default_drops: false
+  mage:
+    effect_color: white
+  triggers:
+    interval: 
+      cast: 
+        hatchery: 50
+        hatching: 50
+  health: 1
+  max_health: 100
+  entity_attributes:
+    generic_movement_speed: 0
+    generic_follow_range: 0
+  potion_effects:
+  - type: slow_falling
+    amplifier: 1
+  - type: fire_resistance
+    amplifier: 1
+  drops:
+  - deathsonghatchery

@@ -50,8 +50,8 @@ wildskrill:
       effects:
       - sound: dragon.skrill1
       cast:
-        skrillspawnnest: 2
-        none: 100
+        skrillspawnnest: 5
+        none: 75
   drops:
   - blaze_powder: 10
     blaze_powder@2: 20
@@ -60,9 +60,9 @@ wildskrill:
     DragonBone@2: 30
     DragonHide@2: 60
   - scalecoin@95
-  - scalecoin@5: 25
-    scalecoin@10: 25
+  - scalecoin@10: 25
     scalecoin@15: 25
+    scalecoin@25: 25
     none: 25
   - rawdragonmeat: 90
     rawdragonmeat@2: 50
