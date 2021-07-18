@@ -1,4 +1,4 @@
-GronckleIron:
+nadderspineitem:
   creator_id: 22e0650d-d3f2-4bbc-afef-02bd3b1407ec
   creator: NightScythe1
   worth: 0.0
@@ -9,5 +9,5 @@ GronckleIron:
     meta:
       ==: ItemMeta
       meta-type: UNSPECIFIC
-      display-name: '[{"text":"Gronckle Iron","italic":false}]'
-      custom-model-data: 5
+      display-name: '[{"text":"Nadder Spine","italic":false}]'
+      custom-model-data: 2

@@ -2,7 +2,6 @@ nadderhelmet:
   enabled: true
   output: NadderHelmet
   output_type: wand
-  auto_discover: true
   materials:
     g: GronckleIronIngot
     h: NadderHorn

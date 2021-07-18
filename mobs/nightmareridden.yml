@@ -16,10 +16,10 @@ nightmareridden:
   item: NightmareRight
   offhand: NightmareLeft
   silent: true
-  health: 130
+  health: 110
   interval: 90000
   default_drops: false
-  interact_spell: nightmaremount|3
+  interact_spell: nightmaremount
   persist: true
   mage:
     effect_color: white

@@ -5,3 +5,6 @@ mysterylens:
     locked: true
     slot: "Lens"
     active_spell: mysteryprojection
+    discover_recipes:
+    - craftlens
+    - craftdragoneye

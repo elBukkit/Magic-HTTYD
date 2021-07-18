@@ -31,8 +31,9 @@ wildnightmarefire:
     effects:
         cast:
         -  class: EffectSingle
-           requires_entity_target: true
            sound: entity_blaze_shoot
+           requires_entity_target: true
+           sound_volume: 5
            sound_pitch: -2
            location: origin
            color_override: color

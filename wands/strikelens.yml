@@ -5,3 +5,6 @@ strikelens:
     locked: true
     slot: "Lens"
     active_spell: strikeprojection
+    discover_recipes:
+    - craftlens
+    - craftdragoneye

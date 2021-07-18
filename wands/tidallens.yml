@@ -5,3 +5,6 @@ tidallens:
     locked: true
     slot: "Lens"
     active_spell: tidalprojection
+    discover_recipes:
+    - craftlens
+    - craftdragoneye

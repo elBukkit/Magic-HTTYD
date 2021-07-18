@@ -11,6 +11,6 @@ colourdragon:
         - main_hand
         - off_hand
         color:
-          h: rand(0,255)
+          h: rand(0,510)
           s: rand(0,50)
           v: rand(0,50)

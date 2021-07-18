@@ -5,3 +5,6 @@ sharplens:
     locked: true
     slot: "Lens"
     active_spell: sharpprojection
+    discover_recipes:
+    - craftlens
+    - craftdragoneye

@@ -9,10 +9,5 @@ GronckleNest:
     meta:
       ==: ItemMeta
       meta-type: LEATHER_ARMOR
-      display-name: '{"extra":[{"text":"GronckleNest"}],"text":""}'
+      display-name: '{"extra":[{"text":"."}],"text":""}'
       custom-model-data: 2
-      color:
-        ==: Color
-        RED: 165
-        BLUE: 136
-        GREEN: 150

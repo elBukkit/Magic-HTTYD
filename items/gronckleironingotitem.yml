@@ -1,4 +1,4 @@
-DragonHide:
+gronckleironingotitem:
   creator_id: 22e0650d-d3f2-4bbc-afef-02bd3b1407ec
   creator: NightScythe1
   worth: 0.0
@@ -9,5 +9,5 @@ DragonHide:
     meta:
       ==: ItemMeta
       meta-type: UNSPECIFIC
-      display-name: '[{"text":"Dragon Hide","italic":false}]'
-      custom-model-data: 50
+      display-name: '[{"text":"Gronckle Iron Ingot","italic":false}]'
+      custom-model-data: 4

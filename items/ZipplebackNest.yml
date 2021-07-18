@@ -9,10 +9,5 @@ ZipplebackNest:
     meta:
       ==: ItemMeta
       meta-type: LEATHER_ARMOR
-      display-name: '{"extra":[{"text":"ZipplebackNest"}],"text":""}'
+      display-name: '{"extra":[{"text":"."}],"text":""}'
       custom-model-data: 41
-      color:
-        ==: Color
-        RED: 171
-        BLUE: 138
-        GREEN: 189

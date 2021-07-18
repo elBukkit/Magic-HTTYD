@@ -48,19 +48,19 @@ wildgronckle:
         groncklespawnnest: 5
         none: 75
   drops:
-  - GronckleIron: 10
+  - GronckleIron: 100
     blaze_powder: 100
     GronckleIron@3: 50
-    GronckleIron@2: 30
+    GronckleIron@2: 20
     DragonBone: 30
     DragonHide: 60
     DragonBone@2: 30
     DragonHide@2: 60
   - GronckleIron: 70
     none: 100
-  - GronckleIron: 50
+  - GronckleIron: 90
     none: 100
-  - GronckleIron@2: 20
+  - GronckleIron@2: 70
     none: 100
   - scalecoin@2
   - scalecoin@1: 25

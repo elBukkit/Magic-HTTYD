@@ -1,0 +1,10 @@
+dragonhidehelmetcraft:
+  enabled: true
+  output: dragonhidehelmet
+  output_type: item
+  auto_discover: false
+  materials:
+    g: DragonHide
+  row_1: "ggg"
+  row_2: "g g"
+  row_3: ""

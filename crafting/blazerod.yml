@@ -2,7 +2,6 @@ blazerod:
   enabled: true
   output: blaze_rod
   output_type: item
-  auto_discover: true
   materials:
     b: blaze_powder
   row_1: "b"

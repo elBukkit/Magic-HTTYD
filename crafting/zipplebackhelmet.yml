@@ -2,7 +2,6 @@ zipplebackhelmet:
   enabled: true
   output: ZipplebackHelmet
   output_type: wand
-  auto_discover: true
   materials:
     g: GronckleIronIngot
     h: ZipplebackHorn

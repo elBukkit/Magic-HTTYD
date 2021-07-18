@@ -73,7 +73,7 @@ riddenzipplebackfire:
              particle_offset_z: 1
              particle_size: 3
     parameters:
-        fov: 0.6
+        fov: 0.5
         hitbox: false
         target_self: false
         reflective: gold_block

@@ -1,0 +1,25 @@
+buyeggsrare:
+    icon: nightmareegg
+    name: Buy Dragon Eggs
+    category: shop
+    actions:
+        cast:
+        - class: Shop
+          cost_type: currency
+          earn_type: scalecoin
+          earn_scale: 0.6
+    parameters:
+        confirm: false
+        auto_close: false
+        add_sell_shop: true
+        confirm_filler: stained_glass_pane
+        buy_icon: lime_wool{CustomModelData:18001}
+        items:
+        - item: groncklehatchery
+          cost: 50
+        - item: nadderhatchery
+          cost: 70
+        - item: zipplebackhatchery
+          cost: 120
+        - item: nightmarehatchery
+          cost: 160

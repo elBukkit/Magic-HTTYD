@@ -35,7 +35,7 @@ eyenightmare:
         6:
           - "&c&l&nAvg Wild Values"
           - "&r "
-          - "&rHealth: &c130"
+          - "&rHealth: &c110"
           - "&rScale Toughness: &c13"
           - "&rArrow Resist: &c70%"
           - "&rBite Strength: &c21"
@@ -43,3 +43,11 @@ eyenightmare:
           - "&rBurn: &c7.5s"
           - "&rAccuracy: &c80%"
           - "&rRecharge: &c3-20s"
+        7:
+          - "&c&l&nMax Tame Values"
+          - "&r "
+          - "&rAcceleration: &c30"
+          - "&rDecceleration: &c20"
+          - "&rSpeed: &c85"
+          - "&rReverse Speed: &c35"
+          - "&rAgility: &c75"

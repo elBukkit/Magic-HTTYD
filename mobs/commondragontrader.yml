@@ -1,0 +1,14 @@
+commondragontrader:
+  name: 'Dragon Merchant'
+  type: wandering_trader
+  disguise:
+    type: villager
+    professions: false
+  persist: true
+  helmet: NadderHelmet
+  interval: 1000
+  lifetime: 600000
+  interact_spell: buyeggscommon
+  mage:
+    effect_color: white
+  health: 20

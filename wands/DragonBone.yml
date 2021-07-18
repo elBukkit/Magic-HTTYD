@@ -1,0 +1,9 @@
+DragonBone:
+    name: '&rDragon Bone'
+    craftable: true
+    locked: true
+    icon: dragonboneitem
+    discover_recipes:
+    - dragonbladecraft
+    - dragonbladefirecraft
+    - dragonbonemeal

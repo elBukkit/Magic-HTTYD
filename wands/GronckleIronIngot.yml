@@ -1,0 +1,16 @@
+GronckleIronIngot:
+    name: '&rGronckle Iron Ingot'
+    craftable: true
+    locked: true
+    icon: gronckleironingotitem
+    discover_recipes:
+    - nadderhelmet
+    - zipplebackhelmet
+    - nightmarehelmet
+    - groncklehelmetcraft
+    - groncklechestplatecraft
+    - gronckleleggingscraft
+    - groncklebootscraft
+    - gronckleironsword
+    - gronckleironaxe
+    - gronckleironshield

@@ -5,3 +5,6 @@ stokerlens:
     locked: true
     slot: "Lens"
     active_spell: stokerprojection
+    discover_recipes:
+    - craftlens
+    - craftdragoneye

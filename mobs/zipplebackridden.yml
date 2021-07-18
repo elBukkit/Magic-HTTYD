@@ -17,7 +17,7 @@ zipplebackridden:
   health: 80
   interval: 90000
   default_drops: false
-  interact_spell: zipplebackmount|3
+  interact_spell: zipplebackmount
   persist: true
   mage:
     effect_color: white

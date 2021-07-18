@@ -5,3 +5,6 @@ boulderlens:
     locked: true
     slot: "Lens"
     active_spell: boulderprojection
+    discover_recipes:
+    - craftlens
+    - craftdragoneye

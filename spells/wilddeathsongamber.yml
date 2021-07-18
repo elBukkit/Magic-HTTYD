@@ -10,6 +10,7 @@ wilddeathsongamber:
       hitbox: true
       actions:
       - class: Sphere
+        thickness: 1
         radius: rand(2,4)
         actions:
         - class: ModifyBlock
@@ -19,7 +20,7 @@ wilddeathsongamber:
         - class: Damage
         - class: PotionEffect
           potion_effects:
-            slow_digging: 3
+            slow_digging: 2
           duration: rand(7500,15000)
         - class: Velocity
           push: -1
@@ -100,9 +101,9 @@ wilddeathsongamber:
     size: 2
     range: 64
     magic_damage: false
-    cooldown: rand(1000,26000)
+    cooldown: rand(3000,30000)
     spread: 0.1
-    damage: rand(12,17)
+    damage: rand(5,12)
     hitbox_size: 1
     ignore_blocks: false
     target: other

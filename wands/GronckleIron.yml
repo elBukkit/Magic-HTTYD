@@ -1,0 +1,8 @@
+GronckleIron:
+    name: '&rRaw Gronckle Iron'
+    craftable: true
+    locked: true
+    icon: gronckleironitem
+    discover_recipes:
+    - smeltgronckleiron
+    - blastgronckleiron

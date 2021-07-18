@@ -42,3 +42,11 @@ eyenightfury:
           - "&rBurn: &93s"
           - "&rAccuracy: &999%"
           - "&rRecharge: &94-16s"
+        7:
+          - "&9&l&nMax Tame Values"
+          - "&r "
+          - "&rAcceleration: &950"
+          - "&rDecceleration: &950"
+          - "&rSpeed: &9150"
+          - "&rReverse Speed: &940"
+          - "&rAgility: &9150"

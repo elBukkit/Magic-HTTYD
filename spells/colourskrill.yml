@@ -17,19 +17,19 @@ colourskrill:
            requires_entity_target: true
            sound: dragon.skrill1
            location: origin
-           sound_volume: 40
+           sound_volume: 140
            color_override: color
         -  class: EffectSingle
            requires_entity_target: true
            sound: dragon.skrill2
            location: origin
-           sound_volume: 40
+           sound_volume: 140
            color_override: color
         -  class: EffectSingle
            requires_entity_target: true
            sound: dragon.skrill3
            location: origin
-           sound_volume: 40
+           sound_volume: 140
            color_override: color
     parameters:
         target: self

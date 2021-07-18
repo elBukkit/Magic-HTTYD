@@ -8,9 +8,9 @@ deathsongcall:
         cast:
         -  class: EffectSingle
            sound: dragon.deathsong2
-           sound_volume: 40
+           sound_volume: 30
     parameters:
-        cooldown: rand(20000,120000)
+        cooldown: rand(20000,180000)
         target: self
         min_speed: 1
         max_speed: 1.5

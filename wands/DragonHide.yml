@@ -1,0 +1,11 @@
+DragonHide:
+    name: '&rDragon Hide'
+    craftable: true
+    locked: true
+    icon: dragonhideitem
+    discover_recipes:
+    - dragonhidehelmetcraft
+    - dragonhidechestplatecraft
+    - dragonhideleggingscraft
+    - dragonhidebootscraft
+    - dragonhideleather

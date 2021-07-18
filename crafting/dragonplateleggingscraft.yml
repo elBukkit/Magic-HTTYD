@@ -1,0 +1,10 @@
+dragonplateleggingscraft:
+  enabled: true
+  output: dragonplateleggings
+  output_type: item
+  auto_discover: false
+  materials:
+    g: DragonplateIngot
+  row_1: "ggg"
+  row_2: "g g"
+  row_3: "g g"

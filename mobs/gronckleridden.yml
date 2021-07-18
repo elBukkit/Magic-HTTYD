@@ -17,7 +17,7 @@ gronckleridden:
   health: 40
   interval: 90000
   default_drops: false
-  interact_spell: groncklemount|3
+  interact_spell: groncklemount
   persist: true
   mage:
     effect_color: white

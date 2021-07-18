@@ -100,9 +100,9 @@ wilddeathsongamber2:
     size: 2
     range: 64
     magic_damage: false
-    cooldown: rand(1000,13000)
+    cooldown: rand(2500,15000)
     spread: 0.1
-    damage: rand(5,11)
+    damage: rand(5,12)
     hitbox_size: 0.5
     ignore_blocks: false
     target: other
@@ -117,5 +117,5 @@ wilddeathsongamber2:
     lifetime: 30000
     undo: rand(20000,30000)
     undo_speed: 100
-    track_speed: 0.03
+    track_speed: 0.05
     use_target_location: false

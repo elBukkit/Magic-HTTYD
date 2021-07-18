@@ -1,4 +1,4 @@
-NadderSpine:
+dragonhideitem:
   creator_id: 22e0650d-d3f2-4bbc-afef-02bd3b1407ec
   creator: NightScythe1
   worth: 0.0
@@ -9,5 +9,5 @@ NadderSpine:
     meta:
       ==: ItemMeta
       meta-type: UNSPECIFIC
-      display-name: '[{"text":"Nadder Spine","italic":false}]'
-      custom-model-data: 2
+      display-name: '[{"text":"Dragon Hide","italic":false}]'
+      custom-model-data: 50

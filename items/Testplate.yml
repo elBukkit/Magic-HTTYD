@@ -1,0 +1,33 @@
+Testplate:
+  creator_id: 22e0650d-d3f2-4bbc-afef-02bd3b1407ec
+  creator: NightScythe1
+  worth: 0.0
+  item:
+    ==: org.bukkit.inventory.ItemStack
+    v: 2586
+    type: IRON_CHESTPLATE
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      attribute-modifiers:
+        GENERIC_ARMOR:
+        - ==: org.bukkit.attribute.AttributeModifier
+          amount: 9.0
+          name: generic.armor
+          slot: CHEST
+          uuid: fffe24f2-0000-3823-0000-0335ffff8fba
+          operation: 0
+        GENERIC_ARMOR_TOUGHNESS:
+        - ==: org.bukkit.attribute.AttributeModifier
+          amount: 4.0
+          name: generic.armor_toughness
+          slot: CHEST
+          uuid: fffe24f2-0000-3887-0000-0335ffff8ef2
+          operation: 0
+        GENERIC_KNOCKBACK_RESISTANCE:
+        - ==: org.bukkit.attribute.AttributeModifier
+          amount: 0.2
+          name: generic.knockback_resistance
+          slot: CHEST
+          uuid: fffe24f2-0000-38eb-0000-0335ffff8e2a
+          operation: 0

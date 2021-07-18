@@ -30,7 +30,7 @@ eyedeathsong:
         5:
           - "&5&l&nRiding"
           - "&r "
-          - "&rDeath Songs fly at pretty high speeds, and can be quite agile."
+          - "&rDeath Songs fly at high speeds, and can be really agile."
           - "&rTheir amber takes a little longer than standard to recharge."
         6:
           - "&5&l&nAvg Wild Values"
@@ -39,7 +39,15 @@ eyedeathsong:
           - "&rScale Toughness: &514"
           - "&rArrow Resist: &570%"
           - "&rBite Strength: &513"
-          - "&rShotpower: &5(5-17) x 3"
+          - "&rShotpower: &5(5-12) x 3"
           - "&rAmber: &57-20s"
-          - "&rAccuracy: &590%"
+          - "&rAccuracy: &585%"
           - "&rRecharge: &52-16s"
+        7:
+          - "&5&l&nMax Tame Values"
+          - "&r "
+          - "&rAcceleration: &526"
+          - "&rDecceleration: &526"
+          - "&rSpeed: &590"
+          - "&rReverse Speed: &530"
+          - "&rAgility: &590"

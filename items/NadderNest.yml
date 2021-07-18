@@ -9,10 +9,5 @@ NadderNest:
     meta:
       ==: ItemMeta
       meta-type: LEATHER_ARMOR
-      display-name: '{"extra":[{"text":"NadderNest"}],"text":""}'
+      display-name: '{"extra":[{"text":"."}],"text":""}'
       custom-model-data: 13
-      color:
-        ==: Color
-        RED: 135
-        BLUE: 205
-        GREEN: 205

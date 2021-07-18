@@ -9,10 +9,5 @@ NightmareNest:
     meta:
       ==: ItemMeta
       meta-type: LEATHER_ARMOR
-      display-name: '{"extra":[{"text":"NightmareNest"}],"text":""}'
+      display-name: '{"extra":[{"text":"."}],"text":""}'
       custom-model-data: 33
-      color:
-        ==: Color
-        RED: 201
-        BLUE: 73
-        GREEN: 95

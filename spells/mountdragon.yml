@@ -1,5 +1,5 @@
 mountdragon:
-  name: Ride Dragon
+  name: Dragon Riding Skill
   description: Right click to ride your dragon.
   icon: saddle
   world_border_restricted: true
@@ -96,3 +96,4 @@ mountdragon:
     exemption_duration: 5000
     armor_stand_marker: false
     pitch_controllable: false
+    cooldown: 10000

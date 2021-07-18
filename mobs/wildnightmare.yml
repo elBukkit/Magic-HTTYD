@@ -14,7 +14,7 @@ wildnightmare:
   offhand: NightmareLeft
   equip_on_respawn: false
   silent: true
-  health: 130
+  health: 110
   interval: 2500
   interval_requires_target: false
   lifetime: 3600000

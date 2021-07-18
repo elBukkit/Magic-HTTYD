@@ -2,7 +2,6 @@ nightmarehelmet:
   enabled: true
   output: NightmareHelmet
   output_type: wand
-  auto_discover: true
   materials:
     g: GronckleIronIngot
     h: NightmareHorn

@@ -1,4 +1,4 @@
-DragonBone:
+dragonplateingotitem:
   creator_id: 22e0650d-d3f2-4bbc-afef-02bd3b1407ec
   creator: NightScythe1
   worth: 0.0
@@ -9,5 +9,5 @@ DragonBone:
     meta:
       ==: ItemMeta
       meta-type: UNSPECIFIC
-      display-name: '[{"text":"Dragon Bone","italic":false}]'
-      custom-model-data: 51
+      display-name: '[{"text":"Dragonplate Ingot","italic":false}]'
+      custom-model-data: 4

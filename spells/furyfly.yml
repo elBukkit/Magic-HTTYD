@@ -4,6 +4,16 @@ furyfly:
     actions:
         cast:
             - class: Velocity
+            - class: CheckRequirements
+              requirement:
+                attribute:
+                   attribute: location_y
+                   min: 140
+              actions:
+                - class: Velocity
+                  y_offset: -1
+                  min_speed: 1
+                  max_speed: 1
     effects:
         cast:
         -  class: EffectSingle

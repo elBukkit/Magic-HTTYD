@@ -91,7 +91,7 @@ wildgroncklefire:
         size: 2
         range: 64
         magic_damage: false
-        cooldown: rand(1000,12000)
+        cooldown: rand(2000,15000)
         spread: 0.2
         damage: rand(5,11)
         hitbox_size: 1

@@ -2,7 +2,6 @@ gronckleironsword:
   enabled: true
   output: groncklesword
   output_type: item
-  auto_discover: false
   materials:
     g: GronckleIronIngot
     s: stick

@@ -19,7 +19,7 @@ nightfuryridden:
   health: 250
   interval: 90000
   default_drops: false
-  interact_spell: nightfurymount|3
+  interact_spell: nightfurymount
   persist: true
   mage:
     effect_color: white

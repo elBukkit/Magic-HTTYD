@@ -1,0 +1,10 @@
+dragonplatebootscraft:
+  enabled: true
+  output: dragonplateboots
+  output_type: item
+  auto_discover: false
+  materials:
+    g: DragonplateIngot
+  row_1: ""
+  row_2: "g g"
+  row_3: "g g"

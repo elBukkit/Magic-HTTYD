@@ -19,7 +19,7 @@ nadderridden:
   health: 65
   interval: 90000
   default_drops: false
-  interact_spell: naddermount|3
+  interact_spell: naddermount
   persist: true
   mage:
     effect_color: white

@@ -1,0 +1,10 @@
+dragonhidebootscraft:
+  enabled: true
+  output: dragonhideboots
+  output_type: item
+  auto_discover: false
+  materials:
+    g: DragonHide
+  row_1: ""
+  row_2: "g g"
+  row_3: "g g"

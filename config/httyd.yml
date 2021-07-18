@@ -16,7 +16,9 @@
   - automata
   - attributes
 
-
+ unstashable_containers:
+  - ender_chest
+  - shulker_box
 
  sp_enabled: false
 

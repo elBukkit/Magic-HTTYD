@@ -91,13 +91,14 @@ riddendeathsongamber:
     target_self: false
     brush: orange_stained_glass
     reflective: gold_block
+    source_location: feet
     velocity: 32
     size: 2
     range: 64
     magic_damage: false
     cooldown: rand(3000,17000)
     spread: 0.1
-    damage: rand(5,17)
+    damage: rand(5,9)
     hitbox_size: 0.5
     ignore_blocks: false
     target: other
@@ -110,5 +111,5 @@ riddendeathsongamber:
     lifetime: 30000
     undo: rand(20000,30000)
     undo_speed: 100
-    track_speed: 0.08
+    track_speed: 0.1
     use_target_location: false

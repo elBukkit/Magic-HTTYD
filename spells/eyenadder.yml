@@ -42,3 +42,11 @@ eyenadder:
           - "&rSpine dmg: &7(3-7)x(4-7)"
           - "&rAccuracy: &795%"
           - "&rRecharge: &72.5-12s"
+        7:
+          - "&7&l&nMax Tame Values"
+          - "&r "
+          - "&rAcceleration: &715"
+          - "&rDecceleration: &725"
+          - "&rSpeed: &780"
+          - "&rReverse Speed: &720"
+          - "&rAgility: &785"

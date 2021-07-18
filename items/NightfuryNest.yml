@@ -9,5 +9,5 @@ NightfuryNest:
     meta:
       ==: ItemMeta
       meta-type: LEATHER_ARMOR
-      display-name: '{"extra":[{"text":"NightFuryNest"}],"text":""}'
+      display-name: '{"extra":[{"text":"."}],"text":""}'
       custom-model-data: 23

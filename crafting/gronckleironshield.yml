@@ -1,8 +1,7 @@
 gronckleironshield:
   enabled: true
   output: GronckleShield
-  output_type: item
-  auto_discover: true
+  output_type: wand
   materials:
     g: GronckleIronIngot
     s: DragonBone

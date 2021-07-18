@@ -57,6 +57,7 @@ calldragon:
              offset: 0, -1.6, 0
     parameters:
         target: other
+        fov: 0.2
         target_types:
           - zombie_horse
         range: 200

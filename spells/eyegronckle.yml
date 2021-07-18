@@ -42,4 +42,12 @@ eyegronckle:
           - "&rFirepower: &25-11"
           - "&rBurn: &24.5s"
           - "&rAccuracy: &265%"
-          - "&rRecharge: &23-12s"
+          - "&rRecharge: &23-15s"
+        7:
+          - "&2&l&nMax Tame Values"
+          - "&r "
+          - "&rAcceleration: &28"
+          - "&rDecceleration: &260"
+          - "&rSpeed: &265"
+          - "&rReverse Speed: &255"
+          - "&rAgility: &2150"

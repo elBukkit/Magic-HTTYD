@@ -19,7 +19,7 @@ skrillridden:
   health: 190
   interval: 90000
   default_drops: false
-  interact_spell: skrillmount|3
+  interact_spell: skrillmount
   persist: true
   mage:
     effect_color: white

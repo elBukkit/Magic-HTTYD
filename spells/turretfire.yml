@@ -1,0 +1,72 @@
+turretfire:
+    name: Lavablast
+    actions:
+        cast:
+        - class: Orient
+        - class: Projectile
+          requires_entity_target: true
+          requires_target: true
+          hitbox: true
+          actions:
+          - class: Sphere
+            radius: rand(1,2)
+            actions:
+              - class: BreakBlock
+                ignore_result: true
+          - class: AreaOfEffect
+            radius: 2
+            actions:
+              - class: Damage
+              - class: Ignite
+                duration: 4500
+    effects:
+        cast:
+        -  class: EffectSingle
+           requires_entity_target: true
+           sound: item_crossbow_shoot
+           location: origin
+           sound_volume: 5
+           color_override: color
+        projectile:
+        - class: EffectSingle
+          effectlib:
+             class: SphereEffect
+             particle: crit
+             color: "#ff8c00"
+             duration: 300
+             radius: 0.01
+             particles: 3
+             particle_count: 3
+             particle_offset_y: 0.05
+             particle_offset_x: 0.05
+             particle_offset_z: 0.05
+             particle_size: 3
+        hit:
+        -  class: EffectSingle
+           location: target
+           particle: crit
+           particle_count: 1
+           particle_offset_x: 1
+           particle_offset_y: 1
+           particle_offset_z: 1
+           sound: entity_arrow_hit
+           sound_volume: 5
+           particle_data: 0.5
+    parameters:
+        fov: 360
+        arrow_damage: 4
+        projectile: TippedArrow
+        hitbox: false
+        target_self: false
+        speed: 3
+        cooldown: 2000
+        spread: 0.2
+        target: other
+        target_types:
+          - ghast
+          - phantom
+        lifetime: 30000
+        undo: rand(15000,90000)
+        undo_speed: 10
+        track_speed: 0.03
+        use_target_location: false

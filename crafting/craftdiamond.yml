@@ -1,7 +1,6 @@
 craftdiamond:
   enabled: true
   output: diamond
-  auto_discover: true
   materials:
     s: diamondsharditem
   row_1: ""

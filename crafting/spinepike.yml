@@ -2,7 +2,6 @@ spinepike:
   enabled: true
   output: NadderPike
   output_type: item
-  auto_discover: false
   materials:
     n: NadderSpine
     s: stick

@@ -7,3 +7,5 @@ wand:
 dynmap:
   spells_markerset: Actions
   wands_markerset: Items
+mage:
+  spell_upgraded: a:&r&8Your &r&7$name &r&8is now &r&7$level

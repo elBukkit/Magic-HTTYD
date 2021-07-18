@@ -1,0 +1,14 @@
+raredragontrader:
+  name: 'Dragon Merchant'
+  type: wandering_trader
+  disguise:
+    type: villager
+    professions: false
+  persist: true
+  helmet: NightmareHelmet
+  interval: 1000
+  lifetime: 600000
+  interact_spell: buyeggsrare
+  mage:
+    effect_color: white
+  health: 20

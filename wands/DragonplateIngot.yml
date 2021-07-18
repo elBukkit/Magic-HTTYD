@@ -1,0 +1,10 @@
+DragonplateIngot:
+    name: '&rDragonplate Ingot'
+    craftable: true
+    locked: true
+    icon: dragonplateingotitem
+    discover_recipes:
+    - dragonplatehelmetcraft
+    - dragonplatechestplatecraft
+    - dragonplateleggingscraft
+    - dragonplatebootscraft

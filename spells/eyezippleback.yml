@@ -30,7 +30,7 @@ eyezippleback:
         5:
           - "&5&l&nRiding"
           - "&r "
-          - "&rZipplebacks fly at just below average speeds, but are very agile."
+          - "&rZipplebacks fly at about average speeds, and are pretty agile."
           - "&rTheir blasts take longer than the average dragon to recharge, due to power."
         6:
           - "&5&l&nAvg Wild Values"
@@ -44,3 +44,11 @@ eyezippleback:
           - "&rGas: &53s"
           - "&rAccuracy: &580%"
           - "&rRecharge: &55-20s"
+        7:
+          - "&5&l&nMax Tame Values"
+          - "&r "
+          - "&rAcceleration: &522"
+          - "&rDecceleration: &518"
+          - "&rSpeed: &575"
+          - "&rReverse Speed: &530"
+          - "&rAgility: &590"

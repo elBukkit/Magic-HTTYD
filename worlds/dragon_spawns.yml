@@ -2,6 +2,21 @@ dragon_spawns:
   world: world
   entity_spawn:
 
+
+    replace_traders:
+      class: Replace
+      highest_block: true
+      target_types:
+      - wandering_trader
+      - trader_llama
+      probability: 0.65
+      replace_type:
+        commondragontrader: 50
+        uncommondragontrader: 10
+        raredragontrader: 1
+
+
+
     replace_flocks:
       class: Replace
       y_offset: 25

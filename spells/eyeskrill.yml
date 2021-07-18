@@ -44,3 +44,11 @@ eyeskrill:
           - "&rShock: &91.5s"
           - "&rAccuracy: &990%"
           - "&rRecharge: &91-19s"
+        7:
+          - "&9&l&nMax Tame Values"
+          - "&r "
+          - "&rAcceleration: &960"
+          - "&rDecceleration: &940"
+          - "&rSpeed: &9120"
+          - "&rReverse Speed: &930"
+          - "&rAgility: &9110"
