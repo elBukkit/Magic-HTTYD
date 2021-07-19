@@ -12,8 +12,8 @@ dragon_spawns:
       probability: 0.65
       replace_type:
         commondragontrader: 50
-        uncommondragontrader: 10
-        raredragontrader: 1
+        uncommondragontrader: 30
+        raredragontrader: 10
 
 
 
@@ -28,8 +28,7 @@ dragon_spawns:
       - sheep
       probability: 0.0001
       cooldown: 600000
-      replace_type:
-        flockspawner: 1
+      replace_type: flockspawner
 
 
 
@@ -50,17 +49,16 @@ dragon_spawns:
       - creeper
       - skeleton
       - husk
-      probability: 0.04
-      cooldown: 30000
-      replace_type:
-        wildterror: 100
+      probability: 0.1
+      cooldown: 5000
+      replace_type: wildterror
 
 
 
 
     replace_gronckles:
       class: Replace
-      y_offset: 12
+      y_offset: 20
       highest_block: true
       target_types:
       - chicken
@@ -75,10 +73,9 @@ dragon_spawns:
       - creeper
       - skeleton
       - husk
-      probability: 0.009
-      cooldown: 5000
-      replace_type:
-        wildgronckle: 1
+      probability: 0.02
+      cooldown: 30000
+      replace_type: wildgronckle
       biomes:
         - wooded_mountains
         - forest
@@ -88,7 +85,7 @@ dragon_spawns:
 
     replace_nadders:
       class: Replace
-      y_offset: 12
+      y_offset: 20
       highest_block: true
       target_types:
       - chicken
@@ -103,10 +100,9 @@ dragon_spawns:
       - creeper
       - skeleton
       - husk
-      probability: 0.008
-      cooldown: 8000
-      replace_type:
-        wildnadder: 1
+      probability: 0.015
+      cooldown: 45000
+      replace_type: wildnadder
       biomes:
         - birch_forest
         - tall_birch_forest
@@ -131,10 +127,9 @@ dragon_spawns:
       - creeper
       - skeleton
       - husk
-      probability: 0.007
-      cooldown: 10000
-      replace_type:
-        wildzippleback: 1
+      probability: 0.01
+      cooldown: 60000
+      replace_type: wildzippleback
       biomes:
         - swamp
         - swamp_hills
@@ -159,10 +154,9 @@ dragon_spawns:
       - creeper
       - skeleton
       - husk
-      probability: 0.006
-      cooldown: 15000
-      replace_type:
-        wildnightmare: 1
+      probability: 0.01
+      cooldown: 85000
+      replace_type: wildnightmare
       biomes:
         - desert
         - desert_hills
@@ -188,14 +182,40 @@ dragon_spawns:
       - skeleton
       - husk
       probability: 0.001
-      cooldown: 20000
-      replace_type:
-        wildnightmare: 1
+      cooldown: 100000
+      replace_type: wilddeathsong
       biomes:
         - savanna
         - savanna_plateau
         - shattered_savanna
         - shattered_savanna_plateau
+
+
+    replace_razorwhip:
+      class: Replace
+      y_offset: 20
+      highest_block: true
+      target_types:
+      - chicken
+      - sheep
+      - cow
+      - pig
+      - rabbit
+      - llama
+      - enderman
+      - zombie
+      - spider
+      - creeper
+      - skeleton
+      - husk
+      probability: 0.002
+      cooldown: 70000
+      replace_type: wildrazorwhip
+      biomes:
+        - mountains
+        - mountain_edge
+        - gravelly_mountains
+        - modified_gravelly_mountains
 
 
 
@@ -207,7 +227,7 @@ dragon_spawns:
       - phantom
       - enderman
       probability: 0.001
-      cooldown: 60000
+      cooldown: 180000
       replace_type:
         wildnightfury: 1
         wildskrill: 2

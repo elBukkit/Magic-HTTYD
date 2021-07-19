@@ -23,3 +23,5 @@ buyeggsrare:
           cost: 120
         - item: nightmarehatchery
           cost: 160
+        - item: razorwhiphatchery
+          cost: 180

@@ -1,4 +1,4 @@
-nightfuryridden:
+razorwhipridden:
   type: zombie_horse
   prevent_melee: true
   tamed: true
@@ -12,14 +12,14 @@ nightfuryridden:
     invisible: true
     swimming: true
     burning: false
-  helmet: NightFury
-  item: NightFuryRight
-  offhand: NightFuryLeft
+  helmet: Razorwhip
+  item: RazorwhipRight
+  offhand: RazorwhipLeft
   silent: true
-  health: 250
+  health: 90
   interval: 90000
   default_drops: false
-  interact_spell: nightfurymount
+  interact_spell: razorwhipmount
   persist: true
   mage:
     effect_color: white
@@ -32,13 +32,13 @@ nightfuryridden:
       cast: colourdragon
     damage:
       effects:
-      - sound: dragons.nightfury3
+      - sound: dragon.razorwhip1
     interval:
       effects:
-      - sound: dragons.nightfury3
+      - sound: dragon.razorwhip2
     death:
       effects:
-      - sound: dragons.nightfury2
+      - sound: dragon.razorwhip2
         sound_pitch: -2
   potion_effects:
   - type: slow_falling

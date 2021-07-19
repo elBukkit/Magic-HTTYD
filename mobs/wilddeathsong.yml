@@ -87,7 +87,7 @@ wilddeathsong:
     boulderlens: 1
     mysterylens: 1
     tidallens: 1
-    none: 500
+    none: 100
   potion_effects:
   - type: fire_resistance
     amplifier: 1

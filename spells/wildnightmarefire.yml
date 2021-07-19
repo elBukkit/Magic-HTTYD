@@ -103,9 +103,9 @@ wildnightmarefire:
         size: 2
         range: 100
         magic_damage: false
-        cooldown: rand(2000,20000)
-        spread: 0.25
-        damage: rand(8,15)
+        cooldown: rand(5000,24000)
+        spread: 0.2
+        damage: rand(7,13)
         hitbox_size: 0.8
         hitbox_block_size: 0.1
         ignore_blocks: false

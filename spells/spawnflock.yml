@@ -15,11 +15,14 @@ spawnflock:
     parameters:
         allow_replacement: false
         entity_types:
-            wildgronckle: 200
-            wildnadder: 150
-            wildzippleback: 100
+            wildgronckle: 150
+            wildnadder: 120
+            wildzippleback: 90
             wildnightmare: 50
+            wildrazorwhip: 60
+            wilddeathsong: 20
             wildnightfury: 1
+            wildskrill: 2
         allow_max_range: false
         target_self: true
         target: self

@@ -1,0 +1,14 @@
+shotturretcraft:
+  enabled: true
+  output: arrowshotturret@3
+  output_type: item
+  materials:
+    c: crossbow
+    r: repeater
+    a: arrow
+    s: stick
+    g: GronckleIronIngot
+    i: iron_ingot
+  row_1: "acr"
+  row_2: "sis"
+  row_3: "ggg"

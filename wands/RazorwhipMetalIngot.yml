@@ -1,0 +1,6 @@
+RazorwhipMetalIngot:
+    name: '&rRazorwhip Metal Ingot'
+    craftable: true
+    locked: true
+    icon: razorwhipmetalingotitem
+    discover_recipes:

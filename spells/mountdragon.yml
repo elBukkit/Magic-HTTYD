@@ -16,24 +16,6 @@ mountdragon:
     - class: RideEntity
       find_wand: true
     cast:
-    - class: ChangeContext
-      target_offset: 0,1,0
-      ignore_result: true
-      actions:
-      - class: Volume
-        radius: 1
-        actions:
-        - class: CheckBlock
-          allowed: passthrough
-          fail:
-          - class: Message
-            message: "&eNo space to mount"
-            message_type: action_bar
-            ignore_result: true
-          - class: CastResult
-            result: no_target
-            end_result: true
-          - class: Stop
     - class: Cancel
     - class: RideEntity
   effects:
@@ -72,10 +54,10 @@ mountdragon:
     bypass_confusion: false
     liftoff_duration: 200
     crash_damage: 1
-    liftoff_thrust: 0.6
+    liftoff_thrust: 0.7
     fall_protection: 700
     duration: 60000
-    duration_warning: 10000
+    duration_warning: 20000
     crash_effects:
       confusion: 120,3
     warning_effects:

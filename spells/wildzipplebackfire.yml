@@ -31,6 +31,10 @@ wildzipplebackfire:
                 durability_max_distance: 4
     effects:
         cast:
+        -  sound: entity_blaze_shoot
+           sound_pitch: 1.75
+           sound_volume: 5
+           location: origin
         tick:
         - particle: villager_happy
           location: target
@@ -57,7 +61,7 @@ wildzipplebackfire:
         hit:
         -  sound: entity_generic_explode
            sound_pitch: 1.75
-           sound_volume: 0.2
+           sound_volume: 5
            location: target
         -  class: EffectSingle
            sound: entity_dragon_fireball_explode

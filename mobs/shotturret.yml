@@ -2,16 +2,17 @@ shotturret:
   name: 'Turret'
   type: iron_golem
   disguise:
-    type: player
-    skin: NightScythe1
+    type: armor_stand
     invisible: true
   persist: true
   prevent_melee: true
   lifetime: 600000
   interval_requires_target: false
+  cast_requires_target: false
   interval: 2500
+  default_drops: false
   invisible: true
-  helmet: bow
+  helmet: turretitem
   silent: true
   mage:
     effect_color: white
@@ -22,10 +23,4 @@ shotturret:
   health: 10
   entity_attributes:
     generic_movement_speed: 0
-    generic_armor: 10
-  potion_effects:
-  - type: slow_falling
-    amplifier: 1
-  - type: fire_resistance
-    amplifier: 1
-  drops:
+    generic_knockback_resistance: 100

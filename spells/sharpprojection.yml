@@ -25,3 +25,4 @@ sharpprojection:
     parameters:
       options:
        - cast_spell: eyenadder
+       - cast_spell: eyerazorwhip

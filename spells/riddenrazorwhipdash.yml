@@ -1,0 +1,69 @@
+riddenrazorwhipdash:
+    name: Slice
+    actions:
+        cast:
+        - class: Repeat
+          actions:
+          - class: ConeOfEffect
+            range: 3
+            actions:
+            - class: Damage
+            - class: ChangeContext
+              target_caster: true
+              actions:
+                - class: PlayEffects
+                  effects: hit
+                - class: Velocity
+                  min_speed: 1
+                  max_speed: 2
+                  y_offset: 1
+            - class: Stop
+          - class: ChangeContext
+            target_caster: true
+            actions:
+            - class: Velocity
+              min_speed: 3
+              max_speed: 4
+            - class: PlayEffects
+              effects: cast
+          - class: Delay
+    effects:
+        cast:
+        -  class: EffectSingle
+           sound: entity_phantom_flap
+           sound_volume: 3
+           effectlib:
+            class: SphereEffect
+            particle: sweep_attack
+            radius: 0.5
+            particles: 1
+            duration: 500
+            particle_count: 1
+            particle_offset_y: 0.2
+            particle_offset_x: 1.6
+            particle_offset_z: 1.6
+        hit:
+        -  class: EffectSingle
+           sound: entity_iron_golem_repair
+           sound_pitch: 1
+           sound_volume: 2
+        -  class: EffectSingle
+           sound: entity_player_attack_sweep
+           sound_pitch: 1
+           sound_volume: 2
+    parameters:
+        target: other
+        target_type: LivingEntity
+        range: 50
+        source_location: feet
+        reflective: gold_block
+        hitbox: false
+        fov: 0.5
+        velocity: 3
+        damage: rand(14,20)
+        target_breakables: 1
+        cooldown: rand(2000,18000)
+        magic_damage: false
+        instant_block_effects: true
+        repeat: 16
+        delay: 100

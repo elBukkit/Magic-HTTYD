@@ -39,10 +39,10 @@ eyenightmare:
           - "&rScale Toughness: &c13"
           - "&rArrow Resist: &c70%"
           - "&rBite Strength: &c21"
-          - "&rFirepower: &c(8-15)x6"
+          - "&rFirepower: &c(7-13)x6"
           - "&rBurn: &c7.5s"
           - "&rAccuracy: &c80%"
-          - "&rRecharge: &c3-20s"
+          - "&rRecharge: &c5-24s"
         7:
           - "&c&l&nMax Tame Values"
           - "&r "

@@ -1,0 +1,52 @@
+eyerazorwhip:
+    name: "&6Razorwhip"
+    icon: light_gray_stained_glass
+    actions:
+        cast:
+        - class: Book
+    parameters:
+      target: self
+      virtual_book: true
+      pages:
+        1:
+          - "&7&l&nRazorwhip"
+          - "&r "
+          - "&rFast, deadly, and shiny too. These dragons will cut you down in seconds if you're not careful."
+        2:
+          - "&7&l&nHunting"
+          - "&r "
+          - "&7Habitat: &rRazorwhips can be found in mountains."
+          - "&7Fire: &rRazorwhips fly towards enemies to cut them with their sharp wings."
+          - "&7Physicality: &rRazorwhips have high health, defence, and bite."
+        3:
+          - "&7&l&nSlaying"
+          - "&r "
+          - "&7Drops: &rRazorwhips drop their metallic scales, useful for creating weapons."
+          - "&rThey also some good gold, and the standard bones, meat, and hide."
+        4:
+          - "&7&l&nHatching"
+          - "&r "
+          - "&rA Razorwhip egg requires the heat of a magma block, and relative darkness to hatch."
+        5:
+          - "&7&l&nRiding"
+          - "&r "
+          - "&rRazorwhips fly at high speeds, and are highly agile."
+          - "&rTheir slice recharges sort of quickly."
+        6:
+          - "&7&l&nAvg Wild Values"
+          - "&r "
+          - "&rHealth: &790"
+          - "&rScale Toughness: &712"
+          - "&rArrow Resist: &770%"
+          - "&rBite Strength: &717"
+          - "&rSpine dmg: &7(14-20)"
+          - "&rAccuracy: &795%"
+          - "&rRecharge: &72-20s"
+        7:
+          - "&7&l&nMax Tame Values"
+          - "&r "
+          - "&rAcceleration: &715"
+          - "&rDecceleration: &730"
+          - "&rSpeed: &790"
+          - "&rReverse Speed: &720"
+          - "&rAgility: &7110"

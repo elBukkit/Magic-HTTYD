@@ -1,6 +1,5 @@
 rawdragonmeat:
     name: '&rRaw Dragon Meat'
-    locked: true
     consume_spell: eatraw
     craftable: true
     icon: rawdragonmeatitem

@@ -81,5 +81,5 @@ wildterrorfire:
         lifetime: 30000
         undo: 4000
         undo_speed: 30
-        track_speed: 0.05
+        track_speed: 0.01
         use_target_location: false

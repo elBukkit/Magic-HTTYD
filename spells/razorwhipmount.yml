@@ -1,64 +1,64 @@
-naddermount:
+razorwhipmount:
   inherit: mountdragon
   upgrade_required_casts: 6
-  name: Deadly Nadder Riding Skill
-  parameters:
-    max_deceleration: 0.005
-    start_speed: 0.1
-    min_speed: -0.1
-    steer_speed: 0.02
-    max_speed: 0.35
-    max_acceleration: 0.006
-    max_height_above_ground: 60
-    duration: 60000
-
-naddermount|2:
-  upgrade_required_casts: 25
+  name: Razowhip Riding Skill
   parameters:
     max_deceleration: 0.01
     start_speed: 0.1
+    min_speed: -0.1
+    steer_speed: 0.05
+    max_speed: 0.4
+    max_acceleration: 0.003
+    max_height_above_ground: 60
+    duration: 60000
+
+razorwhipmount|2:
+  upgrade_required_casts: 25
+  parameters:
+    max_deceleration: 0.015
+    start_speed: 0.1
     min_speed: -0.2
-    steer_speed: 0.035
-    max_speed: 0.45
+    steer_speed: 0.065
+    max_speed: 0.5
     max_acceleration: 0.01
     max_height_above_ground: 90
     duration: 80000
 
-naddermount|3:
+razorwhipmount|3:
   upgrade_required_casts: 100
   parameters:
-    max_deceleration: 0.015
-    jump_cast: riddennadderspines
+    max_deceleration: 0.02
+    jump_cast: riddenrazorwhipdash
     start_speed: 0.1
     min_speed: -0.2
-    steer_speed: 0.045
-    max_speed: 0.6
-    max_acceleration: 0.014
+    steer_speed: 0.075
+    max_speed: 0.75
+    max_acceleration: 0.007
     max_height_above_ground: 130
     duration: 180000
 
-naddermount|4:
+razorwhipmount|4:
   upgrade_required_casts: 300
   parameters:
-    max_deceleration: 0.02
-    jump_cast: riddennadderspines
-    start_speed: 0.1
-    min_speed: -0.2
-    steer_speed: 0.065
-    max_speed: 0.7
-    max_acceleration: 0.02
-    max_height_above_ground: 150
-    duration: 400000
-
-naddermount|5:
-  upgrade_required_casts: 800
-  parameters:
     max_deceleration: 0.025
-    jump_cast: riddennadderspines
+    jump_cast: riddenrazorwhipdash
     start_speed: 0.1
     min_speed: -0.2
     steer_speed: 0.085
     max_speed: 0.8
-    max_acceleration: 0.03
+    max_acceleration: 0.01
+    max_height_above_ground: 150
+    duration: 400000
+
+razorwhipmount|5:
+  upgrade_required_casts: 800
+  parameters:
+    max_deceleration: 0.03
+    jump_cast: riddenrazorwhipdash
+    start_speed: 0.1
+    min_speed: -0.2
+    steer_speed: 0.11
+    max_speed: 0.9
+    max_acceleration: 0.015
     max_height_above_ground: 160
     duration: 2400000

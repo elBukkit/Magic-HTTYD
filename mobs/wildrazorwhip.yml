@@ -1,5 +1,5 @@
-wildnadder:
-  name: 'Wild Deadly Nadder'
+wildrazorwhip:
+  name: Wild Razorwhip
   type: phantom
   aggro: true
   size: 10
@@ -9,62 +9,62 @@ wildnadder:
     invisible: true
     swimming: true
     burning: false
-  helmet: Nadder
+  helmet: Razorwhip
   chestplate: thorns
-  item: NadderRight
-  offhand: NadderLeft
+  item: RazorwhipRight
+  offhand: RazorwhipLeft
   equip_on_respawn: false
   silent: true
-  health: 65
+  health: 90
   interval: 2500
   interval_requires_target: false
   lifetime: 3600000
-  drop_xp: 100
+  drop_xp: 280
   persist: true
   mage:
-    effect_color: "#a9a9a9"
+    effect_color: '#a9a9a9'
   protection:
-    projectile: 0.6
+    projectile: 0.7
   default_drops: false
   entity_attributes:
-    generic_attack_damage: 8
-    generic_armor: 10
+    generic_attack_damage: 17
+    generic_armor: 12
   triggers:
     spawn:
       cast: colourdragon
     interval:
-      cast: wildnadderspines
+      cast: wildrazorwhipdash
     launch:
-      cast: wildnadderspines
+      cast: wildrazorwhipdash
     damage:
       effects:
-      - sound: dragons.nadder1
-      cast: 
-        wildnadderspines: 20
+      - sound: dragon.razorwhip1
+      cast:
+        wildrazorwhipdash: 20
         none: 100
     death:
       effects:
-      - sound: dragons.nadder2
+      - sound: dragon.razorwhip3
         sound_pitch: -2
-      cast: 
-        nadderspawnnest: 5
+      cast:
+        razorwhipspawnnest: 5
         none: 75
   drops:
-  - NadderSpine: 10
+  - RazorwhipMetal: 10
     blaze_powder: 100
     blaze_powder@2: 20
-    NadderSpine@2: 50
+    RazorwhipMetal@2: 20
     DragonBone: 30
     DragonHide: 60
     DragonBone@2: 30
     DragonHide@2: 60
-  - NadderSpine: 40
+  - RazorwhipMetal: 10
     none: 100
-  - NadderSpine: 50
+  - RazorwhipMetal: 10
     none: 100
-  - NadderHorn: 20
+  - RazorwhipMetal: 20
     none: 100
-  - scalecoin@5
+  - scalecoin@9
   - scalecoin@1: 25
     scalecoin@2: 25
     scalecoin@3: 25

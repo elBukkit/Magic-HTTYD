@@ -43,12 +43,13 @@ turretshot:
     parameters:
         fov: 360
         arrow_damage: 2
+        range: 100
         projectile: TippedArrow
         hitbox: false
         target_self: false
-        speed: 3
-        cooldown: 7500
-        spread: 1
+        speed: 4
+        cooldown: 5000
+        spread: 0.4
         target: other
         target_types:
           - ghast

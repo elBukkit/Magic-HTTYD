@@ -1,0 +1,12 @@
+arrowshotturret:
+    name: "&rArrow Turret"
+    description: "&8Place to defend against dragons for 10 minutes."
+    mode: cast
+    hide_flags: 127
+    keep: false
+    locked: false
+    bound: false
+    uses: 1
+    indestructible: true
+    active_spell: placeshotturret
+    icon: turretitem
