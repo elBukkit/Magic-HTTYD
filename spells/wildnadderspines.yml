@@ -79,6 +79,7 @@ wildnadderspines:
         target_types:
           - player
           - zombie_horse
+          - skeleton_horse
         target_breakables: 1
         track_target: true
         lifetime: 30000

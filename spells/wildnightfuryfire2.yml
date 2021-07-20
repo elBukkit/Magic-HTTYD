@@ -96,6 +96,7 @@ wildnightfuryfire2:
         target_types:
           - player
           - zombie_horse
+          - skeleton_horse
         undo: 60000
         undo_speed: 20
         falling: true

@@ -1,0 +1,28 @@
+dragonswim:
+    name: Dragon Sighting
+    category: Test
+    actions:
+        cast:
+          - class: CheckBlock
+            direction: up
+            allowed: water
+            source_location: feet
+            actions:
+                - class: Velocity
+                  min_speed: 2
+                  max_speed: 2
+    effects:
+        cast:
+        -  class: EffectSingle
+           sound: entity_phantom_flap
+           sound_pitch: 1.5
+           sound_volume: 1
+    parameters:
+        cooldown: 100
+        cooldown_mage: 100
+        target: self
+        cancel_on_cast_other: true
+        bypass_mage_cooldown: false
+        push: 1
+        min_speed: 2
+        max_speed: 2

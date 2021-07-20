@@ -113,6 +113,7 @@ wildnightmarefire:
         target_types:
           - player
           - zombie_horse
+          - skeleton_horse
         target_breakables: rand(1,3)
         break_durability: rand(1,3)
         destructible_durability: 200

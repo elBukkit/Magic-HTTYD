@@ -59,6 +59,7 @@ healdragon:
         target_type: LivingEntity
         target_types:
           - zombie_horse
+          - skeleton_horse
         range: 10
         duration: 10000
         cooldown: 10000

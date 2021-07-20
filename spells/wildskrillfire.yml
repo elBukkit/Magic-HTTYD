@@ -89,6 +89,7 @@ wildskrillfire:
         target_types:
         - player
         - zombie_horse
+        - skeleton_horse
         source_location: head
         reflective: gold_block
         target_self: false

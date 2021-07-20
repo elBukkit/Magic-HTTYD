@@ -1,0 +1,51 @@
+scauldronridden:
+  type: skeleton_horse
+  prevent_melee: true
+  tamed: true
+  interact_requires_owner: true
+  equip_on_respawn: false
+  gravity: false
+  track_radius: 0
+  disguise:
+    type: player
+    skin: NightScythe1
+    invisible: true
+    swimming: true
+    burning: false
+  helmet: Scauldron
+  item: ScauldronRight
+  offhand: ScauldronLeft
+  silent: true
+  health: 85
+  interval: 90000
+  default_drops: false
+  interact_spell: scauldronmount
+  persist: true
+  mage:
+    effect_color: white
+  entity_attributes:
+    generic_armor: 20
+    generic_movement_speed: 0
+    generic_follow_range: 0
+  triggers:
+    spawn:
+      cast: colourdragon
+    damage:
+      effects:
+      - sound: dragon.scauldron1
+    interval:
+      effects:
+      - sound: dragon.scauldron1
+    death:
+      effects:
+      - sound: dragon.scauldron1
+        sound_pitch: -2
+  potion_effects:
+  - type: slow_falling
+    amplifier: 1
+  - type: fire_resistance
+    amplifier: 1
+  - type: regeneration
+    amplifier: 1
+  - type: damage_resistance
+    amplifier: 1

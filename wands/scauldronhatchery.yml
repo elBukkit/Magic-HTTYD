@@ -1,0 +1,15 @@
+scauldronhatchery:
+    name: "&eScauldron Nest"
+    lore:
+    - "&7Dragon nest. Place in a"
+    - "&7dark room on blue ice"
+    - "&7and wait for it to hatch."
+    mode: cast
+    hide_flags: 127
+    keep: false
+    locked: false
+    bound: false
+    uses: 1
+    indestructible: true
+    active_spell: scauldronspawnnest
+    icon: ScauldronNest

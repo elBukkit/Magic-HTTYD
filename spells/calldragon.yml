@@ -60,6 +60,7 @@ calldragon:
         fov: 0.2
         target_types:
           - zombie_horse
+          - skeleton_horse
         range: 200
         item_speed: 2
         living_entity_speed: 1

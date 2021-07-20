@@ -15,7 +15,7 @@ shotturret:
   helmet: turretitem
   silent: true
   mage:
-    effect_color: white
+    effect_color: black
   triggers:
     interval: 
       cast: 

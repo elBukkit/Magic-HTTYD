@@ -59,6 +59,7 @@ wildrazorwhipdash:
         target_types:
           - player
           - zombie_horse
+          - skeleton_horse
         range: 50
         cancel_on_damage: 6
         reflective: gold_block

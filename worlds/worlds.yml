@@ -1,5 +1,5 @@
 dragon_spawns:
-  world: world
+  world: Arc
   entity_spawn:
 
 
@@ -74,7 +74,7 @@ dragon_spawns:
       - skeleton
       - husk
       probability: 0.02
-      cooldown: 30000
+      cooldown: 60000
       replace_type: wildgronckle
       biomes:
         - wooded_mountains
@@ -101,7 +101,7 @@ dragon_spawns:
       - skeleton
       - husk
       probability: 0.015
-      cooldown: 45000
+      cooldown: 85000
       replace_type: wildnadder
       biomes:
         - birch_forest
@@ -127,14 +127,31 @@ dragon_spawns:
       - creeper
       - skeleton
       - husk
-      probability: 0.01
-      cooldown: 60000
+      probability: 0.025
+      cooldown: 110000
       replace_type: wildzippleback
       biomes:
         - swamp
         - swamp_hills
 
 
+
+    replace_scauldron:
+      class: Replace
+      target_types:
+      - cod
+      - dolphin
+      - salmon
+      - tropical_fish
+      - squid
+      - enderman
+      probability: 0.003
+      cooldown: 150000
+      replace_type: wildscauldron
+      biomes:
+        - ocean
+        - lukewarm_ocean
+        - deep_lukewarm_ocean
 
 
     replace_nightmare:
@@ -154,8 +171,8 @@ dragon_spawns:
       - creeper
       - skeleton
       - husk
-      probability: 0.01
-      cooldown: 85000
+      probability: 0.003
+      cooldown: 160000
       replace_type: wildnightmare
       biomes:
         - desert
@@ -182,7 +199,7 @@ dragon_spawns:
       - skeleton
       - husk
       probability: 0.001
-      cooldown: 100000
+      cooldown: 200000
       replace_type: wilddeathsong
       biomes:
         - savanna
@@ -209,7 +226,7 @@ dragon_spawns:
       - skeleton
       - husk
       probability: 0.002
-      cooldown: 70000
+      cooldown: 90000
       replace_type: wildrazorwhip
       biomes:
         - mountains

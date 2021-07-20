@@ -24,4 +24,4 @@ tidalprojection:
               offset: 0,-1,0
     parameters:
       options:
-       - cast_spell:
+       - cast_spell: eyescauldron

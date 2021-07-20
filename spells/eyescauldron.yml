@@ -1,0 +1,53 @@
+eyescauldron:
+    name: "&6Scauldron"
+    icon: red_stained_glass
+    actions:
+        cast:
+        - class: Book
+    parameters:
+      target: self
+      virtual_book: true
+      pages:
+        1:
+          - "&3&l&nScauldron"
+          - "&r "
+          - "&rThe last thing you want to see swimming under your boat, the Scauldron shoots blasts of boiling water and swims through the ocean."
+        2:
+          - "&3&l&nHunting"
+          - "&r "
+          - "&3Habitat: &rThe Scauldron swims along lukewarm oceans."
+          - "&3Fire: &rThe Scauldron shoots extremely powerful hot water."
+          - "&3Physicality: &rThe Scauldron has pretty high health and average defence, and a painful bite."
+        3:
+          - "&3&l&nSlaying"
+          - "&r "
+          - "&3Drops: &rScauldrons drop an assortment of fish when killed."
+          - "&rThese creatures also yield a good amount of gold, and the standard bones, meat, and hide."
+        4:
+          - "&3&l&nHatching"
+          - "&r "
+          - "&rA Scauldron egg requires the frost of blue ice, and relative darkness to hatch."
+        5:
+          - "&3&l&nRiding"
+          - "&r "
+          - "&rScauldrons fly at below average speeds, but they are agile and can accelerate quickly."
+          - "&rScauldrons may take longer to recharge their water, due to the power of their blasts."
+          - "&rThe Scauldron can fly underwater, like most tidal class dragons."
+        6:
+          - "&3&l&nAvg Wild Values"
+          - "&r "
+          - "&rHealth: &385"
+          - "&rScale Toughness: &310"
+          - "&rArrow Resist: &370%"
+          - "&rBite Strength: &311"
+          - "&rFirepower: &3(14-23)"
+          - "&rAccuracy: &390%"
+          - "&rRecharge: &35-24s"
+        7:
+          - "&3&l&nMax Tame Values"
+          - "&r "
+          - "&rAcceleration: &330"
+          - "&rDecceleration: &330"
+          - "&rSpeed: &365"
+          - "&rReverse Speed: &335"
+          - "&rAgility: &380"
