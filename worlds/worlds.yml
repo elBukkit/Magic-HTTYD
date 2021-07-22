@@ -1,5 +1,5 @@
 dragon_spawns:
-  world: Arc
+  world: world
   entity_spawn:
 
 
@@ -19,15 +19,23 @@ dragon_spawns:
 
     replace_flocks:
       class: Replace
-      y_offset: 25
+      y_offset: 36
       highest_block: true
       target_types:
-      - phantom
-      - enderman
-      - llama
+      - chicken
       - sheep
+      - cow
+      - pig
+      - rabbit
+      - llama
+      - enderman
+      - zombie
+      - spider
+      - creeper
+      - skeleton
+      - husk
       probability: 0.0001
-      cooldown: 600000
+      cooldown: 6000000
       replace_type: flockspawner
 
 
@@ -45,12 +53,9 @@ dragon_spawns:
       - llama
       - enderman
       - zombie
-      - spider
-      - creeper
       - skeleton
-      - husk
-      probability: 0.1
-      cooldown: 5000
+      probability: 0.03
+      cooldown: 25000
       replace_type: wildterror
 
 
@@ -58,7 +63,7 @@ dragon_spawns:
 
     replace_gronckles:
       class: Replace
-      y_offset: 20
+      y_offset: 32
       highest_block: true
       target_types:
       - chicken
@@ -73,7 +78,7 @@ dragon_spawns:
       - creeper
       - skeleton
       - husk
-      probability: 0.02
+      probability: 0.01
       cooldown: 60000
       replace_type: wildgronckle
       biomes:
@@ -85,7 +90,7 @@ dragon_spawns:
 
     replace_nadders:
       class: Replace
-      y_offset: 20
+      y_offset: 32
       highest_block: true
       target_types:
       - chicken
@@ -100,7 +105,7 @@ dragon_spawns:
       - creeper
       - skeleton
       - husk
-      probability: 0.015
+      probability: 0.007
       cooldown: 85000
       replace_type: wildnadder
       biomes:
@@ -112,7 +117,7 @@ dragon_spawns:
 
     replace_zipplebacks:
       class: Replace
-      y_offset: 20
+      y_offset: 32
       highest_block: true
       target_types:
       - chicken
@@ -127,8 +132,10 @@ dragon_spawns:
       - creeper
       - skeleton
       - husk
-      probability: 0.025
-      cooldown: 110000
+      - slime
+      - salmon
+      probability: 0.003
+      cooldown: 190000
       replace_type: wildzippleback
       biomes:
         - swamp
@@ -145,8 +152,8 @@ dragon_spawns:
       - tropical_fish
       - squid
       - enderman
-      probability: 0.003
-      cooldown: 150000
+      probability: 0.0002
+      cooldown: 400000
       replace_type: wildscauldron
       biomes:
         - ocean
@@ -156,7 +163,7 @@ dragon_spawns:
 
     replace_nightmare:
       class: Replace
-      y_offset: 20
+      y_offset: 32
       highest_block: true
       target_types:
       - chicken
@@ -171,7 +178,7 @@ dragon_spawns:
       - creeper
       - skeleton
       - husk
-      probability: 0.003
+      probability: 0.001
       cooldown: 160000
       replace_type: wildnightmare
       biomes:
@@ -181,9 +188,38 @@ dragon_spawns:
 
 
 
+    replace_stormcutter:
+      class: Replace
+      y_offset: 54
+      highest_block: true
+      target_types:
+      - chicken
+      - sheep
+      - cow
+      - pig
+      - wolf
+      - rabbit
+      - llama
+      - enderman
+      - zombie
+      - spider
+      - creeper
+      - skeleton
+      - husk
+      probability: 0.002
+      cooldown: 120000
+      replace_type: wildstormcutter
+      biomes:
+        - taiga
+        - taiga_hills
+        - giant_spruce_taiga
+        - giant_spruce_taiga_hills
+
+
+
     replace_deathsong:
       class: Replace
-      y_offset: 20
+      y_offset: 32
       highest_block: true
       target_types:
       - chicken
@@ -210,7 +246,7 @@ dragon_spawns:
 
     replace_razorwhip:
       class: Replace
-      y_offset: 20
+      y_offset: 32
       highest_block: true
       target_types:
       - chicken
@@ -238,13 +274,13 @@ dragon_spawns:
 
     replace_strike:
       class: Replace
-      y_offset: 25
+      y_offset: 32
       highest_block: true
       target_types:
       - phantom
       - enderman
-      probability: 0.001
+      probability: 0.006
       cooldown: 180000
       replace_type:
         wildnightfury: 1
-        wildskrill: 2
+        wildskrill: 3

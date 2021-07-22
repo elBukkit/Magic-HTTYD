@@ -21,3 +21,7 @@ buyeggsuncommon:
           cost: 70
         - item: zipplebackhatchery
           cost: 120
+        - item: scauldronhatchery
+          cost: 170
+        - item: stormcutterhatchery
+          cost: 175

@@ -1,14 +1,16 @@
 explode:
   name: Explode
-  enabled: false
   actions:
         cast:
         - class: CustomProjectile
           hit_on_miss: true
+          target_self: false
+          target: other
           range: 4
           hitbox: true
           actions:
           - class: AreaOfEffect
+            target_self: false
             radius: 3
             actions:
               - class: Damage
@@ -63,6 +65,8 @@ explode:
         particle_offset_z: 0
   parameters:
       fov: 0.3
+      target_self: false
+      target_caster: false
       hitbox: false
       velocity: 50
       allow_max_range: false
@@ -75,5 +79,4 @@ explode:
       target_breakables: 1
       cooldown_mage: 8000
       lifetime: 5000
-      target_self_timeout: 2000
       use_target_location: false

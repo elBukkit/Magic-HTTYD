@@ -2,6 +2,7 @@ wildzippleback:
   name: 'Wild Hideous Zippleback'
   type: phantom
   aggro: true
+  size: 10
   disguise:
     type: player
     skin: NightScythe1
@@ -60,7 +61,7 @@ wildzippleback:
     none: 100
   - ZipplebackHorn: 20
     none: 100
-  - scalecoin@7
+  - scalecoin@12
   - scalecoin@1: 25
     scalecoin@2: 25
     scalecoin@3: 25
@@ -79,7 +80,7 @@ wildzippleback:
     boulderlens: 1
     mysterylens: 1
     tidallens: 1
-    none: 100
+    none: 250
   potion_effects:
   - type: fire_resistance
     amplifier: 1

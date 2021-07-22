@@ -16,7 +16,7 @@ healdragon:
               radius: 12
               actions:
               - class: Heal
-                percentage: 50
+                percentage: 25
               - class: FallProtection
               - class: Delay
                 delay: 200

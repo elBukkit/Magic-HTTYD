@@ -64,7 +64,7 @@ wildnadder:
     none: 100
   - NadderHorn: 20
     none: 100
-  - scalecoin@5
+  - scalecoin@9
   - scalecoin@1: 25
     scalecoin@2: 25
     scalecoin@3: 25
@@ -81,7 +81,7 @@ wildnadder:
     boulderlens: 1
     mysterylens: 1
     tidallens: 1
-    none: 100
+    none: 250
   potion_effects:
   - type: fire_resistance
     amplifier: 1

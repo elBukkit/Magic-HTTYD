@@ -37,8 +37,8 @@ wildskrill:
         skrillmove: 20
     launch:
       cast:
-        wildskrillfire: 80
-        skrillmove: 20
+        wildskrillfire: 70
+        skrillmove: 30
     damage:
       effects:
       - sound: dragon.skrill2
@@ -76,7 +76,7 @@ wildskrill:
     boulderlens: 1
     mysterylens: 1
     tidallens: 1
-    none: 100
+    none: 250
   potion_effects:
   - type: fire_resistance
     amplifier: 1

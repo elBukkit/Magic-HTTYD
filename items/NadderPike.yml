@@ -10,6 +10,14 @@ NadderPike:
       ==: ItemMeta
       meta-type: UNSPECIFIC
       display-name: '[{"text":"Nadder Pike","italic":false}]'
+      lore:
+      - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"black","text":"."}],"text":""}'
+      - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"When
+        in main hand:"},{"italic":false,"color":"gray","text":""}],"text":""}'
+      - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"dark_aqua","text":"
+        4.5 Attack Damage"}],"text":""}'
+      - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"dark_aqua","text":"
+        3 Attack Speed"}],"text":""}'
       custom-model-data: 1
       attribute-modifiers:
         GENERIC_ATTACK_DAMAGE:
@@ -21,7 +29,7 @@ NadderPike:
           operation: 0
         GENERIC_ATTACK_SPEED:
         - ==: org.bukkit.attribute.AttributeModifier
-          amount: -1.6
+          amount: -1.3
           name: Attack Speed
           slot: HAND
           uuid: 00000000-0000-0063-0000-000009c1e16c

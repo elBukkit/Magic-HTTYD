@@ -22,7 +22,7 @@ riddennadderspines:
             - class: PlayEffects
               effect: shoot
             - class: Delay
-              delay: rand(250,700)
+              delay: 300
     effects:
         shoot:
         -  class: EffectSingle
@@ -52,8 +52,8 @@ riddennadderspines:
         hitbox: false
         target_self: false
         reflective: gold_block
-        velocity: 40
-        repeat: rand(4,7)
+        velocity: 45
+        repeat: 3
         spread: 0.02
         spread_movement_max: 0.1
         destructible: solid
@@ -64,7 +64,7 @@ riddennadderspines:
         magic_damage: false
         range: 64
         cooldown: rand(2000,12000)
-        damage: rand(3,7)
+        damage: rand(7,10)
         hitbox_size: 0.5
         hitbox_block_size: 0.1
         block_hit_count: 1

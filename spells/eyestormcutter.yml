@@ -1,0 +1,52 @@
+eyestormcutter:
+    name: "&6Stormcutter"
+    icon: light_gray_stained_glass
+    actions:
+        cast:
+        - class: Book
+    parameters:
+      target: self
+      virtual_book: true
+      pages:
+        1:
+          - "&7&l&nStormcutter"
+          - "&r "
+          - "&rA high flying four-winged beast, this dragon has incredible agility rivalled by few."
+        2:
+          - "&7&l&nHunting"
+          - "&r "
+          - "&7Habitat: &rStormcutters are found in taiga."
+          - "&7Fire: &rStormcutters launch a swirling vortex of hot fire."
+          - "&7Physicality: &rStormcutters have quite high health, average defence and bite."
+        3:
+          - "&7&l&nSlaying"
+          - "&r "
+          - "&7Drops: &rStormcutters drop more blaze powder than usual."
+          - "&rThey also drop a pretty good amount of gold, and the standard bones, meat, and hide."
+        4:
+          - "&7&l&nHatching"
+          - "&r "
+          - "&rA Stormcutter egg requires the heat of a magma block, and relative darkness to hatch."
+        5:
+          - "&7&l&nRiding"
+          - "&r "
+          - "&rStormcutters fly at plain speed, but are incredibly agile."
+          - "&rTheir fire recharges slower than average."
+        6:
+          - "&7&l&nAvg Wild Values"
+          - "&r "
+          - "&rHealth: &7100"
+          - "&rScale Toughness: &711"
+          - "&rArrow Resist: &770%"
+          - "&rBite Strength: &79"
+          - "&rFirepower: &711-19"
+          - "&rAccuracy: &785%"
+          - "&rRecharge: &72.5-21s"
+        7:
+          - "&7&l&nMax Tame Values"
+          - "&r "
+          - "&rAcceleration: &720"
+          - "&rDecceleration: &728"
+          - "&rSpeed: &772"
+          - "&rReverse Speed: &755"
+          - "&rAgility: &7130"

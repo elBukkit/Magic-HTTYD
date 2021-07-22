@@ -1,8 +1,8 @@
-scauldronhatchery:
-    name: "&eScauldron Nest"
+stormcutterhatchery:
+    name: "&eStormcutter Nest"
     lore:
     - "&7Dragon nest. Place in a"
-    - "&7dark room in water"
+    - "&7dark room on magma blocks"
     - "&7and wait for it to hatch."
     mode: cast
     hide_flags: 127
@@ -11,5 +11,5 @@ scauldronhatchery:
     bound: false
     uses: 1
     indestructible: true
-    active_spell: scauldronspawnnest
-    icon: ScauldronNest
+    active_spell: stormcutterspawnnest
+    icon: StormcutterNest

@@ -25,7 +25,7 @@ wildnadderspines:
             - class: PlayEffects
               effect: shoot
             - class: Delay
-              delay: rand(250,700)
+              delay: 300
     effects:
         shoot:
         -  class: EffectSingle
@@ -56,9 +56,9 @@ wildnadderspines:
         hitbox: false
         target_self: false
         reflective: gold_block
-        velocity: 40
-        repeat: rand(4,7)
-        spread: 0.1
+        velocity: 45
+        repeat: 3
+        spread: 0.04
         spread_movement_max: 0.2
         destructible: solid
         break_durability: 2
@@ -68,7 +68,7 @@ wildnadderspines:
         magic_damage: false
         range: 32
         cooldown: rand(1500,12000)
-        damage: rand(3,7)
+        damage: rand(7,10)
         hitbox_size: 0.3
         hitbox_block_size: 0.1
         block_hit_count: 1

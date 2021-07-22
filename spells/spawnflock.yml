@@ -16,10 +16,11 @@ spawnflock:
         allow_replacement: false
         entity_types:
             wildgronckle: 150
-            wildnadder: 120
-            wildzippleback: 90
-            wildnightmare: 50
-            wildrazorwhip: 60
+            wildnadder: 130
+            wildzippleback: 100
+            wildnightmare: 70
+            wildstormcutter: 90
+            wildrazorwhip: 80
             wilddeathsong: 20
             wildnightfury: 1
             wildskrill: 2
@@ -27,7 +28,7 @@ spawnflock:
         target_self: true
         target: self
         range: 32
-        repeat: rand(5,10)
+        repeat: rand(6,10)
         radius: rand(16,25)
         delay: 10
 

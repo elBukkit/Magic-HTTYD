@@ -1,10 +1,10 @@
-hatchcold:
+hatchwater:
     name: Hatching
     actions:
         cast:
           - class: CheckBlock
             direction: down
-            allowed: blue_ice
+            allowed: water
             source_location: feet
             actions:
               - class: CheckRequirements
@@ -23,8 +23,8 @@ hatchcold:
            location: target
         -  class: EffectSingle
            location: target
-           particle: snowball
-           particle_count: 5
+           particle: water_wake
+           particle_count: 10
            particle_offset_y: 0.5
            particle_offset_x: 0.5
            particle_offset_z: 0.5

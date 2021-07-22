@@ -5,7 +5,8 @@ riddenrazorwhipdash:
         - class: Repeat
           actions:
           - class: ConeOfEffect
-            range: 3
+            range: 6
+            fov: 360
             actions:
             - class: Damage
             - class: ChangeContext
@@ -17,10 +18,13 @@ riddenrazorwhipdash:
                   min_speed: 1
                   max_speed: 2
                   y_offset: 1
-            - class: Stop
           - class: ChangeContext
             target_caster: true
             actions:
+            - class: PotionEffect
+              potion_effects:
+                damage_resistance: 5
+              duration: 700
             - class: Velocity
               min_speed: 3
               max_speed: 4
@@ -54,15 +58,16 @@ riddenrazorwhipdash:
     parameters:
         target: other
         target_type: LivingEntity
+        effects_particles: false
         range: 50
         source_location: feet
         reflective: gold_block
         hitbox: false
-        fov: 0.5
+        fov: 90
         velocity: 3
-        damage: rand(14,20)
+        damage: rand(17,25)
         target_breakables: 1
-        cooldown: rand(2000,18000)
+        cooldown: rand(2000,21000)
         magic_damage: false
         instant_block_effects: true
         repeat: 16

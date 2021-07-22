@@ -26,7 +26,7 @@ eyescauldron:
         4:
           - "&3&l&nHatching"
           - "&r "
-          - "&rA Scauldron egg requires the frost of blue ice, and relative darkness to hatch."
+          - "&rA Scauldron egg must be floating in water, and be in relative darkness to hatch."
         5:
           - "&3&l&nRiding"
           - "&r "

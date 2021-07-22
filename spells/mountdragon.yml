@@ -43,6 +43,7 @@ mountdragon:
       sound_pitch: -2
   parameters:
     target: self
+    passthrough: passthrough
     undo: 1000
     set_target: true
     type: riddengronckle
@@ -54,7 +55,7 @@ mountdragon:
     bypass_confusion: false
     liftoff_duration: 200
     crash_damage: 1
-    liftoff_thrust: 0.7
+    liftoff_thrust: 0.4
     fall_protection: 700
     duration: 60000
     duration_warning: 20000
@@ -73,7 +74,7 @@ mountdragon:
     air_controllable: true
     controllable: true
     gravity: 0.05
-    strafe_controllable: 0.1
+    strafe_controllable: 0.15
     jump_controllable: 1
     exemption_duration: 5000
     armor_stand_marker: false

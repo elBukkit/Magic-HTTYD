@@ -1,5 +1,5 @@
-wildrazorwhip:
-  name: Wild Razorwhip
+wildstormcutter:
+  name: Wild Stormcutter
   type: phantom
   aggro: true
   size: 10
@@ -9,17 +9,16 @@ wildrazorwhip:
     invisible: true
     swimming: true
     burning: false
-  helmet: Razorwhip
-  chestplate: thorns
-  item: RazorwhipRight
-  offhand: RazorwhipLeft
+  helmet: Stormcutter
+  item: StormcutterRight
+  offhand: StormcutterLeft
   equip_on_respawn: false
   silent: true
-  health: 90
-  interval: 2500
+  health: 100
+  interval: 2000
   interval_requires_target: false
   lifetime: 3600000
-  drop_xp: 280
+  drop_xp: 290
   persist: true
   mage:
     effect_color: '#a9a9a9'
@@ -27,47 +26,41 @@ wildrazorwhip:
     projectile: 0.7
   default_drops: false
   entity_attributes:
-    generic_attack_damage: 17
-    generic_armor: 12
+    generic_attack_damage: 9
+    generic_armor: 11
   triggers:
     spawn:
       cast: colourdragon
     interval:
-      cast: wildrazorwhipdash
+      cast: wildstormcutterfire
     launch:
-      cast: wildrazorwhipdash
+      cast: wildstormcutterfire
     damage:
       effects:
-      - sound: dragon.razorwhip1
+      - sound: dragons.nadder1
       cast:
-        wildrazorwhipdash: 20
+        wildstormcutterfire: 20
         none: 100
     death:
       effects:
-      - sound: dragon.razorwhip3
+      - sound: dragons.nadder2
         sound_pitch: -2
       cast:
-        razorwhipspawnnest: 5
+        stormcutterspawnnest: 5
         none: 75
   drops:
-  - RazorwhipMetal: 10
+  - blaze_powder@3: 10
     blaze_powder: 100
     blaze_powder@2: 20
-    RazorwhipMetal@2: 20
+    blaze_powder@5: 50
     DragonBone: 30
     DragonHide: 60
     DragonBone@2: 30
     DragonHide@2: 60
-  - RazorwhipMetal: 10
-    none: 100
-  - RazorwhipMetal: 10
-    none: 100
-  - RazorwhipMetal: 20
-    none: 100
-  - scalecoin@9
-  - scalecoin@1: 25
-    scalecoin@2: 25
-    scalecoin@3: 25
+  - scalecoin@12
+  - scalecoin@2: 25
+    scalecoin@4: 25
+    scalecoin@7: 25
     none: 25
   - rawdragonmeat: 90
     rawdragonmeat@2: 50

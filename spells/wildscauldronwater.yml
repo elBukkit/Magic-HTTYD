@@ -70,16 +70,24 @@ wildscauldronwater:
       particle_offset_z: 1
       sound: entity_dolphin_splash
       sound_volume: 5
-      particle_data: 0.6
+      particle_data: 0.2
     - class: EffectSingle
       location: target
-      particle: water_drop
+      particle: water_splash
       particle_count: 25
       particle_offset_x: 1
       particle_offset_y: 1
       particle_offset_z: 1
       sound: entity_player_splash_high_speed
       sound_volume: 5
+      particle_data: 0.6
+    - class: EffectSingle
+      location: target
+      particle: bubble_column_up
+      particle_count: 25
+      particle_offset_x: 1
+      particle_offset_y: 1
+      particle_offset_z: 1
       particle_data: 0.6
   parameters:
     fov: 90
@@ -90,10 +98,11 @@ wildscauldronwater:
     size: 2
     range: 100
     magic_damage: false
-    cooldown: rand(1000,20000)
-    spread: 0.1
+    cooldown: rand(4000,24000)
+    spread: 0.22
     damage: rand(14,23)
-    hitbox_size: 0.5
+    hitbox_size: 0.7
+    hitbox_block_size: 1
     ignore_blocks: false
     target: other
     target_types:

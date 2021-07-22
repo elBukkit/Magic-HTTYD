@@ -1,0 +1,121 @@
+riddenstormcutterfire:
+    name: Firenado
+    actions:
+      cast:
+        - class: PlayEffects
+          effect: launch
+        - class: CustomProjectile
+          actions:
+          - class: AreaOfEffect
+            radius: 3
+            actions:
+            - class: Ignite
+              duration: 5000
+            - class: Damage
+          - class: Sphere
+            radius: 1
+            actions:
+            - class: Cover
+              actions:
+                - class: Burn
+    effects:
+        cast:
+        - class: EffectSingle
+          sound: entity_husk_death
+          sound_volume: 3
+          sound_pitch: 0.5
+          location: origin
+          source_location: feet
+        launch:
+        -  class: EffectSingle
+           sound: item_firecharge_use
+           sound_pitch: -1
+           sound_volume: 3
+           location: origin
+        projectile: 
+        - class: EffectSingle
+          location: origin
+          effectlib:
+               class: Modified
+               iterations: 10
+               parameters:
+                radius: "(t/i) * 2 + 0.1"
+               effect:
+                 class: DnaEffect
+                 particles_base: 0
+                 particles_helix: 100
+                 particle_helix: flame
+                 particle_base1: flame
+                 particle_base2: flame
+        tick: 
+        - location: target
+          particle: flame
+          particle_count: 3
+          particle_offset_x: 0.25
+          particle_offset_y: 0.25
+          particle_offset_z: 0.25
+          particle_data: 0.001
+        - location: target
+          particle: redstone
+          color: "#ff8c00"
+          particle_count: 5
+          particle_offset_x: 0.4
+          particle_offset_y: 0.4
+          particle_offset_z: 0.4
+          particle_size: 2
+          particle_data: 0.5
+        hit: 
+        - location: target
+          sound: item_firecharge_use
+          sound_volume: 4
+        - location: target
+          sound: entity_generic_extinguish_fire
+          sound_pitch: -0.5
+          sound_volume: 5
+        - location: target
+          particle: flame
+          particle_count: 75
+          particle_offset_x: 0.01
+          particle_offset_y: 0.01
+          particle_offset_z: 0.01
+          particle_data: 0.1
+        - location: target
+          particle: smoke_large
+          particle_count: 20
+          particle_data: 0.1
+        - location: target
+          target_location: hit
+          effectlib:
+             class: Modified
+             duration: 500
+             parameters:
+                 radius: "(t/i) * 0.5 + 0.001"
+             effect:
+                 class: Sphere
+                 particle: smoke_normal
+                 particles: 15
+                 particle_data: 0.1
+                 update_locations: false
+    parameters:
+        target: other
+        fov: 0.5
+        target_type: LivingEntity
+        magic_damage: false
+        velocity: 43
+        spread: 0.16
+        source_location: feet
+        hitbox_size: 1
+        hitbox_block_size: 1
+        target_breakables: 5
+        damage: rand(11,19)
+        tick_size: 0.1
+        range: 100
+        undo: rand(3000,6000)
+        cooldown: rand(2000,21000)
+        destructible: burnable
+        destructible_durability: 1
+        break_durability: 1
+        select_self: false
+        undo_speed: 0.5
+        track_target: true
+        track_speed: 0.05

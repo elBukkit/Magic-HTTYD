@@ -26,3 +26,4 @@ sharpprojection:
       options:
        - cast_spell: eyenadder
        - cast_spell: eyerazorwhip
+       - cast_spell: eyestormcutter

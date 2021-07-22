@@ -21,7 +21,11 @@ buyeggsrare:
           cost: 70
         - item: zipplebackhatchery
           cost: 120
+        - item: scauldronhatchery
+          cost: 170
+        - item: stormcutterhatchery
+          cost: 175
         - item: nightmarehatchery
-          cost: 160
-        - item: razorwhiphatchery
           cost: 180
+        - item: razorwhiphatchery
+          cost: 190

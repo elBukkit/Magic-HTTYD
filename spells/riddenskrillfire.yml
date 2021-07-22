@@ -5,7 +5,7 @@ riddenskrillfire:
           - class: CustomProjectile
             actions:
             - class: Damage
-              damage: rand(16,32)
+              damage: rand(12,28)
             - class: PotionEffect
               duration: 1500
             - class: BreakBlock

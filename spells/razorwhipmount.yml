@@ -3,62 +3,62 @@ razorwhipmount:
   upgrade_required_casts: 6
   name: Razowhip Riding Skill
   parameters:
-    max_deceleration: 0.01
+    max_deceleration: 0.001
     start_speed: 0.1
     min_speed: -0.1
-    steer_speed: 0.05
+    steer_speed: 0.045
     max_speed: 0.4
-    max_acceleration: 0.003
+    max_acceleration: 0.001
     max_height_above_ground: 60
     duration: 60000
 
 razorwhipmount|2:
   upgrade_required_casts: 25
   parameters:
-    max_deceleration: 0.015
+    max_deceleration: 0.003
     start_speed: 0.1
-    min_speed: -0.2
-    steer_speed: 0.065
+    min_speed: -0.12
+    steer_speed: 0.06
     max_speed: 0.5
-    max_acceleration: 0.01
+    max_acceleration: 0.003
     max_height_above_ground: 90
     duration: 80000
 
 razorwhipmount|3:
   upgrade_required_casts: 100
   parameters:
-    max_deceleration: 0.02
+    max_deceleration: 0.005
     jump_cast: riddenrazorwhipdash
     start_speed: 0.1
-    min_speed: -0.2
-    steer_speed: 0.075
-    max_speed: 0.75
-    max_acceleration: 0.007
+    min_speed: -0.12
+    steer_speed: 0.07
+    max_speed: 0.67
+    max_acceleration: 0.005
     max_height_above_ground: 130
     duration: 180000
 
 razorwhipmount|4:
   upgrade_required_casts: 300
   parameters:
-    max_deceleration: 0.025
+    max_deceleration: 0.007
     jump_cast: riddenrazorwhipdash
     start_speed: 0.1
-    min_speed: -0.2
-    steer_speed: 0.085
-    max_speed: 0.8
-    max_acceleration: 0.01
+    min_speed: -0.15
+    steer_speed: 0.08
+    max_speed: 0.73
+    max_acceleration: 0.007
     max_height_above_ground: 150
     duration: 400000
 
 razorwhipmount|5:
   upgrade_required_casts: 800
   parameters:
-    max_deceleration: 0.03
+    max_deceleration: 0.012
     jump_cast: riddenrazorwhipdash
     start_speed: 0.1
-    min_speed: -0.2
-    steer_speed: 0.11
-    max_speed: 0.9
-    max_acceleration: 0.015
+    min_speed: -0.15
+    steer_speed: 0.105
+    max_speed: 0.87
+    max_acceleration: 0.012
     max_height_above_ground: 160
     duration: 2400000

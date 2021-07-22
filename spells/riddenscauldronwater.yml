@@ -87,10 +87,11 @@ riddenscauldronwater:
     size: 2
     range: 120
     magic_damage: false
-    cooldown: rand(1000,20000)
-    spread: 0.1
+    cooldown: rand(4000,24000)
+    spread: 0.16
     damage: rand(14,23)
-    hitbox_size: 0.5
+    hitbox_size: 0.7
+    hitbox_block_size: 1
     ignore_blocks: false
     target: other
     target_type: LivingEntity

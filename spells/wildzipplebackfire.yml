@@ -32,7 +32,8 @@ wildzipplebackfire:
     effects:
         cast:
         -  sound: entity_blaze_shoot
-           sound_pitch: 1.75
+           requires_entity_target: true
+           sound_pitch: 1.25
            sound_volume: 5
            location: origin
         tick:
