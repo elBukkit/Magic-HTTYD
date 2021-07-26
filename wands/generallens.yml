@@ -1,0 +1,10 @@
+generallens:
+    name: "&6General Lens"
+    icon: dragoneyelens
+    upgrade: true
+    locked: true
+    slot: "Lens"
+    active_spell: generalprojection
+    discover_recipes:
+    - craftlens
+    - craftdragoneye

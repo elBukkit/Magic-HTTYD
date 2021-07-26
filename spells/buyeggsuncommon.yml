@@ -5,7 +5,7 @@ buyeggsuncommon:
     actions:
         cast:
         - class: Shop
-          cost_type: currency
+          cost_type: scalecoin
           earn_type: scalecoin
           earn_scale: 0.6
     parameters:
@@ -19,9 +19,9 @@ buyeggsuncommon:
           cost: 50
         - item: nadderhatchery
           cost: 70
+        - item: changewinghatchery
+          cost: 85
         - item: zipplebackhatchery
           cost: 120
         - item: scauldronhatchery
-          cost: 170
-        - item: stormcutterhatchery
-          cost: 175
+          cost: 160

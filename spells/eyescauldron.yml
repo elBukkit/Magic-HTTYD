@@ -1,6 +1,6 @@
 eyescauldron:
     name: "&6Scauldron"
-    icon: red_stained_glass
+    icon: cyan_stained_glass
     actions:
         cast:
         - class: Book

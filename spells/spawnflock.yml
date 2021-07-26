@@ -17,6 +17,7 @@ spawnflock:
         entity_types:
             wildgronckle: 150
             wildnadder: 130
+            wildchangewing: 110
             wildzippleback: 100
             wildnightmare: 70
             wildstormcutter: 90

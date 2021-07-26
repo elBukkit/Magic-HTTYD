@@ -1,0 +1,64 @@
+changewingmount:
+  inherit: mountdragon
+  upgrade_required_casts: 6
+  name: Changewing Riding Skill
+  parameters:
+    max_deceleration: 0.004
+    start_speed: 0.1
+    min_speed: -0.15
+    steer_speed: 0.015
+    max_speed: 0.3
+    max_acceleration: 0.01
+    max_height_above_ground: 60
+    duration: 60000
+
+changewingmount|2:
+  upgrade_required_casts: 25
+  parameters:
+    max_deceleration: 0.006
+    start_speed: 0.1
+    min_speed: -0.2
+    steer_speed: 0.03
+    max_speed: 0.42
+    max_acceleration: 0.013
+    max_height_above_ground: 90
+    duration: 80000
+
+changewingmount|3:
+  upgrade_required_casts: 100
+  parameters:
+    max_deceleration: 0.01
+    jump_cast: riddenchangewingfire
+    start_speed: 0.1
+    min_speed: -0.22
+    steer_speed: 0.04
+    max_speed: 0.53
+    max_acceleration: 0.018
+    max_height_above_ground: 130
+    duration: 180000
+
+changewingmount|4:
+  upgrade_required_casts: 300
+  parameters:
+    max_deceleration: 0.015
+    jump_cast: riddenchangewingfire
+    start_speed: 0.1
+    min_speed: -0.25
+    steer_speed: 0.06
+    max_speed: 0.65
+    max_acceleration: 0.026
+    max_height_above_ground: 150
+    duration: 400000
+
+changewingmount|5:
+  upgrade_required_casts: 800
+  parameters:
+    max_deceleration: 0.02
+    jump_cast: riddenchangewingfire
+    start_speed: 0.1
+    min_speed: -0.27
+    steer_speed: 0.08
+    max_speed: 0.72
+    max_acceleration: 0.038
+    max_height_above_ground: 160
+    duration: 2400000

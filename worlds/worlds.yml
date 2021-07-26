@@ -60,6 +60,27 @@ dragon_spawns:
 
 
 
+    replace_changewings:
+      class: Replace
+      y_offset: 32
+      highest_block: true
+      target_types:
+      - chicken
+      - sheep
+      - cow
+      - pig
+      - rabbit
+      - squid
+      - llama
+      - enderman
+      - wolf
+      - fox
+      probability: 0.007
+      cooldown: 100000
+      replace_type: wildterror
+
+
+
 
     replace_gronckles:
       class: Replace
@@ -261,8 +282,8 @@ dragon_spawns:
       - creeper
       - skeleton
       - husk
-      probability: 0.002
-      cooldown: 90000
+      probability: 0.01
+      cooldown: 300000
       replace_type: wildrazorwhip
       biomes:
         - mountains

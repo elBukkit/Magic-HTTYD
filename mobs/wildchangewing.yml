@@ -1,0 +1,86 @@
+wildchangewing:
+  name: Wild Changewing
+  type: phantom
+  aggro: true
+  size: 10
+  disguise:
+    type: player
+    skin: NightScythe1
+    invisible: true
+    swimming: true
+    burning: false
+  helmet: Changewing
+  item: ChangewingRight
+  offhand: ChangewingLeft
+  equip_on_respawn: false
+  silent: true
+  health: 70
+  interval: 10
+  lifetime: 3600000
+  drop_xp: 120
+  persist: true
+  mage:
+    effect_color: '#8b008b'
+  interval_requires_target: false
+  protection:
+    projectile: 0.6
+  default_drops: false
+  entity_attributes:
+    generic_attack_damage: 6
+    generic_armor: 8
+  triggers:
+    spawn:
+      cast: colourchangewing
+    interval:
+      cast: 
+        colourchangewing: 80
+        wildchangewingfire: 20
+    launch:
+      cast: wildchangewingfire
+    damage:
+      effects:
+      - sound: dragon.zippleback2
+        sould_pitch: 2
+      cast:
+        wildchangewingfire: 20
+        none: 100
+    death:
+      effects:
+      - sound: dragon.zippleback2
+        sound_pitch: 2
+      cast:
+        changewingspawnnest: 5
+        none: 75
+  drops:
+  - blaze_powder@3: 10
+    blaze_powder: 100
+    blaze_powder@2: 50
+    DragonBone: 30
+    DragonHide: 60
+    DragonBone@2: 30
+    DragonHide@2: 60
+  - scalecoin@6
+  - scalecoin@1: 25
+    scalecoin@2: 25
+    scalecoin@3: 25
+    scalecoin@4: 25
+    scalecoin@5: 25
+    none: 25
+  - rawdragonmeat: 90
+    rawdragonmeat@2: 50
+    rawdragonmeat@3: 30
+    DragonBone: 50
+    DragonHide: 50
+    none: 30
+  - stokerlens: 1
+    strikelens: 1
+    sharplens: 1
+    boulderlens: 1
+    mysterylens: 1
+    tidallens: 1
+    none: 250
+  potion_effects:
+  - type: fire_resistance
+    amplifier: 1
+  - type: damage_resistance
+    amplifier: 0

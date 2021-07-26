@@ -1,0 +1,140 @@
+riddenchangewingfire:
+  name: Acid
+  actions:
+    cast:
+    - class: CustomProjectile
+      hitbox: true
+      actions:
+      - class: Repeat
+        repeat: 5
+        actions:
+          - class: PlayEffects
+            effects: hit
+          - class: Sphere
+            radius: rand(1,2.5)
+            actions:
+            - class: BreakBlock
+              ignore_result: true
+          - class: AreaOfEffect
+            radius: 3
+            actions:
+            - class: Damage
+            - class: PotionEffect
+              potion_effects:
+                poison: 2
+              duration: 5000
+          - class: Delay
+            delay: 1500
+  effects:
+    cast:
+    - class: EffectSingle
+      sound: entity_llama_spit
+      location: origin
+      sound_volume: 5
+      color_override: color
+    tick:
+    - particle: slime
+      location: target
+    - particle: sneeze
+      color: false
+      particle_count: 2
+      particle_offset_x: 0.3
+      particle_offset_y: 0.3
+      particle_offset_z: 0.3
+      location: target
+    projectile:
+    - class: EffectSingle
+      effectlib:
+        class: SphereEffect
+        particle: redstone
+        color: "#adff2f"
+        duration: $lifetime
+        radius: 0.2
+        particles: 3
+        particle_count: 3
+        particle_offset_y: 0.2
+        particle_offset_x: 0.2
+        particle_offset_z: 0.2
+        particle_size: 2
+    - class: EffectSingle
+      effectlib:
+        class: SphereEffect
+        particle: redstone
+        color:  "#32cd32"
+        duration: $lifetime
+        radius: 0.2
+        particles: 5
+        particle_count: 5
+        particle_offset_y: 0.2
+        particle_offset_x: 0.2
+        particle_offset_z: 0.2
+        particle_size: 2
+    hit:
+    - class: EffectSingle
+      location: target
+      particle: sneeze
+      duration: 1500
+      particle_count: 10
+      particle_offset_x: 1
+      particle_offset_y: 1
+      particle_offset_z: 1
+      sound: block_fire_extinguish
+      sound_pitch: -0.5
+      sound_volume: 2
+      particle_data: 0.1
+    - class: EffectSingle
+      location: target
+      particle: redstone
+      color: "#32cd32"
+      particle_size: 4
+      duration: 1500
+      particle_count: 20
+      particle_offset_x: 1
+      particle_offset_y: 1
+      particle_offset_z: 1
+      sound: entity_generic_drink
+      sound_pitch: -2
+      sound_volume: 2
+      particle_data: 0.1
+    - location: target
+      effectlib:
+        class: SphereEffect
+        particle: redstone
+        color: "#adff2f"
+        duration: 3000
+        radius: 2
+        particles: 2
+        iterations: 1
+        particle_count: 2
+        particle_offset_y: 1
+        particle_offset_x: 1
+        particle_offset_z: 1
+        particle_size: 3
+  parameters:
+    fov: 0.5
+    hitbox: false
+    target_self: false
+    reflective: gold_block
+    source_location: feet
+    velocity: 28
+    size: 2
+    range: 64
+    magic_damage: true
+    cooldown: rand(1500,18000)
+    spread: 0.1
+    damage: rand(3,4)
+    hitbox_size: 0.8
+    hitbox_block_size: 0.7
+    ignore_blocks: false
+    target: other
+    target_type: LivingEntity
+    target_breakables: rand(1,3)
+    break_durability: rand(1,3)
+    destructible_durability: 200
+    destructible: solid
+    track_target: true
+    lifetime: 30000
+    undo: rand(45000,145000)
+    undo_speed: 3
+    track_speed: 0.06
+    use_target_location: false

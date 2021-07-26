@@ -1,0 +1,51 @@
+changewingridden:
+  type: zombie_horse
+  prevent_melee: true
+  tamed: true
+  interact_requires_owner: true
+  equip_on_respawn: false
+  gravity: false
+  track_radius: 0
+  disguise:
+    type: player
+    skin: NightScythe1
+    invisible: true
+    swimming: true
+    burning: false
+  helmet: Changewing
+  item: ChangewingRight
+  offhand: ChangewingLeft
+  silent: true
+  health: 70
+  interval: 500
+  default_drops: false
+  interact_spell: changewingmount
+  persist: true
+  mage:
+    effect_color: white
+  entity_attributes:
+    generic_armor: 20
+    generic_armor_toughness: 5
+    generic_movement_speed: 0
+    generic_follow_range: 0
+  triggers:
+    spawn:
+      cast: colourtamechangewing
+    damage:
+      effects:
+      - sound: dragon.zippleback2
+        sound_pitch: 2
+    interval:
+       cast: colourchangewing
+    death:
+      effects:
+      - sound: dragon.zippleback2
+  potion_effects:
+  - type: slow_falling
+    amplifier: 1
+  - type: fire_resistance
+    amplifier: 1
+  - type: regeneration
+    amplifier: 1
+  - type: damage_resistance
+    amplifier: 1

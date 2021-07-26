@@ -1,0 +1,18 @@
+eyeblocks:
+    name: "&6Deadly Nadder"
+    icon: orange_stained_glass
+    actions:
+        cast:
+        - class: Book
+    parameters:
+      target: self
+      virtual_book: true
+      pages:
+        1:
+          - "&6&l&nBlocks"
+          - "&r "
+          - "&rMost dragonfire has block-damaging capabilities, with varying strengths."
+          - "&rThe weakest blocks to dragonfire are dirt-based, followed by wood, then stone, endstone, and obsidian."
+        2:
+          - "&rHowever, a little-known fact is that gold blocks have dragonfire immunity and reflection properties."
+          - "&rPractically all dragon attacks will be reflected back up to the sky, or the dragon, if it hits gold blocks."

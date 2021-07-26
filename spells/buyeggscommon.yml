@@ -5,7 +5,7 @@ buyeggscommon:
     actions:
         cast:
         - class: Shop
-          cost_type: currency
+          cost_type: scalecoin
           earn_type: scalecoin
           earn_scale: 0.6
     parameters:
@@ -19,3 +19,5 @@ buyeggscommon:
           cost: 50
         - item: nadderhatchery
           cost: 70
+        - item: changewinghatchery
+          cost: 85

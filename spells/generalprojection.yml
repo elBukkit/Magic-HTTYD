@@ -1,5 +1,5 @@
-mysteryprojection:
-    name: Mystery Projection
+generalprojection:
+    name: General Projection
     actions:
         cast:
           - class: Selector
@@ -16,7 +16,7 @@ mysteryprojection:
               duration: 5000
               period: 1
               particle: redstone
-              color: "#8b008b"
+              color: "#D9A334"
               particle_offset_x: 0.1
               particle_offset_y: 0.1
               particle_offset_z: 0.1
@@ -24,6 +24,4 @@ mysteryprojection:
               offset: 0,-1,0
     parameters:
       options:
-       - cast_spell: eyezippleback
-       - cast_spell: eyedeathsong
-       - cast_spell: eyechangewing
+       - cast_spell: eyeblocks

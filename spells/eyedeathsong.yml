@@ -46,8 +46,8 @@ eyedeathsong:
         7:
           - "&5&l&nMax Tame Values"
           - "&r "
-          - "&rAcceleration: &526"
-          - "&rDecceleration: &526"
-          - "&rSpeed: &590"
-          - "&rReverse Speed: &530"
-          - "&rAgility: &590"
+          - "&rAcceleration: &a26"
+          - "&rDecceleration: &a26"
+          - "&rSpeed: &690"
+          - "&rReverse Speed: &a30"
+          - "&rAgility: &690"

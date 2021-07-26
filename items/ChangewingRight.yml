@@ -1,0 +1,12 @@
+ChangewingRight:
+  creator_id: 22e0650d-d3f2-4bbc-afef-02bd3b1407ec
+  creator: NightScythe1
+  worth: 0.0
+  item:
+    ==: org.bukkit.inventory.ItemStack
+    v: 2586
+    type: LEATHER_HORSE_ARMOR
+    meta:
+      ==: ItemMeta
+      meta-type: LEATHER_ARMOR
+      custom-model-data: 112

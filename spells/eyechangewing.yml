@@ -1,0 +1,53 @@
+eyechangewing:
+    name: "&6Changewing"
+    icon: purple_stained_glass
+    actions:
+        cast:
+        - class: Book
+    parameters:
+      target: self
+      virtual_book: true
+      pages:
+        1:
+          - "&5&l&nChangewing"
+          - "&r "
+          - "&rThe chameleon of the dragon world, this acid-spitter can shift its scale colour to match the biome it's in to blend in and hunt elusively."
+        2:
+          - "&5&l&nHunting"
+          - "&r "
+          - "&5Habitat: &rChangewings are found everywhere."
+          - "&5Fire: &rChangewings shoot corrosive acid that burns you even through armour."
+          - "&5Physicality: &rChangewings have average health, and low defence & bite."
+        3:
+          - "&5&l&nSlaying"
+          - "&r "
+          - "&5Drops: &rChangewings drop their camouflaging scales."
+          - "&rThey also drop a bit of of gold, and the standard bones, meat, and hide."
+        4:
+          - "&5&l&nHatching"
+          - "&r "
+          - "&rA Changewing egg requires the heat of a magma block, and relative darkness to hatch."
+        5:
+          - "&5&l&nRiding"
+          - "&r "
+          - "&rChangewings fly at about average speed and agility."
+          - "&rTheir acid recharges quite quickly."
+        6:
+          - "&5&l&nAvg Wild Values"
+          - "&r "
+          - "&rHealth: &570"
+          - "&rScale Toughness: &58"
+          - "&rArrow Resist: &560%"
+          - "&rBite Strength: &57"
+          - "&rFirepower: &5(3-4)x5"
+          - "&rAcid: &55s"
+          - "&rAccuracy: &570%"
+          - "&rRecharge: &52-18s"
+        7:
+          - "&5&l&nMax Tame Values"
+          - "&r "
+          - "&rAcceleration: &a38"
+          - "&rDecceleration: &620"
+          - "&rSpeed: &c72"
+          - "&rReverse Speed: &a27"
+          - "&rAgility: &680"

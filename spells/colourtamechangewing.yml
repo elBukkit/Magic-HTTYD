@@ -1,0 +1,206 @@
+colourtamechangewing:
+  name: Dragon Spawn
+  hidden: true
+  actions:
+    cast:
+    - class: CheckBlock
+      ignore_result: true
+      biomes:
+        - jungle
+        - jungle_edge
+        - jungle_hills
+        - bamboo_jungle
+        - bamboo_jungle_hills
+        - jungle_edge
+        - modified_jungle_edge
+      actions:
+        - class: ColorItem
+          color: "#2CA80A"
+    - class: CheckBlock
+      ignore_result: true
+      biomes:
+        - forest
+        - wooded_hills
+      actions:
+        - class: ColorItem
+          color: "#4B872D"
+    - class: CheckBlock
+      ignore_result: true
+      biomes:
+        - dark_forest
+        - dark_forest_hills
+      actions:
+        - class: ColorItem
+          color: "#4C3A22"
+    - class: CheckBlock
+      ignore_result: true
+      biomes:
+        - swamp
+        - swamp_hills
+      actions:
+        - class: ColorItem
+          color: "#475B2E"
+    - class: CheckBlock
+      ignore_result: true
+      biomes:
+        - river
+      actions:
+        - class: ColorItem
+          color: "#3E61C9"
+    - class: CheckBlock
+      ignore_result: true
+      biomes:
+        - desert
+        - desert_hills
+        - desert_lakes
+        - beach
+      actions:
+        - class: ColorItem
+          color: "#E0D4A8"
+    - class: CheckBlock
+      ignore_result: true
+      biomes:
+        - lukewarm_ocean
+        - deep_lukewarm_ocean
+        - ocean
+        - cold_ocean
+        - deep_cold_ocean
+      actions:
+        - class: ColorItem
+          color: "#3B5991"
+    - class: CheckBlock
+      ignore_result: true
+      biomes:
+        - warm_ocean
+        - deep_warm_ocean
+      actions:
+        - class: ColorItem
+          color: "#36857F"
+    - class: CheckBlock
+      ignore_result: true
+      biomes:
+        - frozen_ocean
+        - deep_frozen_ocean
+        - ice_spikes
+        - frozen_river
+      actions:
+        - class: ColorItem
+          color: "90B6FA"
+    - class: CheckBlock
+      ignore_result: true
+      biomes:
+        - plains
+      actions:
+        - class: ColorItem
+          color: "#749648"
+    - class: CheckBlock
+      ignore_result: true
+      biomes:
+        - birch_forest
+        - birch_forest_hills
+        - tall_birch_forest
+      actions:
+        - class: ColorItem
+          color: "#6D8752"
+    - class: CheckBlock
+      ignore_result: true
+      biomes:
+        - savanna
+      actions:
+        - class: ColorItem
+          color: "#968B40"
+    - class: CheckBlock
+      ignore_result: true
+      biomes:
+        - mountains
+        - mountain_edge
+        - gravelly_mountains
+        - modified_gravelly_mountains
+        - stone_shore
+      actions:
+        - class: ColorItem
+          color: "#727272"
+    - class: CheckBlock
+      ignore_result: true
+      biomes:
+        - mushroom_fields
+      actions:
+        - class: ColorItem
+          color: "#705E64"
+    - class: CheckBlock
+      ignore_result: true
+      biomes:
+        - sunflower_plains
+      actions:
+        - class: ColorItem
+          color: "#FBE84E"
+    - class: CheckBlock
+      ignore_result: true
+      biomes:
+        - flower_forest
+      actions:
+        - class: ColorItem
+          color: "#CFA3F2"
+    - class: CheckBlock
+      ignore_result: true
+      biomes:
+        - snowy_tundra
+        - snowy_beach
+        - snowy_mountains
+        - snowy_taiga
+        - snowy_taiga_hills
+        - snowy_taiga_mountains
+      actions:
+        - class: ColorItem
+          color: "#ffffff"
+    - class: CheckBlock
+      ignore_result: true
+      biomes:
+        - badlands
+        - eroded_badlands
+      actions:
+        - class: ColorItem
+          color: "#C66A23"
+    - class: CheckBlock
+      ignore_result: true
+      biomes:
+        - taiga
+        - wooded_mountains
+        - taiga_hills
+        - taiga_mountains
+        - giant_spruce_taiga
+        - giant_spruce_taiga_hills
+        - giant_tree_taiga
+        - giant_tree_taiga_hills
+      actions:
+        - class: ColorItem
+          color: "#567054"
+    - class: CheckBlock
+      ignore_result: true
+      biomes:
+        - nether_wastes
+        - warped_forest
+        - crimson_forest
+        - basalt_deltas
+        - soul_sand_valley
+      actions:
+        - class: ColorItem
+          color: "#703131"
+    - class: CheckBlock
+      ignore_result: true
+      biomes:
+        - the_end
+        - the_void
+        - small_end_islands
+        - end_barrens
+        - end_midlands
+        - end_highlands
+      actions:
+        - class: ColorItem
+          color: "#1C1528"
+  parameters:
+    target: self
+    slots:
+    - helmet
+    - main_hand
+    - off_hand
