@@ -47,8 +47,8 @@ eyezippleback:
         7:
           - "&5&l&nMax Tame Values"
           - "&r "
-          - "&rAcceleration: &522"
-          - "&rDecceleration: &518"
-          - "&rSpeed: &575"
-          - "&rReverse Speed: &530"
-          - "&rAgility: &590"
+          - "&rAcceleration: &622"
+          - "&rDecceleration: &618"
+          - "&rSpeed: &c70"
+          - "&rReverse Speed: &a30"
+          - "&rAgility: &a90"

@@ -1,0 +1,11 @@
+randomtp:
+    name: Spawn
+    actions:
+        cast:
+          - class: Command
+            command: rtp @p Arc
+            console: true
+    parameters:
+        target_self: true
+        bypass_mage_cooldown: true
+        target: self

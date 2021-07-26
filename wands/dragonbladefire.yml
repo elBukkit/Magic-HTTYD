@@ -1,6 +1,6 @@
 dragonbladefire:
   name: '&6Dragon Blade'
-  description: "&7Stronger and faster than diamond. Use canisters to upgrade. &c[Inferno]"
+  description: "&8Stronger and faster than diamond. Use canisters to upgrade. &c[Inferno]"
   mode: cast
   locked: true
   left_click: none

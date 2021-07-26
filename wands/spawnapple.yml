@@ -1,0 +1,8 @@
+spawnapple:
+    name: '&cDone?'
+    description: "&7Click this to spawn in the world"
+    right_click: cast
+    active_spell: randomtp
+    mode: cast
+    uses: 1
+    icon: apple

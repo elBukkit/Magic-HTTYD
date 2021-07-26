@@ -9,15 +9,7 @@ riddenrazorwhipdash:
             fov: 360
             actions:
             - class: Damage
-            - class: ChangeContext
-              target_caster: true
-              actions:
-                - class: PlayEffects
-                  effects: hit
-                - class: Velocity
-                  min_speed: 1
-                  max_speed: 2
-                  y_offset: 1
+            - class: Stop
           - class: ChangeContext
             target_caster: true
             actions:

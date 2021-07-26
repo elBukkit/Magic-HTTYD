@@ -45,8 +45,8 @@ eyenadder:
         7:
           - "&7&l&nMax Tame Values"
           - "&r "
-          - "&rAcceleration: &725"
-          - "&rDecceleration: &725"
-          - "&rSpeed: &780"
-          - "&rReverse Speed: &720"
-          - "&rAgility: &785"
+          - "&rAcceleration: &625"
+          - "&rDecceleration: &625"
+          - "&rSpeed: &680"
+          - "&rReverse Speed: &620"
+          - "&rAgility: &685"

@@ -1,0 +1,11 @@
+stormcutterstaffcraft:
+  enabled: true
+  output: stormcutterstaff
+  output_type: wand
+  materials:
+    s: StormcutterClaw
+    g: GronckleIronIngot
+    b: DragonBone
+  row_1: " gs"
+  row_2: " b "
+  row_3: "sb "

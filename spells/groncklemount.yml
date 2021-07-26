@@ -57,7 +57,7 @@ groncklemount|5:
     jump_cast: riddengroncklefire
     start_speed: 0.1
     min_speed: -0.55
-    steer_speed: 0.15
+    steer_speed: 0.12
     max_speed: 0.65
     max_acceleration: 0.008
     max_height_above_ground: 160

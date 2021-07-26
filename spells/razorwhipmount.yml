@@ -45,7 +45,7 @@ razorwhipmount|4:
     start_speed: 0.1
     min_speed: -0.15
     steer_speed: 0.08
-    max_speed: 0.73
+    max_speed: 0.76
     max_acceleration: 0.007
     max_height_above_ground: 150
     duration: 400000
@@ -58,7 +58,7 @@ razorwhipmount|5:
     start_speed: 0.1
     min_speed: -0.15
     steer_speed: 0.105
-    max_speed: 0.87
+    max_speed: 0.92
     max_acceleration: 0.012
     max_height_above_ground: 160
     duration: 2400000

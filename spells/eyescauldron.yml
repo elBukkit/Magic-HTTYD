@@ -46,8 +46,8 @@ eyescauldron:
         7:
           - "&3&l&nMax Tame Values"
           - "&r "
-          - "&rAcceleration: &330"
-          - "&rDecceleration: &330"
-          - "&rSpeed: &365"
-          - "&rReverse Speed: &335"
-          - "&rAgility: &380"
+          - "&rAcceleration: &a30"
+          - "&rDecceleration: &a30"
+          - "&rSpeed: &c67"
+          - "&rReverse Speed: &a35"
+          - "&rAgility: &a80"

@@ -1,6 +1,4 @@
 selldragondrops:
-    # This has been added automatically so that anything you remove here does not get inherited back in from the default configs
-    inherit: false
     icon: NightmareHorn
     name: Sell Dragon Drops
     category: shop
@@ -30,3 +28,13 @@ selldragondrops:
           cost: 4
         - item: NightmareGel
           cost: 3
+        - item: StormcutterClaw
+          cost: 2
+        - item: RazorwhipMetal
+          cost: 4
+        - item: DragonBone
+          cost: 1
+        - item: DragonHide
+          cost: 1
+        - item: rawdragonmeat
+          cost: 1

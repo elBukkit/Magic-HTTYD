@@ -1,4 +1,4 @@
-skrillmove:
+skrillride:
   name: Dragon Sighting
   actions:
     cast:
@@ -15,16 +15,6 @@ skrillmove:
                  - class: Teleport
                    safe: false
                  - class: Lightning
-      - class: CheckRequirements
-        requirement:
-          attribute:
-             attribute: location_y
-             min: 140
-        actions:
-         - class: Velocity
-           y_offset: -3
-           min_speed: 2
-           max_speed: 2
     effects:
         cast:
         -  class: EffectSingle

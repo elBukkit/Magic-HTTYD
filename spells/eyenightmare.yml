@@ -46,8 +46,8 @@ eyenightmare:
         7:
           - "&c&l&nMax Tame Values"
           - "&r "
-          - "&rAcceleration: &c30"
-          - "&rDecceleration: &c20"
-          - "&rSpeed: &c85"
-          - "&rReverse Speed: &c35"
+          - "&rAcceleration: &a30"
+          - "&rDecceleration: &620"
+          - "&rSpeed: &a90"
+          - "&rReverse Speed: &a35"
           - "&rAgility: &c75"

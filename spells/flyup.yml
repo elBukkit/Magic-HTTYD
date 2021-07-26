@@ -1,0 +1,45 @@
+flyup:
+    name: Dragon Sighting
+    category: Test
+    actions:
+        cast:
+            - class: Velocity
+            - class: CheckRequirements
+              ignore_result: true
+              requirement:
+                attribute:
+                   attribute: location_y
+                   min: 20
+                   max: 66
+              actions:
+                - class: Velocity
+                  y_offset: 2
+                  min_speed: 2
+                  max_speed: 2
+            - class: CheckRequirements
+              ignore_result: true
+              requirement:
+                attribute:
+                   attribute: location_y
+                   min: 140
+                   max: 300
+              actions:
+                - class: Velocity
+                  y_offset: -2
+                  min_speed: 2
+                  max_speed: 2
+    effects:
+        cast:
+        -  class: EffectSingle
+           sound: entity_phantom_flap
+           sound_pitch: 1.5
+           sound_volume: 1
+    parameters:
+        cooldown: 1000
+        cooldown_mage: 100
+        target: self
+        cancel_on_cast_other: true
+        bypass_mage_cooldown: true
+        y_offset: rand(-1,2)
+        min_speed: 1
+        max_speed: 1.5

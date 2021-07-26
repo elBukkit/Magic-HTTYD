@@ -46,8 +46,8 @@ eyegronckle:
         7:
           - "&2&l&nMax Tame Values"
           - "&r "
-          - "&rAcceleration: &28"
-          - "&rDecceleration: &260"
-          - "&rSpeed: &265"
-          - "&rReverse Speed: &255"
-          - "&rAgility: &2150"
+          - "&rAcceleration: &c8"
+          - "&rDecceleration: &960"
+          - "&rSpeed: &c65"
+          - "&rReverse Speed: &955"
+          - "&rAgility: &9120"

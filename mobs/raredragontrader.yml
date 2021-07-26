@@ -7,7 +7,7 @@ raredragontrader:
   persist: true
   helmet: NightmareHelmet
   interval: 1000
-  lifetime: 600000
+  lifetime: 3600000
   interact_spell: buyeggsrare
   mage:
     effect_color: white

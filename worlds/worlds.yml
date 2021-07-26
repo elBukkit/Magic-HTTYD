@@ -1,5 +1,5 @@
 dragon_spawns:
-  world: world
+  world: Arc
   entity_spawn:
 
 
@@ -152,7 +152,7 @@ dragon_spawns:
       - tropical_fish
       - squid
       - enderman
-      probability: 0.0002
+      probability: 0.0005
       cooldown: 400000
       replace_type: wildscauldron
       biomes:

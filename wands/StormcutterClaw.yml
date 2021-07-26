@@ -1,0 +1,7 @@
+StormcutterClaw:
+    name: '&rStormcutter Claw'
+    craftable: true
+    locked: true
+    icon: stormcutterclawitem
+    discover_recipes:
+    - stormcutterstaffcraft

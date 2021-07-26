@@ -15,10 +15,10 @@ wildskrill:
   equip_on_respawn: false
   silent: true
   health: 190
-  interval: 1500
+  interval: 500
   interval_requires_target: false
   lifetime: 3600000
-  drop_xp: 100
+  drop_xp: 500
   persist: true
   mage:
     effect_color: "#0000ff"
@@ -34,18 +34,18 @@ wildskrill:
     interval:
       cast:
         wildskrillfire: 80
-        skrillmove: 20
+        skrillride: 40
+        flyup: 40
     launch:
       cast:
         wildskrillfire: 70
-        skrillmove: 30
     damage:
       effects:
       - sound: dragon.skrill2
       cast:
         wildskrillfire: 10
-        skrillmove: 50
-        none: 300
+        skrillride: 50
+        none: 100
     death:
       effects:
       - sound: dragon.skrill1

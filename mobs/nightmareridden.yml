@@ -25,6 +25,7 @@ nightmareridden:
     effect_color: white
   entity_attributes:
     generic_armor: 20
+    generic_armor_toughness: 5
     generic_movement_speed: 0
     generic_follow_range: 0
   triggers:

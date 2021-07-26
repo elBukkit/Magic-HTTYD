@@ -36,6 +36,7 @@ wildnightfury:
         furyfly2: 500
         furyfly: 2000
         wildnightfuryfire: 20
+        flyup: 500
     launch:
       cast:
         wildnightfuryfire2: 1000

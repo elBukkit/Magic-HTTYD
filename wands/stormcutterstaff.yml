@@ -1,0 +1,20 @@
+stormcutterstaff:
+  name: '&6Stormcutter Staff'
+  lore: 
+  - "&8Acts both as a weapon and a dragon horn."
+  - "&0."
+  - "&7When in Main Hand:"
+  - "&3 10 Attack Damage"
+  - "&3 1.6 Attack Speed"
+  right_click: cast
+  active_spell: calldragon
+  alternate_spell: healdragon
+  right_click_sneak: alt_cast
+  locked: true
+  left_click: none
+  enchantable: true
+  icon: stormcutterstaffitem
+  item_attribute_slot: mainhand
+  item_attributes:
+    GENERIC_ATTACK_DAMAGE: 9
+    generic_attack_speed: -2.5

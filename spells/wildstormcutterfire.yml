@@ -1,5 +1,5 @@
 wildstormcutterfire:
-    name: Firenado
+    name: Fire Vortex
     actions:
       cast:
         - class: PlayEffects
@@ -108,7 +108,7 @@ wildstormcutterfire:
           - player
           - zombie_horse
           - skeleton_horse
-        velocity: 43
+        velocity: 47
         magic_damage: false
         spread: 0.16
         source_location: head
@@ -119,11 +119,11 @@ wildstormcutterfire:
         tick_size: 0.1
         range: 100
         undo: rand(3000,6000)
-        cooldown: rand(2000,21000)
+        cooldown: rand(1000,20000)
         destructible: burnable
         destructible_durability: 1
         break_durability: 1
         select_self: false
         undo_speed: 0.5
         track_target: true
-        track_speed: 0.03
+        track_speed: 0.06
