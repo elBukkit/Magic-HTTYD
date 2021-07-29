@@ -5,7 +5,7 @@ riddenskrillfire:
           - class: CustomProjectile
             actions:
             - class: Damage
-              damage: rand(26,36)
+              damage: rand(22,32)
             - class: PotionEffect
               duration: 1500
             - class: BreakBlock
@@ -56,9 +56,12 @@ riddenskrillfire:
            particle_offset_y: 0.1
            particle_offset_z: 0.1
            particle_data: 1
-         
+
     parameters:
-        fov: 0.6
+        fov: 0.25
+        hitbox: false
+        hitbox_size: 2
+        hitbox_block_size: 0.1
         target_breakables: rand(3,6)
         break_durability: rand(3,6)
         destructible_durability: 200
@@ -78,7 +81,7 @@ riddenskrillfire:
         undo_speed: 10
         cooldown: 500
         charges: 4
-        charge_regeneration: 1/60
+        charge_regeneration: 1/20
         potion_effects: 
           slow: 4
           blindness: 1

@@ -125,9 +125,9 @@ wildchangewingfire:
     magic_damage: true
     cooldown: rand(1000,18000)
     charges: 10
-    charge_regeneration: 1/150
+    charge_regeneration: 1/50
     spread: 0.2
-    damage: rand(2,3)
+    damage: rand(2,4)
     hitbox_size: 0.6
     hitbox_block_size: 0.7
     ignore_blocks: false

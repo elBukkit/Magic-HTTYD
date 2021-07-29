@@ -111,7 +111,7 @@ riddenchangewingfire:
         particle_offset_z: 1
         particle_size: 3
   parameters:
-    fov: 0.5
+    fov: 0.25
     hitbox: false
     target_self: false
     reflective: gold_block
@@ -122,10 +122,10 @@ riddenchangewingfire:
     magic_damage: true
     cooldown: 500
     charges: 10
-    charge_regeneration: 1/150
+    charge_regeneration: 1/50
     spread: 0.1
-    damage: rand(2,3)
-    hitbox_size: 0.8
+    damage: rand(2,4)
+    hitbox_size: 2
     hitbox_block_size: 0.7
     ignore_blocks: false
     target: other

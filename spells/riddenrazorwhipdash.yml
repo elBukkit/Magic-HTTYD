@@ -61,7 +61,7 @@ riddenrazorwhipdash:
         target_breakables: 1
         cooldown: 500
         charges: 10
-        charge_regeneration: 1/150
+        charge_regeneration: 1/100
         magic_damage: false
         instant_block_effects: true
         repeat: 16

@@ -75,7 +75,7 @@ riddennightfuryfire:
            color: "#0000ff"
            location: target
     parameters:
-        fov: 0.5
+        fov: 0.25
         hitbox: false
         target_self: false
         reflective: gold_glock
@@ -85,11 +85,12 @@ riddennightfuryfire:
         direction: 0,0.8,0
         magic_damage: false
         charges: 6
-        charge_regeneration: 1/90
+        charge_regeneration: 1/30
         cooldown: 500
         source_location: feet
         damage: rand(25,33)
-        hitbox_size: 0.3
+        hitbox_size: 2
+        hitbox_block_size: 0.8
         ignore_blocks: false
         target_type: LivingEntity
         target: other

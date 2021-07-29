@@ -79,7 +79,7 @@ riddendeathsongamber:
       sound_volume: 1.5
       location: target
   parameters:
-    fov: 0.5
+    fov: 0.25
     hitbox: false
     target_self: false
     brush: orange_stained_glass
@@ -91,10 +91,11 @@ riddendeathsongamber:
     magic_damage: false
     cooldown: 500
     charges: 8
-    charge_regeneration: 1/120
+    charge_regeneration: 1/40
     spread: 0.1
     damage: rand(5,9)
-    hitbox_size: 0.5
+    hitbox_size: 2
+    hitbox_block_size: 1
     ignore_blocks: false
     target: other
     target_type: LivingEntity

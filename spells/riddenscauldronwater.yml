@@ -78,7 +78,7 @@ riddenscauldronwater:
       sound_volume: 5
       particle_data: 0.6
   parameters:
-    fov: 0.5
+    fov: 0.25
     hitbox: false
     target_self: false
     reflective: gold_block
@@ -89,10 +89,10 @@ riddenscauldronwater:
     magic_damage: false
     cooldown: 500
     charges: 14
-    charge_regeneration: 1/210
+    charge_regeneration: 1/70
     spread: 0.16
     damage: rand(14,23)
-    hitbox_size: 0.7
+    hitbox_size: 2
     hitbox_block_size: 1
     ignore_blocks: false
     target: other

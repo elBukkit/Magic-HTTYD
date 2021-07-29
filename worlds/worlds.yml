@@ -72,6 +72,8 @@ dragon_spawns:
       - rabbit
       - squid
       - llama
+      - zombie
+      - skeleton
       - enderman
       - wolf
       - fox

@@ -91,16 +91,16 @@ wildzipplebackfire:
         magic_damage: false
         cooldown: rand(2000,20000)
         charges: 6
-        charge_regeneration: 1/90
-        damage: rand(5,13)
-        hitbox_size: 0.5
-        gravity: rand(0.01,0.03)
+        charge_regeneration: 1/30
+        damage: rand(7,15)
+        hitbox_size: 0.8
         spread: 0.2
         ignore_blocks: false
         target: other
         target_types:
           - player
           - zombie_horse
+          - skeleton_horse
         undo: rand(12000,100000)
         undo_speed: 20
         falling: true

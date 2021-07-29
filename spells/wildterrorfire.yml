@@ -73,7 +73,7 @@ wildterrorfire:
         magic_damage: false
         cooldown: rand(1500,10000)
         charges: 10
-        charge_regeneration: 1/150
+        charge_regeneration: 1/50
         block_hit_count: 1
         damage: rand(1,6)
         hitbox_size: 0.5

@@ -22,7 +22,7 @@ riddennadderspines:
             - class: PlayEffects
               effect: shoot
             - class: Delay
-              delay: 300
+              delay: 400
     effects:
         shoot:
         -  class: EffectSingle
@@ -48,7 +48,7 @@ riddennadderspines:
            sound_volume: 0.7
            location: target
     parameters:
-        fov: 0.6
+        fov: 0.25
         hitbox: false
         target_self: false
         reflective: gold_block
@@ -63,9 +63,9 @@ riddennadderspines:
         range: 64
         cooldown: 500
         charges: 6
-        charge_regeneration: 1/90
+        charge_regeneration: 1/30
         damage: rand(7,10)
-        hitbox_size: 0.5
+        hitbox_size: 2
         hitbox_block_size: 0.1
         block_hit_count: 1
         undo: rand(8000,16000}

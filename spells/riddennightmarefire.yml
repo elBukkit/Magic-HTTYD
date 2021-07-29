@@ -89,7 +89,7 @@ riddennightmarefire:
            sound_volume: 1.5
            location: target
     parameters:
-        fov: 0.6
+        fov: 0.25
         repeat: 6
         hitbox: false
         target_self: false
@@ -101,11 +101,11 @@ riddennightmarefire:
         magic_damage: false
         cooldown: 500
         charges: 10
-        charge_regeneration: 1/150
+        charge_regeneration: 1/50
         spread: 0.2
         damage: rand(8,15)
-        hitbox_size: 0.8
-        hitbox_block_size: 0.1
+        hitbox_size: 2
+        hitbox_block_size: 0.4
         ignore_blocks: false
         target: other
         target_type: LivingEntity

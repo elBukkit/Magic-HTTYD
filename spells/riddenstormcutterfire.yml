@@ -98,13 +98,13 @@ riddenstormcutterfire:
                  update_locations: false
     parameters:
         target: other
-        fov: 0.5
+        fov: 0.25
         target_type: LivingEntity
         magic_damage: false
         velocity: 47
         spread: 0.16
         source_location: feet
-        hitbox_size: 1
+        hitbox_size: 2
         hitbox_block_size: 1
         target_breakables: 5
         damage: rand(11,19)
@@ -113,7 +113,7 @@ riddenstormcutterfire:
         undo: rand(3000,6000)
         cooldown: 500
         charges: 8
-        charge_regeneration: 1/120
+        charge_regeneration: 1/40
         destructible: burnable
         destructible_durability: 1
         break_durability: 1

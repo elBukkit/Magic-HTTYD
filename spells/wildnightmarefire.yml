@@ -105,7 +105,7 @@ wildnightmarefire:
         magic_damage: false
         cooldown: rand(2000,25000)
         charges: 10
-        charge_regeneration: 1/150
+        charge_regeneration: 1/50
         spread: 0.2
         damage: rand(7,13)
         hitbox_size: 0.8

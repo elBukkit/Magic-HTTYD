@@ -1,6 +1,4 @@
 sellvaluables:
-    # This has been added automatically so that anything you remove here does not get inherited back in from the default configs
-    inherit: false
     icon: iron_ingot
     name: Sell Valuables
     category: shop
@@ -18,9 +16,9 @@ sellvaluables:
         items:
         - item: diamond
           cost: 4
-        - item: gold_ingot@12
-          cost: 3
-        - item: iron_ingot@100
+        - item: gold_ingot@128
+          cost: 1
+        - item: iron_ingot@256
           cost: 1
         - item: lapis_lazuli@36
           cost: 4

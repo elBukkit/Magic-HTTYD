@@ -70,7 +70,7 @@ wildrazorwhipdash:
         target_breakables: 1
         cooldown: rand(1000,10000)
         charges: 10
-        charge_regeneration: 1/150
+        charge_regeneration: 1/50
         magic_damage: false
         instant_block_effects: true
         repeat: 16

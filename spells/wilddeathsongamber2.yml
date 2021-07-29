@@ -94,7 +94,7 @@ wilddeathsongamber2:
     magic_damage: false
     cooldown: rand(1000,16000)
     charges: 8
-    charge_regeneration: 1/120
+    charge_regeneration: 1/40
     spread: 0.1
     damage: rand(15,26)
     hitbox_size: 0.5
