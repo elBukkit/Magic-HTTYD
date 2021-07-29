@@ -89,7 +89,7 @@ wildnightfuryfire2:
         bypass_mage_cooldown: true
         cooldown_mage: rand(3000,10000)
         cooldown: rand(5000,12000)
-        damage: rand(25,30)
+        damage: rand(25,33)
         hitbox_size: 0.3
         ignore_blocks: false
         target: other

@@ -66,9 +66,11 @@ wildrazorwhipdash:
         hitbox: false
         fov: 90
         velocity: 3
-        damage: rand(17,25)
+        damage: rand(15,20)
         target_breakables: 1
-        cooldown: rand(2000,21000)
+        cooldown: rand(1000,10000)
+        charges: 10
+        charge_regeneration: 1/150
         magic_damage: false
         instant_block_effects: true
         repeat: 16

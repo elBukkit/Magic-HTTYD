@@ -19,7 +19,7 @@ wildskrillfire:
             actions:
             - class: Damage
               magic_damage: false
-              damage: rand(22,26)
+              damage: rand(26,36)
             - class: PotionEffect
               duration: 1500
             - class: BreakBlock
@@ -35,7 +35,7 @@ wildskrillfire:
                     magic_damage: false
                     damage: rand(10,20)
                   - class: PotionEffect
-                    duration: 1500
+                    duration: 2500
     effects:
         cast:
         -  class: EffectSingle
@@ -103,6 +103,8 @@ wildskrillfire:
         undo: rand(40000,120000)
         undo_speed: 10
         cooldown: rand(1000,19000)
+        charges: 4
+        charge_regeneration: 1/60
         potion_effects: 
           slow: 4
           blindness: 1

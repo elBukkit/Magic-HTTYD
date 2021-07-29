@@ -31,7 +31,7 @@ eyenightmare:
           - "&c&l&nRiding"
           - "&r "
           - "&rNightmares fly at above average speeds, but they have more trouble turning and stopping. They can accelerate quickly."
-          - "&rNightmares take longer to recharge their fire, due to the power of their blasts."
+          - "&rNightmares take 150 seconds to recharge."
         6:
           - "&c&l&nAvg Wild Values"
           - "&r "
@@ -42,7 +42,6 @@ eyenightmare:
           - "&rFirepower: &c(7-13)x6"
           - "&rBurn: &c7.5s"
           - "&rAccuracy: &c80%"
-          - "&rRecharge: &c5-24s"
         7:
           - "&c&l&nMax Tame Values"
           - "&r "
@@ -51,3 +50,5 @@ eyenightmare:
           - "&rSpeed: &a90"
           - "&rReverse Speed: &a35"
           - "&rAgility: &c75"
+          - "&rShot Limit: &a10"
+          - "&rLevel Rate: &6Normal"

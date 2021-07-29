@@ -31,7 +31,7 @@ eyechangewing:
           - "&5&l&nRiding"
           - "&r "
           - "&rChangewings fly at about average speed and agility."
-          - "&rTheir acid recharges quite quickly."
+          - "&rTheir acid recharges in 150 seconds."
         6:
           - "&5&l&nAvg Wild Values"
           - "&r "
@@ -51,3 +51,5 @@ eyechangewing:
           - "&rSpeed: &c72"
           - "&rReverse Speed: &a27"
           - "&rAgility: &680"
+          - "&rShot Limit: &a10"
+          - "&rLevel Rate: &aFast"

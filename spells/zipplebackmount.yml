@@ -1,6 +1,6 @@
 zipplebackmount:
   inherit: mountdragon
-  upgrade_required_casts: 6
+  upgrade_required_casts: 8
   name: Hideous Zippleback Riding Skill
   parameters:
     max_deceleration: 0.003
@@ -13,7 +13,7 @@ zipplebackmount:
     duration: 60000
 
 zipplebackmount|2:
-  upgrade_required_casts: 25
+  upgrade_required_casts: 40
   parameters:
     max_deceleration: 0.006
     start_speed: 0.1
@@ -25,7 +25,7 @@ zipplebackmount|2:
     duration: 80000
 
 zipplebackmount|3:
-  upgrade_required_casts: 100
+  upgrade_required_casts: 170
   parameters:
     max_deceleration: 0.01
     jump_cast: riddenzipplebackfire
@@ -38,7 +38,7 @@ zipplebackmount|3:
     duration: 180000
 
 zipplebackmount|4:
-  upgrade_required_casts: 300
+  upgrade_required_casts: 480
   parameters:
     max_deceleration: 0.014
     jump_cast: riddenzipplebackfire
@@ -51,7 +51,7 @@ zipplebackmount|4:
     duration: 400000
 
 zipplebackmount|5:
-  upgrade_required_casts: 800
+  upgrade_required_casts: 1200
   parameters:
     max_deceleration: 0.018
     jump_cast: riddenzipplebackfire

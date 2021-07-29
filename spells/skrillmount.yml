@@ -1,6 +1,6 @@
 skrillmount:
   inherit: mountdragon
-  upgrade_required_casts: 6
+  upgrade_required_casts: 12
   name: Skrill Riding Skill
   parameters:
     max_deceleration: 0.015
@@ -13,7 +13,7 @@ skrillmount:
     duration: 60000
 
 skrillmount|2:
-  upgrade_required_casts: 25
+  upgrade_required_casts: 65
   parameters:
     max_deceleration: 0.02
     start_speed: 0.1
@@ -25,7 +25,7 @@ skrillmount|2:
     duration: 80000
 
 skrillmount|3:
-  upgrade_required_casts: 100
+  upgrade_required_casts: 250
   parameters:
     max_deceleration: 0.025
     jump_cast: riddenskrillfire
@@ -38,7 +38,7 @@ skrillmount|3:
     duration: 180000
 
 skrillmount|4:
-  upgrade_required_casts: 300
+  upgrade_required_casts: 700
   parameters:
     max_deceleration: 0.03
     jump_cast: riddenskrillfire
@@ -51,7 +51,7 @@ skrillmount|4:
     duration: 400000
 
 skrillmount|5:
-  upgrade_required_casts: 800
+  upgrade_required_casts: 1800
   parameters:
     max_deceleration: 0.04
     jump_cast: riddenskrillfire

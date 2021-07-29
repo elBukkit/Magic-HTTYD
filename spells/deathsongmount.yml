@@ -1,6 +1,6 @@
 deathsongmount:
   inherit: mountdragon
-  upgrade_required_casts: 6
+  upgrade_required_casts: 8
   name: Death Song Riding Skill
   parameters:
     name: Ridden Death Song
@@ -14,7 +14,7 @@ deathsongmount:
     duration: 60000
 
 deathsongmount|2:
-  upgrade_required_casts: 25
+  upgrade_required_casts: 40
   parameters:
     max_deceleration: 0.012
     start_speed: 0.1
@@ -26,7 +26,7 @@ deathsongmount|2:
     duration: 80000
 
 deathsongmount|3:
-  upgrade_required_casts: 100
+  upgrade_required_casts: 170
   parameters:
     max_deceleration: 0.018
     jump_cast: riddendeathsongamber
@@ -39,7 +39,7 @@ deathsongmount|3:
     duration: 180000
 
 deathsongmount|4:
-  upgrade_required_casts: 300
+  upgrade_required_casts: 480
   parameters:
     max_deceleration: 0.022
     jump_cast: riddendeathsongamber
@@ -52,7 +52,7 @@ deathsongmount|4:
     duration: 400000
 
 deathsongmount|5:
-  upgrade_required_casts: 800
+  upgrade_required_casts: 1200
   parameters:
     max_deceleration: 0.026
     jump_cast: riddendeathsongamber

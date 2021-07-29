@@ -111,7 +111,9 @@ riddenstormcutterfire:
         tick_size: 0.1
         range: 100
         undo: rand(3000,6000)
-        cooldown: rand(1000,20000)
+        cooldown: 500
+        charges: 8
+        charge_regeneration: 1/120
         destructible: burnable
         destructible_durability: 1
         break_durability: 1

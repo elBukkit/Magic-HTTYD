@@ -87,7 +87,9 @@ riddenscauldronwater:
     size: 2
     range: 120
     magic_damage: false
-    cooldown: rand(4000,24000)
+    cooldown: 500
+    charges: 14
+    charge_regeneration: 1/210
     spread: 0.16
     damage: rand(14,23)
     hitbox_size: 0.7

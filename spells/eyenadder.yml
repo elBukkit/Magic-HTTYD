@@ -31,7 +31,7 @@ eyenadder:
           - "&7&l&nRiding"
           - "&r "
           - "&rNadders fly at above average speeds, and are quite agile."
-          - "&rTheir spines recharge quite quickly."
+          - "&rTheir spines recharge in 90 seconds."
         6:
           - "&7&l&nAvg Wild Values"
           - "&r "
@@ -41,7 +41,6 @@ eyenadder:
           - "&rBite Strength: &78"
           - "&rSpine dmg: &7(7-12)x3"
           - "&rAccuracy: &795%"
-          - "&rRecharge: &72.5-12s"
         7:
           - "&7&l&nMax Tame Values"
           - "&r "
@@ -50,3 +49,5 @@ eyenadder:
           - "&rSpeed: &680"
           - "&rReverse Speed: &620"
           - "&rAgility: &685"
+          - "&rShot Limit: &66"
+          - "&rLevel Rate: &aFast"

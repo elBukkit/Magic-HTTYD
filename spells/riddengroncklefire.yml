@@ -87,7 +87,9 @@ riddengroncklefire:
         size: 2
         range: 64
         magic_damage: false
-        cooldown: rand(2000,10000)
+        cooldown: 500
+        charges: 6
+        charge_regeneration: 1/90
         spread: 0.2
         damage: rand(5,11)
         hitbox_size: 1

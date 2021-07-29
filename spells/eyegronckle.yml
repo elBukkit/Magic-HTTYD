@@ -31,7 +31,7 @@ eyegronckle:
           - "&2&l&nRiding"
           - "&r "
           - "&rGronckles fly at low speeds, but are very agile and can reverse easily."
-          - "&rTheir lavablast recharges relatively fast."
+          - "&rTheir lavablast recharges over 90 seconds."
         6:
           - "&2&l&nAvg Wild Values"
           - "&r "
@@ -42,7 +42,6 @@ eyegronckle:
           - "&rFirepower: &25-11"
           - "&rBurn: &24.5s"
           - "&rAccuracy: &265%"
-          - "&rRecharge: &23-15s"
         7:
           - "&2&l&nMax Tame Values"
           - "&r "
@@ -51,3 +50,5 @@ eyegronckle:
           - "&rSpeed: &c65"
           - "&rReverse Speed: &955"
           - "&rAgility: &9120"
+          - "&rShot Limit: &66"
+          - "&rLevel Rate: &aFast"

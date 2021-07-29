@@ -2,23 +2,16 @@ riddendeathsongamber:
   name: Amber
   actions:
     cast:
-    - class: Repeat
-      repeat: 3
+    - class: PlayEffects
+      effects: cast
+    - class: CustomProjectile
+      hitbox: true
       actions:
-        - class: Asynchronous
+        - class: AreaOfEffect
+          radius: 3
+          y_radius: 8
           actions:
-            - class: PlayEffects
-              effects: cast
-            - class: CustomProjectile
-              hitbox: true
-              actions:
-                - class: AreaOfEffect
-                  radius: 3
-                  y_radius: 8
-                  actions:
-                  - class: Damage
-        - class: Delay
-          delay: 600
+          - class: Damage
   effects:
     cast:
     - class: EffectSingle
@@ -86,7 +79,7 @@ riddendeathsongamber:
       sound_volume: 1.5
       location: target
   parameters:
-    fov: 0.6
+    fov: 0.5
     hitbox: false
     target_self: false
     brush: orange_stained_glass
@@ -96,7 +89,9 @@ riddendeathsongamber:
     size: 2
     range: 64
     magic_damage: false
-    cooldown: rand(3000,17000)
+    cooldown: 500
+    charges: 8
+    charge_regeneration: 1/120
     spread: 0.1
     damage: rand(5,9)
     hitbox_size: 0.5

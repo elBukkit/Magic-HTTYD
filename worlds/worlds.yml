@@ -9,7 +9,7 @@ dragon_spawns:
       target_types:
       - wandering_trader
       - trader_llama
-      probability: 0.65
+      probability: 0.75
       replace_type:
         commondragontrader: 50
         uncommondragontrader: 30

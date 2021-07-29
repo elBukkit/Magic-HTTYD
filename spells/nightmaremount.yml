@@ -1,6 +1,6 @@
 nightmaremount:
   inherit: mountdragon
-  upgrade_required_casts: 6
+  upgrade_required_casts: 8
   name: Monstrous Nightmare Riding Skill
   parameters:
     max_deceleration: 0.006
@@ -13,7 +13,7 @@ nightmaremount:
     duration: 60000
 
 nightmaremount|2:
-  upgrade_required_casts: 25
+  upgrade_required_casts: 40
   parameters:
     max_deceleration: 0.009
     start_speed: 0.1
@@ -25,7 +25,7 @@ nightmaremount|2:
     duration: 80000
 
 nightmaremount|3:
-  upgrade_required_casts: 100
+  upgrade_required_casts: 170
   parameters:
     max_deceleration: 0.013
     jump_cast: riddennightmarefire
@@ -38,7 +38,7 @@ nightmaremount|3:
     duration: 180000
 
 nightmaremount|4:
-  upgrade_required_casts: 300
+  upgrade_required_casts: 480
   parameters:
     max_deceleration: 0.016
     jump_cast: riddennightmarefire
@@ -51,7 +51,7 @@ nightmaremount|4:
     duration: 400000
 
 nightmaremount|5:
-  upgrade_required_casts: 800
+  upgrade_required_casts: 1200
   parameters:
     max_deceleration: 0.02
     jump_cast: riddennightmarefire

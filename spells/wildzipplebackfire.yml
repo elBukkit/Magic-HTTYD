@@ -89,7 +89,9 @@ wildzipplebackfire:
         range: 64
         direction: 0,0.8,0
         magic_damage: false
-        cooldown: rand(5000,20000)
+        cooldown: rand(2000,20000)
+        charges: 6
+        charge_regeneration: 1/90
         damage: rand(5,13)
         hitbox_size: 0.5
         gravity: rand(0.01,0.03)

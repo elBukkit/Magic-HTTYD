@@ -85,10 +85,10 @@ riddennightfuryfire:
         direction: 0,0.8,0
         magic_damage: false
         charges: 6
-        charge_regeneration: 90000
+        charge_regeneration: 1/90
         cooldown: 500
         source_location: feet
-        damage: rand(25,30)
+        damage: rand(25,33)
         hitbox_size: 0.3
         ignore_blocks: false
         target_type: LivingEntity

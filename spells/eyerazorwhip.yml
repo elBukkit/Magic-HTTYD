@@ -31,7 +31,7 @@ eyerazorwhip:
           - "&7&l&nRiding"
           - "&r "
           - "&rRazorwhips fly at high speeds, and are highly agile."
-          - "&rTheir slice recharges sort of quickly."
+          - "&rTheir slice recharge is 150 seconds."
         6:
           - "&7&l&nAvg Wild Values"
           - "&r "
@@ -41,7 +41,6 @@ eyerazorwhip:
           - "&rBite Strength: &717"
           - "&rSlice dmg: &7(17-25)"
           - "&rAccuracy: &795%"
-          - "&rRecharge: &72-20s"
         7:
           - "&7&l&nMax Tame Values"
           - "&r "
@@ -50,3 +49,5 @@ eyerazorwhip:
           - "&rSpeed: &a92"
           - "&rReverse Speed: &615"
           - "&rAgility: &a105"
+          - "&rShot Limit: &a10"
+          - "&rLevel Rate: &cSlow"

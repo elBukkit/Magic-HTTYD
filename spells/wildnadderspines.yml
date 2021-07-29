@@ -67,7 +67,9 @@ wildnadderspines:
         size: 0.2
         magic_damage: false
         range: 32
-        cooldown: rand(1500,12000)
+        cooldown: rand(1000,13000)
+        charges: 6
+        charge_regeneration: 1/90
         damage: rand(7,10)
         hitbox_size: 0.3
         hitbox_block_size: 0.1

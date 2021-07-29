@@ -31,7 +31,7 @@ eyestormcutter:
           - "&7&l&nRiding"
           - "&r "
           - "&rStormcutters fly at plain speed, but are incredibly agile."
-          - "&rTheir fire recharges slower than average."
+          - "&rTheir fire recharge is 120 seconds."
         6:
           - "&7&l&nAvg Wild Values"
           - "&r "
@@ -41,7 +41,6 @@ eyestormcutter:
           - "&rBite Strength: &79"
           - "&rFirepower: &711-19"
           - "&rAccuracy: &785%"
-          - "&rRecharge: &72.5-21s"
         7:
           - "&7&l&nMax Tame Values"
           - "&r "
@@ -50,3 +49,5 @@ eyestormcutter:
           - "&rSpeed: &c72"
           - "&rReverse Speed: &955"
           - "&rAgility: &9130"
+          - "&rShot Limit: &68"
+          - "&rLevel Rate: &6Normal"

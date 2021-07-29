@@ -62,7 +62,7 @@ wildterrorfire:
            sound_volume: 0.6
            location: target
     parameters:
-        fov: 90
+        fov: 0.6
         hitbox: false
         target: other_entity
         target_self: false
@@ -71,7 +71,9 @@ wildterrorfire:
         size: 2
         range: 64
         magic_damage: false
-        cooldown: rand(1500,8000)
+        cooldown: rand(1500,10000)
+        charges: 10
+        charge_regeneration: 1/150
         block_hit_count: 1
         damage: rand(1,6)
         hitbox_size: 0.5

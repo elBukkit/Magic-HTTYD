@@ -54,16 +54,16 @@ riddennadderspines:
         reflective: gold_block
         velocity: 45
         repeat: 3
-        spread: 0.02
         spread_movement_max: 0.1
         destructible: solid
         break_durability: 2
         destructible_durability: 150
-        spread_movement: 2
         size: 0.2
         magic_damage: false
         range: 64
-        cooldown: rand(2000,12000)
+        cooldown: 500
+        charges: 6
+        charge_regeneration: 1/90
         damage: rand(7,10)
         hitbox_size: 0.5
         hitbox_block_size: 0.1

@@ -1,6 +1,6 @@
 nightfurymount:
   inherit: mountdragon
-  upgrade_required_casts: 6
+  upgrade_required_casts: 8
   name: Night Fury Riding Skill
   parameters:
     name: Ridden Night Fury
@@ -14,7 +14,7 @@ nightfurymount:
     duration: 60000
 
 nightfurymount|2:
-  upgrade_required_casts: 25
+  upgrade_required_casts: 40
   parameters:
     max_deceleration: 0.03
     start_speed: 0.1
@@ -26,7 +26,7 @@ nightfurymount|2:
     duration: 80000
 
 nightfurymount|3:
-  upgrade_required_casts: 100
+  upgrade_required_casts: 170
   parameters:
     max_deceleration: 0.035
     jump_cast: riddennightfuryfire
@@ -39,7 +39,7 @@ nightfurymount|3:
     duration: 180000
 
 nightfurymount|4:
-  upgrade_required_casts: 300
+  upgrade_required_casts: 480
   parameters:
     max_deceleration: 0.04
     jump_cast: riddennightfuryfire
@@ -52,7 +52,7 @@ nightfurymount|4:
     duration: 400000
 
 nightfurymount|5:
-  upgrade_required_casts: 800
+  upgrade_required_casts: 1200
   parameters:
     max_deceleration: 0.05
     jump_cast: riddennightfuryfire

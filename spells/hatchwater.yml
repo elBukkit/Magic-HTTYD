@@ -11,7 +11,7 @@ hatchwater:
                 requirements:
                   - light:
                      min: 0
-                     max: 8
+                     max: 6
                 actions:
                   - class: Heal
                   - class: PlayEffects
@@ -40,7 +40,7 @@ hatchwater:
            particle_data: 0.01
     parameters:
         destructible:
-          - blue_ice
+          - water
         target_type: LivingEntity
         target_self: true
         cooldown: 20000

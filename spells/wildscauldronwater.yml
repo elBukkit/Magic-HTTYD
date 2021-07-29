@@ -98,7 +98,9 @@ wildscauldronwater:
     size: 2
     range: 100
     magic_damage: false
-    cooldown: rand(4000,24000)
+    cooldown: rand(1000,20000)
+    charges: 14
+    charge_regeneration: 1/210
     spread: 0.22
     damage: rand(14,23)
     hitbox_size: 0.7

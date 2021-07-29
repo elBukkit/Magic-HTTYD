@@ -1,6 +1,6 @@
 scauldronmount:
   inherit: mountdragon
-  upgrade_required_casts: 6
+  upgrade_required_casts: 12
   name: Scauldron Riding Skill
   parameters:
     max_deceleration: 0.01
@@ -13,7 +13,7 @@ scauldronmount:
     duration: 60000
 
 scauldronmount|2:
-  upgrade_required_casts: 25
+  upgrade_required_casts: 65
   parameters:
     max_deceleration: 0.015
     start_speed: 0.1
@@ -25,7 +25,7 @@ scauldronmount|2:
     duration: 80000
 
 scauldronmount|3:
-  upgrade_required_casts: 100
+  upgrade_required_casts: 250
   parameters:
     max_deceleration: 0.02
     jump_cast: riddenscauldronwater
@@ -38,7 +38,7 @@ scauldronmount|3:
     duration: 180000
 
 scauldronmount|4:
-  upgrade_required_casts: 300
+  upgrade_required_casts: 700
   parameters:
     max_deceleration: 0.025
     jump_cast: riddenscauldronwater
@@ -51,7 +51,7 @@ scauldronmount|4:
     duration: 400000
 
 scauldronmount|5:
-  upgrade_required_casts: 800
+  upgrade_required_casts: 1800
   parameters:
     max_deceleration: 0.03
     jump_cast: riddenscauldronwater

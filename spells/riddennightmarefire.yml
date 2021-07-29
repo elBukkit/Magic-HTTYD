@@ -99,7 +99,9 @@ riddennightmarefire:
         size: 2
         range: 100
         magic_damage: false
-        cooldown: rand(3000,18000)
+        cooldown: 500
+        charges: 10
+        charge_regeneration: 1/150
         spread: 0.2
         damage: rand(8,15)
         hitbox_size: 0.8

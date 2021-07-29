@@ -26,12 +26,12 @@ eyescauldron:
         4:
           - "&3&l&nHatching"
           - "&r "
-          - "&rA Scauldron egg must be floating in water, and be in relative darkness to hatch."
+          - "&rA Scauldron egg must be floating in water at least 2 blocks deep, and be in relative darkness to hatch."
         5:
           - "&3&l&nRiding"
           - "&r "
           - "&rScauldrons fly at below average speeds, but they are agile and can accelerate quickly."
-          - "&rScauldrons may take longer to recharge their water, due to the power of their blasts."
+          - "&rScauldrons water recharge is 210 seconds."
           - "&rThe Scauldron can fly underwater, like most tidal class dragons."
         6:
           - "&3&l&nAvg Wild Values"
@@ -42,7 +42,6 @@ eyescauldron:
           - "&rBite Strength: &311"
           - "&rFirepower: &3(14-23)"
           - "&rAccuracy: &390%"
-          - "&rRecharge: &35-24s"
         7:
           - "&3&l&nMax Tame Values"
           - "&r "
@@ -51,3 +50,5 @@ eyescauldron:
           - "&rSpeed: &c67"
           - "&rReverse Speed: &a35"
           - "&rAgility: &a80"
+          - "&rShot Limit: &914"
+          - "&rLevel Rate: &cSlow"

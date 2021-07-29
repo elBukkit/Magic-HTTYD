@@ -1,6 +1,6 @@
 razorwhipmount:
   inherit: mountdragon
-  upgrade_required_casts: 6
+  upgrade_required_casts: 12
   name: Razowhip Riding Skill
   parameters:
     max_deceleration: 0.001
@@ -13,7 +13,7 @@ razorwhipmount:
     duration: 60000
 
 razorwhipmount|2:
-  upgrade_required_casts: 25
+  upgrade_required_casts: 65
   parameters:
     max_deceleration: 0.003
     start_speed: 0.1
@@ -25,7 +25,7 @@ razorwhipmount|2:
     duration: 80000
 
 razorwhipmount|3:
-  upgrade_required_casts: 100
+  upgrade_required_casts: 250
   parameters:
     max_deceleration: 0.005
     jump_cast: riddenrazorwhipdash
@@ -38,7 +38,7 @@ razorwhipmount|3:
     duration: 180000
 
 razorwhipmount|4:
-  upgrade_required_casts: 300
+  upgrade_required_casts: 700
   parameters:
     max_deceleration: 0.007
     jump_cast: riddenrazorwhipdash
@@ -51,7 +51,7 @@ razorwhipmount|4:
     duration: 400000
 
 razorwhipmount|5:
-  upgrade_required_casts: 800
+  upgrade_required_casts: 1800
   parameters:
     max_deceleration: 0.012
     jump_cast: riddenrazorwhipdash
