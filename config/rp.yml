@@ -1,5 +1,5 @@
 # Use a special RP
-resource_pack: "https://www.dropbox.com/s/im4hcsfcwn5jkjf/cutter.zip?dl=1"
+resource_pack: "https://rp.elmakers.com/Magic-httyd-1.17.zip"
 
 # Use a different RP when combined with other configs
 # add_resource_pack: "http://<somewhere else or maybe same place? not sure eventually this would be a combined one>.zip"
@@ -7,4 +7,4 @@ resource_pack: "https://www.dropbox.com/s/im4hcsfcwn5jkjf/cutter.zip?dl=1"
 # Alternate resource packs can be accessed with /getrp <pack>
 alternate_resource_packs:
   httyd:
-    url: "https://www.dropbox.com/s/im4hcsfcwn5jkjf/cutter.zip?dl=1"
+    url: "https://rp.elmakers.com/Magic-httyd-1.17.zip"
