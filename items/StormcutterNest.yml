@@ -10,4 +10,4 @@ StormcutterNest:
       ==: ItemMeta
       meta-type: LEATHER_ARMOR
       display-name: '{"extra":[{"text":"."}],"text":""}'
-      custom-model-data: 103
+      custom-model-data: 39103

@@ -10,4 +10,4 @@ NadderNest:
       ==: ItemMeta
       meta-type: LEATHER_ARMOR
       display-name: '{"extra":[{"text":"."}],"text":""}'
-      custom-model-data: 13
+      custom-model-data: 3939013

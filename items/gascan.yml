@@ -9,7 +9,7 @@ gascan:
     meta:
       ==: ItemMeta
       meta-type: LEATHER_ARMOR
-      custom-model-data: 42
+      custom-model-data: 3939042
       color:
         ==: Color
         RED: 106

@@ -9,4 +9,4 @@ NightFury:
     meta:
       ==: ItemMeta
       meta-type: LEATHER_ARMOR
-      custom-model-data: 20
+      custom-model-data: 3939020

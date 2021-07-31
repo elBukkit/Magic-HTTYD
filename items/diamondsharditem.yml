@@ -10,4 +10,4 @@ diamondsharditem:
       ==: ItemMeta
       meta-type: UNSPECIFIC
       display-name: '[{"text":"Diamond Shard","italic":false}]'
-      custom-model-data: 12
+      custom-model-data: 3939012

@@ -9,4 +9,4 @@ dragonbladefireitem:
     meta:
       ==: ItemMeta
       meta-type: UNSPECIFIC
-      custom-model-data: 11
+      custom-model-data: 3939011

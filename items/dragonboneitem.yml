@@ -10,4 +10,4 @@ dragonboneitem:
       ==: ItemMeta
       meta-type: UNSPECIFIC
       display-name: '[{"text":"Dragon Bone","italic":false}]'
-      custom-model-data: 51
+      custom-model-data: 3939051

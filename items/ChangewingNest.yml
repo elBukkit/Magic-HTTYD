@@ -10,4 +10,4 @@ ChangewingNest:
       ==: ItemMeta
       meta-type: LEATHER_ARMOR
       display-name: '{"extra":[{"text":"."}],"text":""}'
-      custom-model-data: 113
+      custom-model-data: 39113

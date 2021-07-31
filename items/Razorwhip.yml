@@ -9,7 +9,7 @@ Razorwhip:
     meta:
       ==: ItemMeta
       meta-type: LEATHER_ARMOR
-      custom-model-data: 80
+      custom-model-data: 3939080
       color:
         ==: Color
         RED: 249

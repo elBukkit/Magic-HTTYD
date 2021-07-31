@@ -9,4 +9,4 @@ stormcuttereggitem:
     meta:
       ==: ItemMeta
       meta-type: UNSPECIFIC
-      custom-model-data: 100
+      custom-model-data: 39100

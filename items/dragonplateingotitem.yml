@@ -10,4 +10,4 @@ dragonplateingotitem:
       ==: ItemMeta
       meta-type: UNSPECIFIC
       display-name: '[{"text":"Dragonplate Ingot","italic":false}]'
-      custom-model-data: 4
+      custom-model-data: 3939004

@@ -9,4 +9,4 @@ StormcutterRight:
     meta:
       ==: ItemMeta
       meta-type: LEATHER_ARMOR
-      custom-model-data: 102
+      custom-model-data: 39102

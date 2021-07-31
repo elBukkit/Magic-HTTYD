@@ -9,4 +9,4 @@ DeathSongRight:
     meta:
       ==: ItemMeta
       meta-type: LEATHER_ARMOR
-      custom-model-data: 72
+      custom-model-data: 3939072

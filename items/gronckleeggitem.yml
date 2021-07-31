@@ -9,4 +9,4 @@ gronckleeggitem:
     meta:
       ==: ItemMeta
       meta-type: UNSPECIFIC
-      custom-model-data: 1
+      custom-model-data: 3939001
