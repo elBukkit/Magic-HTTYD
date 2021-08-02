@@ -18,7 +18,7 @@ NadderPike:
         4.5 Attack Damage"}],"text":""}'
       - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"dark_aqua","text":"
         3 Attack Speed"}],"text":""}'
-      custom-model-data: 3939001
+      custom-model-data: 39001
       attribute-modifiers:
         GENERIC_ATTACK_DAMAGE:
         - ==: org.bukkit.attribute.AttributeModifier

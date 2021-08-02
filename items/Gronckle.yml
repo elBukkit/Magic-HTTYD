@@ -10,4 +10,4 @@ Gronckle:
       ==: ItemMeta
       meta-type: LEATHER_ARMOR
       display-name: '{"extra":[{"text":"Gronckle"}],"text":""}'
-      custom-model-data: 3939001
+      custom-model-data: 39001

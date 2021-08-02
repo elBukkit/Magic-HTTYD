@@ -9,7 +9,7 @@ gelcan:
     meta:
       ==: ItemMeta
       meta-type: LEATHER_ARMOR
-      custom-model-data: 3939042
+      custom-model-data: 39042
       color:
         ==: Color
         RED: 216

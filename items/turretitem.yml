@@ -9,4 +9,4 @@ turretitem:
     meta:
       ==: ItemMeta
       meta-type: UNSPECIFIC
-      custom-model-data: 3939080
+      custom-model-data: 39080

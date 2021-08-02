@@ -10,4 +10,4 @@ cookeddragonmeatitem:
       ==: ItemMeta
       meta-type: UNSPECIFIC
       display-name: '{"extra":[{"text":"Cooked Dragon Meat"}],"text":""}'
-      custom-model-data: 3939002
+      custom-model-data: 39002
