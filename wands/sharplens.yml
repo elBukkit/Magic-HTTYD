@@ -2,7 +2,7 @@ sharplens:
     name: "&7Sharp Class Lens"
     icon: dragoneyelens
     upgrade: true
-    locked: true
+    modifiable: false
     slot: "Lens"
     active_spell: sharpprojection
     discover_recipes:

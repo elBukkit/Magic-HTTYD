@@ -2,7 +2,7 @@ boulderlens:
     name: "&2Boulder Class Lens"
     icon: dragoneyelens
     upgrade: true
-    locked: true
+    modifiable: false
     slot: "Lens"
     active_spell: boulderprojection
     discover_recipes:

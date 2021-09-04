@@ -2,7 +2,7 @@ upgradelens:
     name: "&eUpgrade Lens"
     icon: dragoneyelens
     upgrade: true
-    locked: true
+    modifiable: false
     slot: "Lens"
     slots:
         - "Dragon Eye Key"

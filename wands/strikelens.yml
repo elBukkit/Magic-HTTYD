@@ -2,7 +2,7 @@ strikelens:
     name: "&9Strike Class Lens"
     icon: dragoneyelens
     upgrade: true
-    locked: true
+    modifiable: false
     slot: "Lens"
     active_spell: strikeprojection
     discover_recipes:

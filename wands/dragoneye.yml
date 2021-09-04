@@ -2,7 +2,7 @@ dragoneye:
     name: "&e&lDragon Eye"
     description: "&8Used to learn about dragons."
     mode: cast
-    locked: true
+    modifiable: false
     locked_allow_upgrades: true
     icon: dragoneyeitem
     slots:

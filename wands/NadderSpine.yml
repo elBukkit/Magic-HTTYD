@@ -1,7 +1,7 @@
 NadderSpine:
     name: '&rDeadly Nadder Spine'
     craftable: true
-    locked: true
+    modifiable: false
     icon: nadderspineitem
     discover_recipes:
     - spinepike

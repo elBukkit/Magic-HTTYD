@@ -1,7 +1,7 @@
 DragonBone:
     name: '&rDragon Bone'
     craftable: true
-    locked: true
+    modifiable: false
     icon: dragonboneitem
     discover_recipes:
     - dragonbladecraft

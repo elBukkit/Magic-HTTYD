@@ -2,7 +2,7 @@ tidallens:
     name: "&bTidal Class Lens"
     icon: dragoneyelens
     upgrade: true
-    locked: true
+    modifiable: false
     slot: "Lens"
     active_spell: tidalprojection
     discover_recipes:

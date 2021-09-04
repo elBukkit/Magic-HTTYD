@@ -1,7 +1,7 @@
 GronckleIronIngot:
     name: '&rGronckle Iron Ingot'
     craftable: true
-    locked: true
+    modifiable: false
     icon: gronckleironingotitem
     discover_recipes:
     - nadderhelmet

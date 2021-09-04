@@ -2,7 +2,7 @@ dragonbladefire:
   name: '&6Dragon Blade'
   description: "&8Stronger and faster than diamond. Use canisters to upgrade. &c[Inferno]"
   mode: cast
-  locked: true
+  modifiable: false
   left_click: none
   enchantable: true
   right_click: cast

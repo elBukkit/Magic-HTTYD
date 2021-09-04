@@ -2,7 +2,7 @@ stokerlens:
     name: "&cStoker Class Lens"
     icon: dragoneyelens
     upgrade: true
-    locked: true
+    modifiable: false
     slot: "Lens"
     active_spell: stokerprojection
     discover_recipes:

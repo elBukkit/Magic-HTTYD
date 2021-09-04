@@ -1,7 +1,7 @@
 DragonplateIngot:
     name: '&rDragonplate Ingot'
     craftable: true
-    locked: true
+    modifiable: false
     icon: dragonplateingotitem
     discover_recipes:
     - dragonplatehelmetcraft

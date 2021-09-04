@@ -2,7 +2,7 @@ mysterylens:
     name: "&5Mystery Class Lens"
     icon: dragoneyelens
     upgrade: true
-    locked: true
+    modifiable: false
     slot: "Lens"
     active_spell: mysteryprojection
     discover_recipes:

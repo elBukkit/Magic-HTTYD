@@ -1,6 +1,6 @@
 cookeddragonmeat:
     name: '&rCooked Dragon Meat'
-    locked: true
+    modifiable: false
     consume_spell: eatcooked
     craftable: true
     icon: cookeddragonmeatitem

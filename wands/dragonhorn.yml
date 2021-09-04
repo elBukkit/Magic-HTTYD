@@ -8,5 +8,5 @@ dragonhorn:
     active_spell: calldragon
     alternate_spell: healdragon
     right_click_sneak: alt_cast
-    locked: true
+    modifiable: false
     icon: calldragonitem

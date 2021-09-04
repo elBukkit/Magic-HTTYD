@@ -1,7 +1,7 @@
 DragonHide:
     name: '&rDragon Hide'
     craftable: true
-    locked: true
+    modifiable: false
     icon: dragonhideitem
     discover_recipes:
     - dragonhidehelmetcraft
