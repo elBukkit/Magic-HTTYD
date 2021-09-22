@@ -2,5 +2,12 @@ examples:
   httyd:
     instructions: |-
       `<title text="How to Train Your Dragon">`
-      `<p>`Discover and tame wild dragons!
+      `<p>`Discover, fight, and tame dragons!
+      `<p>`Dragon species spawn across the world in different biomes,
+      `<p>`Killing them drops unique items and sometimes a nest!
+      `<p>`These can be hatched, named, raised, and ridden.
+      `<p>`Riding it often will help it level its speed and fire!
+      `<p>`Craft a Dragon Eye and attach lenses to learn more!
+      `<li>``<command command="mgive dragoneye" text="Click here to get a Dragon Eye.">`
+      `<li>``<command command="mgive stokerlens" text="Click here to get a Stoker lens (1 of 6 types)">`
       `<p>`&e Work In Progress
