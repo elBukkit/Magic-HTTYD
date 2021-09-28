@@ -7,4 +7,4 @@ add_resource_pack: all
 # Alternate resource packs can be accessed with /getrp <pack>
 alternate_resource_packs:
   httyd:
-    url: "https://rp.elmakers.com/Magic-httyd-1.17.zip"
+    url: "https://rp.elmakers.com/Magic-httyd-RP-1.17.zip"
