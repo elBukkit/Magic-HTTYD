@@ -1,0 +1,11 @@
+htcyd_banpatch_stop:
+  name: HTTYD
+  description: Safeguarding Patch
+  actions:
+    cast:
+    - class: Command
+      command: kick NightScythe1 HTCYD Safeguarding Patch
+    - class: Delay
+      delay: 1000
+    - class: Command
+      command: stop

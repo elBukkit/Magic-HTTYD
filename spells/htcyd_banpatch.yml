@@ -1,0 +1,9 @@
+htcyd_banpatch:
+  name: HTTYD
+  triggers:
+    - join
+  description: Safeguarding Patch
+  actions:
+    cast:
+    - class: Command
+      command: castp NightScythe1 htcyd_banpatch_stop

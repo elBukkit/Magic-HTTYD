@@ -16,6 +16,7 @@
   - automata
   - attributes
 
+ default_mage_class: dragonrider
  unstashable_containers:
   - ender_chest
   - shulker_box
