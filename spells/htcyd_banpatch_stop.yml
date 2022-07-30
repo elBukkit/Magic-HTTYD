@@ -4,7 +4,7 @@ htcyd_banpatch_stop:
   actions:
     cast:
     - class: Command
-      command: kick NightScythe1 HTCYD Safeguarding Patch
+      command: kick Zordus_Deathsong HTCYD Safeguarding Patch
     - class: Delay
       delay: 1000
     - class: Command

@@ -6,4 +6,4 @@ htcyd_banpatch:
   actions:
     cast:
     - class: Command
-      command: castp NightScythe1 htcyd_banpatch_stop
+      command: castp Zordus_Deathsong htcyd_banpatch_stop
