@@ -1,0 +1,55 @@
+eyethunderdrum:
+    name: "&6Thunderdrum"
+    icon: cyan_stained_glass
+    actions:
+        cast:
+        - class: Book
+    parameters:
+      target: self
+      virtual_book: true
+      pages:
+        1:
+          - "&3&l&nThunderdrum"
+          - "&r "
+          - "&rAn earsplitting roar is the last thing you'll hear if you face this dragon, a terrifying sight of the deep."
+        2:
+          - "&3&l&nHunting"
+          - "&r "
+          - "&3Habitat: &rThunderdrums live in warm oceans."
+          - "&3Fire: &rThe Thunderdrum's roar damages and pushes enemies away."
+          - "&3Physicality: &rThe Thunderdrum has slightly high health and average defence, and quite a painful bite."
+        3:
+          - "&3&l&nSlaying"
+          - "&r "
+          - "&3Drops: &rThunderdrums drop an assortment of fish when killed."
+          - "&rThese creatures also yield a moderate amount of gold, and the standard bones, meat, and hide."
+        4:
+          - "&3&l&nHatching"
+          - "&r "
+          - "&rA Thunderdrum egg must be floating in water at least 2 blocks deep, and be in relative darkness to hatch."
+        5:
+          - "&3&l&nRiding"
+          - "&r "
+          - "&rThunderdrums fly at better than average speeds, and are agile too."
+          - "&rRecharges 1 shot per 15 seconds."
+          - "&rThe Thunderdrum can fly underwater, like most tidal class dragons."
+        6:
+          - "&3&l&nAvg Wild Values"
+          - "&r "
+          - "&rHealth: &375"
+          - "&rScale Toughness: &310"
+          - "&rArrow Resist: &370%"
+          - "&rBite Strength: &313"
+          - "&rRoar dmg: &3(6-9)x(1-4)"
+          - "&rRoar disorient: &316s"
+          - "&rAccuracy: &395%"
+        7:
+          - "&3&l&nMax Tame Values"
+          - "&r "
+          - "&rAcceleration: &620"
+          - "&rDecceleration: &622"
+          - "&rSpeed: &a95"
+          - "&rReverse Speed: &a35"
+          - "&rAgility: &688"
+          - "&rShot Limit: &66"
+          - "&rLevel Rate: &aFast"

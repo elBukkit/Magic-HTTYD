@@ -1,0 +1,74 @@
+riddenthunderdrumroar:
+    name: Roar
+    actions:
+        cast:
+        - class: Velocity
+        - class: ConeOfEffect
+          range: 48
+          actions:
+            - class: Damage
+        - class: Repeat
+          actions:
+          - class: Delay
+          - class: PlayEffects
+            effects: iterate
+            ignore_result: true
+          - class: ConeOfEffectAction
+            fov: 0.2
+            actions:
+            - class: PotionEffect
+              potion_effects:
+                confusion: 5
+              duration: 16000
+            - class: Velocity
+              push: 1.5
+    effects:
+        cast:
+        - class: EffectSingle
+          sound: dragon.thunderdrum1
+          sound_volume: 8
+          location: origin
+          effectlib:
+               class: Modified
+               iterations: 20
+               parameters:
+                radius: "(t/i) * 4 + 0.2"
+               effect:
+                 class: DnaEffect
+                 particles_base: 0
+                 particles_helix: 7
+                 particle_helix: cloud
+                 particle_base1: cloud
+                 particle_base2: cloud
+        iterate:
+        - class: EffectSingle
+          location: origin
+          effectlib:
+               class: Modified
+               iterations: 10
+               parameters:
+                radius: "(t/i) * 4 + 0.2"
+               effect:
+                 class: DnaEffect
+                 particles_base: 0
+                 particles_helix: 7
+                 particle_helix: cloud
+                 particle_base1: cloud
+                 particle_base2: cloud
+    parameters:
+        target_type: Entity
+        y_offset: 0
+        reflective: dragonroot
+        magic_damage: false
+        source_location: feet
+        range: 48
+        damage: rand(6,9)
+        fov: 90
+        target_count: 15
+        item_speed: 0.1
+        living_entity_speed: 1
+        repeat: 8
+        delay: 250
+        cooldown: 500
+        charges: 6
+        charge_regeneration: 1/15

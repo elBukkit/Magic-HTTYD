@@ -1,0 +1,11 @@
+thunderdrumspawnnest:
+    name: Nest
+    actions:
+      cast:
+      - class: SpawnEntity
+        loot: true
+        type: thunderdrumnest
+    parameters:
+      range: 64
+      radius: 64
+      allow_max_range: true

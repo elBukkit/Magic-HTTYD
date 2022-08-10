@@ -1,0 +1,15 @@
+thunderdrumhatchery:
+    name: "&eThunderdrum Nest"
+    lore:
+    - "&7Dragon nest. Place in a"
+    - "&7dim room in water"
+    - "&7and wait for it to hatch."
+    mode: cast
+    hide_flags: 127
+    keep: false
+    locked: false
+    bound: false
+    uses: 1
+    indestructible: true
+    active_spell: thunderdrumspawnnest
+    icon: ThunderdrumNest

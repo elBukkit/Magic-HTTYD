@@ -1,0 +1,64 @@
+thunderdrummount:
+  inherit: mountdragon
+  upgrade_required_casts: 6
+  name: Thunderdrum Riding Skill
+  parameters:
+    max_deceleration: 0.002
+    start_speed: 0.1
+    min_speed: -0.1
+    steer_speed: 0.047
+    max_speed: 0.35
+    max_acceleration: 0.001
+    max_height_above_ground: 60
+    duration: 60000
+
+thunderdrummount|2:
+  upgrade_required_casts: 25
+  parameters:
+    max_deceleration: 0.007
+    start_speed: 0.1
+    min_speed: -0.2
+    steer_speed: 0.065
+    max_speed: 0.45
+    max_acceleration: 0.005
+    max_height_above_ground: 100
+    duration: 80000
+
+thunderdrummount|3:
+  upgrade_required_casts: 100
+  parameters:
+    max_deceleration: 0.012
+    jump_cast: riddenthunderdrumroar
+    start_speed: 0.1
+    min_speed: -0.25
+    steer_speed: 0.077
+    max_speed: 0.63
+    max_acceleration: 0.01
+    max_height_above_ground: 150
+    duration: 180000
+
+thunderdrummount|4:
+  upgrade_required_casts: 300
+  parameters:
+    max_deceleration: 0.017
+    jump_cast: riddenthunderdrumroar
+    start_speed: 0.1
+    min_speed: -0.3
+    steer_speed: 0.085
+    max_speed: 0.75
+    max_acceleration: 0.015
+    max_height_above_ground: 155
+    duration: 400000
+
+thunderdrummount|5:
+  upgrade_required_casts: 1000
+  parameters:
+    max_deceleration: 0.022
+    jump_cast: riddenthunderdrumroar
+    start_speed: 0.1
+    min_speed: -0.35
+    steer_speed: 0.095
+    max_speed: 0.88
+    max_acceleration: 0.02
+    max_height_above_ground: 160
+    duration: 2400000
